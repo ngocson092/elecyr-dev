@@ -1,0 +1,62 @@
+extends layouts/layout
+
+block content
+
+  #content-wrapper
+    #distributed_power.parallax
+      .distributed_power
+        h1 Introducing the Digital Microgrid
+        h3 DC microgrids made smart are Digital Microgrids
+
+  section#microgrids
+    .container
+      .row
+        .col-sm-12.titlebar
+          p A Digital Microgrid is your own electric utility, like the power lines lining the streets and feeding your home or business. It works with any power source – renewable solar, a generator, even the grid – letting you store power until you need it, all automatically.  It’s hive-like in its resiliency. It repairs itself to bypass areas that are disrupted.
+          p We developed the Digital Microgrid to save energy and reduce the soft costs of solar installations. We stole ideas and advanced communication theory from the way the internet is built to create a new kind or power network that’s fault tolerant, scaleable and surprising simple.
+          p Solar arrays produce 380 DC -- but today, when you put panels on your building, the power you’ve harvested is converted and pays an energy tax.  It’s converted to AC (10% loss).  It’s sent to the power company (more loss). It’s sent back to you when the sun’s not shining (another loss).  It’s thrown away if the grid is down (total loss).
+          p 380 volt DC power from the panels to the batteries and to inverters avoids all the conversions and can save 30% of the power you generate.
+
+  section#battery_pack
+    .container
+      .row
+        // Banner Description
+        .col-md-6.titlebar.broken_grid_content
+
+          h2.extra_padding Dynamic Islanding, Heuristic Routing, and Intelligent Agents for Distributed Power
+
+          p It's not uncommon to have dozens of generators in remote locations where fossil fuel supplies are limited and yet all generators are run at inefficient, low load power levels. To link AC generators has typically required matched, phase-locked generators or AC microgrid solutions that shut down at the first glitch of a generator. 
+          p The Digital Microgrid lets all these generators connect by just plugging them and starting them up.  The generators can be AC at 50Hz or 60Hz, single-phase, or split-phase. Or they can be fuel cells or renewable solar, or wind generators.
+      
+          p But the Digital Microgrid has another big advantage for expeditionary or emergency power.  The power is carried through the Digital Microgrid on a single armored cable with smart connections that match the voltage, limit the current and prevent arcing on insertion or removal.  If the cable is breached or even stepped on, the system can detect the intrusion and shut-down the power in milliseconds.
+
+        #battery_pack_image.col-md-6.text-center
+              img.img-responsive(src='images/thumbs/islanded_microgrids.svg', alt='islanded microgrids')
+
+        .col-md-6.titlebar.broken_grid_content
+
+          p Unlike traditional solar or fossil fuel generator solutions, generators on the Digital Microgrid identify themselves when plugged in and "bid" to supply power.  If a small amount of power is needed, a low-capacity generator is likely to win the bid.  If tens or hundreds of kilowatts are needed larger generators will bid until the requirements are met.
+      
+          p Consumers on the Digital Microgrid request power based on their priority in the grid.  Medical facilities, for example, can be guaranteed highest priority. Islands with no local generation capability or energy storage can request 100% QoS (quality of service) for uninterruptable power from generators or energy storage islands.
+
+         #battery_pack_image.col-md-12.text-center
+              img.img-responsive(src='images/thumbs/residential-60kWH.svg', alt='residential microgrid')
+
+        .col-md-6.titlebar.broken_grid_content
+
+        .col-md-6.titlebar.broken_grid_content
+        
+        .col-md-6.titlebar.broken_grid_content
+
+          h2 Digital Microgrid System Architecture
+ 
+          p A Digital Microgrid is a power system that's always connected and always islanded.  A microgrid can be composed of other microgrids, with the whole acting as a single grid, or digital microgrids may be interconnected in arbitrary topologies of ad hoc. The Digital Microgrid operates at 380 vdc.  All sources providing power to the microgrid pass through smart interfaces that regulate the voltage, current and provide isolation.
+ 
+        .col-md-6.titlebar.broken_grid_content
+
+          p Each energy storage module (380vdc 15kW battery) operates as an autonomous island and responds to requests for power and sends requests fore recharging.  Each generator or renewable power source, as well as the grid, are also connected as smart agents, acting autonomously to supply power on request.
+          
+          p Each autonomous agent in the network is self-identifying.  For example, if a battery bank determines that it needs power for charging, it sends a request to all power sources and other energy storage devices.  These other agents can choose whether or not to "bid" and determine a "price" based on personality characteristics programmed within their Digital Microgrid connection.
+
+
+

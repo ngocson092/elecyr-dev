@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1180" height="740" viewBox="0, 0, 1180, 740">
+  <g id="Layer_1">
+    <path d="M513.679,420.952 C513.679,420.952 568.534,345.287 510.488,288.296" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M476.5,52.5 C476.5,52.5 513.337,161.721 496.501,182.871" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M275.346,589.05 C269.375,612.556 239.167,615.459 239.167,615.459" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M820.413,519.985 C820.413,519.985 884.472,464.104 803.5,427.5" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M606.5,680.5 C263.5,707.5 99.5,561.5 129.5,387.5 C142.261,313.485 347.607,-62.658 602.554,83.921 C844.5,304.5 927.285,-79.067 1035.5,379.5 C1035.5,544.714 1075.842,643.555 606.5,680.5 z" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M615.724,681.214 C615.724,681.214 551.961,656.499 535.323,538.924" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M246.209,185.594 C219.864,248.837 259.5,308.5 259.5,308.5" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M357.762,364.747 C357.762,364.747 454.843,327.453 461.142,285.373" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M495.869,286.309 C430.406,286.309 391.432,273.743 391.432,241.321 C391.432,208.898 428.55,183.994 494.013,183.994 C559.476,183.994 589.862,205.226 589.862,237.648 C589.862,270.071 561.332,286.309 495.869,286.309 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+    <text transform="matrix(1, 0, 0, 1, 495.038, 232.539)">
+      <tspan x="-69.594" y="-12" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">MICROGRID ISLAND</tspan>
+      <tspan x="-76.608" y="5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">WITH 240 KW ENERGY </tspan>
+      <tspan x="-77.392" y="22" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">STORAGE, INVERTERS</tspan>
+    </text>
+    <g>
+      <path d="M300.886,598.185 C281.633,598.185 266.025,583.845 266.025,566.155 C266.025,548.465 281.633,534.124 300.886,534.124 C320.14,534.124 335.748,548.465 335.748,566.155 C335.748,583.845 320.14,598.185 300.886,598.185 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 301.048, 566.352)">
+        <tspan x="-13.662" y="13" font-family="HelveticaNeue-Bold" font-size="36" fill="#000000">G</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M259.225,427.528 C193.761,427.528 154.788,413.235 154.788,376.354 C154.788,339.473 191.906,311.144 257.369,311.144 C322.832,311.144 353.217,335.296 353.217,372.177 C353.217,409.058 324.688,427.528 259.225,427.528 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 257.202, 369.135)">
+        <tspan x="-69.594" y="-20.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">MICROGRID ISLAND</tspan>
+        <tspan x="-70.77" y="-3.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">WITH 60KW ENERGY </tspan>
+        <tspan x="-77.392" y="13.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">STORAGE, INVERTERS</tspan>
+        <tspan x="-52.374" y="30.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">5KW PV ARRAY</tspan>
+      </text>
+      <g>
+        <path d="M311.126,260.879 L325.506,264.874 L303.772,299.864 L289.392,295.87 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M330.483,260.879 L344.863,264.874 L323.129,299.864 L308.749,295.87 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M350.617,260.879 L364.998,264.874 L343.264,299.864 L328.884,295.87 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M317.625,304.807 L308.246,318.196" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+    </g>
+    <path d="M825.457,613.011 C759.993,613.011 721.02,598.718 721.02,561.837 C721.02,524.956 759.01,516.84 824.473,516.84 C889.937,516.84 895.462,522.108 895.462,558.989 C895.462,595.87 890.92,613.011 825.457,613.011 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+    <text transform="matrix(1, 0, 0, 1, 813.839, 565.925)">
+      <tspan x="-69.594" y="-20.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">MICROGRID ISLAND</tspan>
+      <tspan x="-38.493" y="-3.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">WITH 10kW </tspan>
+      <tspan x="-39.536" y="13.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">INVERTERS</tspan>
+      <tspan x="-34.888" y="30.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">100% QoS</tspan>
+    </text>
+    <path d="M815.537,614.758 C818.425,658.963 834.5,648.5 834.5,648.5" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <g>
+      <path d="M823.432,426.202 C757.968,426.202 718.995,411.909 718.995,375.028 C718.995,338.147 756.113,309.819 821.576,309.819 C887.039,309.819 917.424,333.97 917.424,370.851 C917.424,407.732 888.895,426.202 823.432,426.202 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 821.409, 367.809)">
+        <tspan x="-69.594" y="-20.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">MICROGRID ISLAND</tspan>
+        <tspan x="-70.77" y="-3.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">WITH 15KW ENERGY </tspan>
+        <tspan x="-77.392" y="13.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">STORAGE, INVERTERS</tspan>
+        <tspan x="-52.374" y="30.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">5KW PV ARRAY</tspan>
+      </text>
+      <g>
+        <path d="M875.333,259.554 L889.713,263.548 L867.979,298.538 L853.599,294.544 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M894.69,259.554 L909.07,263.548 L887.337,298.538 L872.956,294.544 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M914.824,259.554 L929.205,263.548 L907.471,298.538 L893.091,294.544 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M881.832,303.481 L872.453,316.87" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M522.21,539.384 C456.747,539.384 417.774,525.091 417.774,488.21 C417.774,451.329 454.891,423 520.355,423 C585.818,423 616.203,447.152 616.203,484.033 C616.203,520.914 587.674,539.384 522.21,539.384 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 520.188, 480.991)">
+        <tspan x="-69.594" y="-20.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">MICROGRID ISLAND</tspan>
+        <tspan x="-70.77" y="-3.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">WITH 15KW ENERGY </tspan>
+        <tspan x="-77.392" y="13.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">STORAGE, INVERTERS</tspan>
+        <tspan x="-52.374" y="30.5" font-family="HelveticaNeue-Bold" font-size="14" fill="#000000">5KW PV ARRAY</tspan>
+      </text>
+      <g>
+        <path d="M574.112,372.735 L588.492,376.73 L566.758,411.72 L552.378,407.726 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M593.469,372.735 L607.849,376.73 L586.115,411.72 L571.735,407.726 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M613.603,372.735 L627.983,376.73 L606.25,411.72 L591.87,407.726 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M580.611,416.663 L571.232,430.052" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+    </g>
+    <path d="M612.716,457.064 C612.716,457.064 666.209,484.573 738.307,413.584" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <g>
+      <path d="M737.107,275.834 C717.853,275.834 702.245,261.493 702.245,243.803 C702.245,226.113 717.853,211.772 737.107,211.772 C756.361,211.772 771.969,226.113 771.969,243.803 C771.969,261.493 756.361,275.834 737.107,275.834 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 737.269, 244)">
+        <tspan x="-13.662" y="13" font-family="HelveticaNeue-Bold" font-size="36" fill="#000000">G</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M960.277,515.23 C941.023,515.23 925.415,500.889 925.415,483.199 C925.415,465.509 941.023,451.169 960.277,451.169 C979.531,451.169 995.139,465.509 995.139,483.199 C995.139,500.889 979.531,515.23 960.277,515.23 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+      <text transform="matrix(1, 0, 0, 1, 960.439, 483.397)">
+        <tspan x="-13.662" y="13" font-family="HelveticaNeue-Bold" font-size="36" fill="#000000">G</tspan>
+      </text>
+    </g>
+    <path d="M892.485,527.832 C892.485,527.832 903.577,506.757 929.089,501.211" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+    <path d="M745.43,208.521 C756.99,200.895 758.272,158.469 758.272,158.469" fill-opacity="0" stroke="#EECC00" stroke-width="8"/>
+  </g>
+</svg>

@@ -1,0 +1,187 @@
+extends layouts/layout
+
+block scripts
+  //- See comments in the /javascripts/socket-client.js
+  script(src='javascripts/socket-client.js')
+  script
+    var blum = new Audio();
+    console.log(blum.canPlayType("audio/ogg; codecs=vorbis"));
+    if  (blum.canPlayType("audio/ogg; codecs=vorbis") == "probably") {
+      blum.src = '/sounds/click.ogg';
+    } else {
+      blum.src = '/sounds/click.mp3';
+    };
+      
+    SocketClient.init( {
+      service:  'power-station'
+    , form:     'theForm'
+    , fields:   [
+        'sunHours'
+      , 'dailyKWH'
+      , 'daysOfBatteryBackup'
+      , 'solarSupplied'
+      , 'peakPower'
+      , 'peakAC'
+      , 'maxGenHrs'
+      , 'maxGrid'
+      , 'panelType'
+      , 'dieselType'
+      ]
+    , callback: function( r ) {
+      blum.play();
+          if( r.results ) {
+            for( var name in r.results ) {
+              var td = document.getElementById( name );
+              if( td.attributes.int )
+                td.innerHTML = Math.round( r.results[ name ] );
+              else if( td.attributes.float2 )
+                td.innerHTML = Math.round( r.results[ name ] * 100 ) / 100;
+              else
+                td.innerHTML = r.results[ name ];
+            }
+          if( r.prices )
+            for( var name in r.prices )
+              document.getElementById( 'p' + name ).innerHTML = r.prices[ name ];
+        }
+    }
+    } );
+
+block content
+
+  #content-wrapper
+   #solar_sizing.parallax
+      .solar_sizing
+        h1 System Configurator and Cost Estimator
+
+  section#microgrids
+    .container
+      .row
+        .col-sm-12.titlebar
+          p Estimates cost for off-grid or microgrid power generation. The cost of components not supplied by Elecyr are determined from published prices from some of the largest providers of generators, solar panels and batteries. Elecyr provides battery management, control electronics, and power conversion (AC to DC and DC to AC). Not included in the estimates are costs of labor for installation of the system and and delivery costs.
+
+  section#calculator
+    .container
+      form#theForm
+        table.table
+
+          tr
+            td Winter Hours of Sun: Enter winter sun-hours either by using a solar gain calculator or you can guesstimate as 2.9 for the northern parts of the US and 3.5 for southern states.
+            td: input(type='number', name='sunHours', value='2.9', size='8')
+          tr
+            td Summer Hours of Sun: Enter summer sun-hours either by using a solar gain calculator or you can guesstimate as 4.5 for the northern parts of the US and 5.5 for southern states.
+            td: input(type='number', name='summerHours', value='4.5', size='8')
+          tr
+            td Peak DC kW: Enter the peak DC kW as the maximum DC load in kilowatts on the battery bank, excluding inverter (AC) loads.  This includes such items as 380volt DC heating and air conditioning, LED lighting, and variable frequency (VFD) DC motors. This will be a major consideration in propulsion applications and other applications where very large DC loads are the primary peak power consumer. For applications where most of the power is used as 120/240 VAC, leave this blank.
+            td: input(type='number', name='peakPower', value='0', size='8')
+          tr
+            td Peak 120/240VAC Load(kW): Enter the peak 120/240 VAC load of your system. It should be sized for the sum of your largest simultaneous AC appliances or your 'service' level.  For example, to design for a "200A service", this would be 200A x 240v or 48 kilowatts.  Because of the conversion 'power factor' of alternating current, this equates to around 43kW of useable power. Realistically, the actual recorded peak in most residential applications is much lower,
+            td: input(type='number', name='peakAC', value='48', size='8')
+          tr
+            td.s Avg Daily kWH Used: The average US household uses 35kW of energy for all heating and household requirements. The daily load for a boat is based on the total time the propulsion motor operates at various power levels. On very hot of or very cold days, average use can increase by as much as 30%.
+            td: input(type='number', name='dailyKWH', value='35', size='8')
+          tr
+            td.s Days on Only Battery: This determines battery capacity needed to operate solely on battery for the time specified. More needed for lead-acid batteries because they can not be discharged over 50% down. 
+            td: input(type='number', name='daysOfBatteryBackup', value='1.0', size='8')
+          tr
+            td % Supplied by Solar: The configurator specifies how many solar panels and batteries you need. It also will calculate how many square feet and the cost of the panels.
+            td: input(type='number', name='solarSupplied', value='100', size='8')
+          tr
+            td % Grid Power: If the cost or space for solar panels, or the cost of energy storage, is more than you want to spend or won't fit in the space you have available, you can reduce the percent of power you generate from solar and increase the amount you get from the grid or a generator.
+            td: input(type='number', name='maxGrid', value='0', size='8')
+          tr
+            td Max Generator Hrs/Day:
+            td: input(type='number', name='maxGenHrs', value='8', size='8')
+          tr
+            td  Generator Type
+            td: select(name='dieselType')
+                option(value='0') Diesel 
+                option(value='1') Gasoline/Propane 
+                option(value='2') Marine Diesel
+          tr
+            td.s.pxr  Type of Solar Panel Solar panel types are representative and pricing is based on current advertised prices.  Total area, number of solar panels and charge controller cost are calculated accordingly.
+            td: select(name='panelType')
+                option(value='0') Solarworld 255W 
+                option(value='1') Astronergy 240W 
+                option(value='2') Astronergy 285W 
+                option(value='3') Kyocera KD140SX
+                option(value='4') Kyocera KD240GX
+                option(value='5') Helios 6T 250W 
+
+  section#calculator2.app_descriptions
+    .container
+      form#theForm2
+        table.table
+
+          tr
+            td.s.pxr Battery kWH Required: The total battery capacity required to meet the total power requirements for the specified number of "Days on Battery".  This varies considerably due to battery efficiency.
+            td.r#kWHStorageRequired(int)
+          tr
+            td.s.pxr Daily Solar kWH: The average solar output in kWH based on the calculated number and type of solar panels and the sun-hours.
+            td.r#solarKWH(int)
+          tr
+            td.s.pxr Panel kW required: The required panel output to produce the desired percent of total power needs from solar power.
+            td.r#panelKWRequired(int)
+          tr
+            td.s.pxr Packs/Pack Size/Parallel: 48V packs are made up of cells or batteries in series.  For higher capacity, the cells may also be connected in parallel.  This is shown as # of 48v packs / size of pack in cells / number of parallel cells
+            td.r#nBattGroups
+          tr
+            td Sq. Ft of Panels:
+            td.r#sqFtOfPanels(int)
+          tr
+            td Avg Batt Current:
+            td.r#battCurrent(float2)
+          tr
+            td Number of Panels:
+            td.r#nPanels(int)
+          tr
+            td Maximum Batt Current:
+            td.r#maxBattCurrent(float2)
+          tr
+            td Generator Size kW:
+            td.r#generatorSize
+          tr
+            td Suggested Generator:
+            td.r#generator
+
+            
+  section#calculator3
+    .container
+      form#theForm3
+        table.table
+        
+          tr
+            td.s.pxr Power Conversion: Elecyr manufactured systems for converting AC to 360VDC, DC to AC house power, load balancing and load shedding and remote control and monitoring.
+            td.r#pConversion
+          tr
+            td Generator Price:
+            td.r#pGenerator          
+          tr
+            td Solar Panel Cost:
+            td.r#pPanels
+          tr
+            td Cost of Batteries:
+            td.r#pCells
+          tr
+            td Charge Controller Cost:
+            td.r#pController
+          tr
+            td.u Total Component Cost:
+            td.ur#pTotal
+          tr
+            td.u.s.pxl Annual fuel costs determined from the mix of solar, generator, and grid power. Fuel cost and power cost are based on the US national average for 2013.
+            td.ur#pdailyOperating
+
+      audio
+
+    #descriptions.app_descriptions
+      .container
+        .row
+          .col-sm-12.titlebar
+            p We've found the estimator to be surprisingly accurate for a wide range of systems including microgrid power stations in the desert, marine propulsion systems, and solar installations for commercial buildings desiring an off-grid power capability.
+
+            p Any estimate is only as good as the assumptions. You will need to supply estimates of your total power and peak power requirements and provide some tradeoffs for amount of solar, grid power and generator backup. If you are fortunate enough to live someplace where the sun shines, then you may want to adjust the sun-hours to get a better estimate of solar efficiency. There are many sites on the web to determine the solar-hours for your region.  We like <a href="http://www.solardirect.com/pv/systems/gts/gts-sizing-sun-hours.html">Solar Direct</a> as a source for this data.
+
+            p If your application is for a solar-only, off-grid power installation, then just leave the number of generator hours per day at zero.  The generator will be deleted.  If you want to have a back-up for grid power in case of a power outage, then leave both the generator hours at zero and percentage supplied by solar at zero (setting grid power to 100%).  Days on battery will calculate the battery capacity needed based on your daily kilowatt-hour usage.  A typical US household uses about 35 kWH per day.
+
+            p Your peak usage is determined by the maximum power you use at one time. You can estimate this yourself by adding up the power requirements of the largest loads (hot water, electric heaters and air conditioner etc) or you can estimate from the maximum power available in with a conventional power plant.  For example, if it's a home does it have 50A, 100A or 200A service from the power company.
+

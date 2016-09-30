@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1080" height="864" viewBox="0, 0, 1080, 864">
+  <g id="Layer_1">
+    <path d="M40.284,202.096 L1060.402,202.327" fill-opacity="0" stroke="#D11D00" stroke-width="4"/>
+    <g>
+      <g>
+        <g>
+          <g>
+            <g>
+              <path d="M235.413,26.026 L272.138,25.955 L227.292,117.217 L190.524,117.513 z" fill="#FFFFFF"/>
+              <path d="M235.413,26.026 L272.138,25.955 L227.292,117.217 L190.524,117.513 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 231.038, 70.799)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <g>
+            <path d="M269.328,135.755 L310.741,135.755 L310.741,159.129 L269.328,159.129 z" fill="#FFFFFF"/>
+            <path d="M269.328,135.755 L310.741,135.755 L310.741,159.129 L269.328,159.129 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <g>
+              <path d="M286.776,26.084 L323.5,26.014 L278.654,117.276 L241.887,117.572 z" fill="#FFFFFF"/>
+              <path d="M286.776,26.084 L323.5,26.014 L278.654,117.276 L241.887,117.572 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 282.4, 70.857)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <path d="M201.879,118.361 L202.207,143.781" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M202.189,143.328 L268.955,143.023" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M206.359,118.35 L206.179,129.138" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M206.29,129.816 L252.379,130.081" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M251.923,129.245 L252.156,117.785" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M255.817,118.185 L255.848,139.183" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M255.828,139.085 L268.62,138.928" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M268.971,156.327 L198.772,156.26" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+          <path d="M269.143,152.675 L199.027,152.939" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 289.201, 143.063)">
+              <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 290.349, 152.063)">
+              <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M122.664,26.172 L159.389,26.102 L114.543,117.364 L77.775,117.66 z" fill="#FFFFFF"/>
+              <path d="M122.664,26.172 L159.389,26.102 L114.543,117.364 L77.775,117.66 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 118.288, 70.946)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <g>
+            <path d="M156.578,135.902 L197.991,135.902 L197.991,159.276 L156.578,159.276 z" fill="#FFFFFF"/>
+            <path d="M156.578,135.902 L197.991,135.902 L197.991,159.276 L156.578,159.276 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <g>
+              <path d="M174.026,26.231 L210.751,26.161 L165.905,117.423 L129.137,117.719 z" fill="#FFFFFF"/>
+              <path d="M174.026,26.231 L210.751,26.161 L165.905,117.423 L129.137,117.719 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 169.65, 71.004)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <path d="M89.129,118.508 L89.457,143.928" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M89.439,143.475 L156.206,143.17" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M93.609,118.497 L93.43,129.285" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M93.54,129.963 L139.63,130.228" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M139.174,129.392 L139.407,117.932" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M143.068,118.332 L143.099,139.33" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M143.079,139.232 L155.871,139.075" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M156.222,156.474 L86.022,156.407" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+          <path d="M156.393,152.822 L86.278,153.086" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 176.452, 143.21)">
+              <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 177.6, 152.21)">
+              <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g>
+          <g>
+            <g>
+              <path d="M462.489,26.368 L499.214,26.298 L454.368,117.56 L417.6,117.856 z" fill="#FFFFFF"/>
+              <path d="M462.489,26.368 L499.214,26.298 L454.368,117.56 L417.6,117.856 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 458.113, 71.141)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <g>
+            <path d="M496.403,136.098 L537.816,136.098 L537.816,159.472 L496.403,159.472 z" fill="#FFFFFF"/>
+            <path d="M496.403,136.098 L537.816,136.098 L537.816,159.472 L496.403,159.472 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <g>
+              <path d="M513.851,26.427 L550.576,26.357 L505.73,117.619 L468.962,117.915 z" fill="#FFFFFF"/>
+              <path d="M513.851,26.427 L550.576,26.357 L505.73,117.619 L468.962,117.915 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 509.476, 71.2)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <path d="M428.954,118.704 L429.283,144.124" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M429.265,143.671 L496.031,143.365" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M433.435,118.693 L433.255,129.481" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M433.366,130.159 L479.455,130.423" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M478.999,129.588 L479.232,118.127" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M482.893,118.527 L482.924,139.526" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M482.904,139.428 L495.696,139.271" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M496.047,156.67 L425.847,156.602" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+          <path d="M496.219,153.018 L426.103,153.282" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 516.276, 143.406)">
+              <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 517.424, 152.406)">
+              <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M349.74,26.515 L386.465,26.445 L341.618,117.707 L304.851,118.003 z" fill="#FFFFFF"/>
+              <path d="M349.74,26.515 L386.465,26.445 L341.618,117.707 L304.851,118.003 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 345.364, 71.288)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <g>
+            <path d="M383.654,136.245 L425.067,136.245 L425.067,159.619 L383.654,159.619 z" fill="#FFFFFF"/>
+            <path d="M383.654,136.245 L425.067,136.245 L425.067,159.619 L383.654,159.619 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <g>
+              <path d="M401.102,26.574 L437.827,26.504 L392.98,117.766 L356.213,118.062 z" fill="#FFFFFF"/>
+              <path d="M401.102,26.574 L437.827,26.504 L392.98,117.766 L356.213,118.062 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+            </g>
+            <text transform="matrix(0.431, -0.902, 0.902, 0.431, 396.726, 71.347)">
+              <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+            </text>
+          </g>
+          <path d="M316.205,118.851 L316.533,144.271" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M316.515,143.818 L383.281,143.512" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M320.685,118.84 L320.505,129.628" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M320.616,130.305 L366.705,130.57" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M366.249,129.735 L366.483,118.274" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M370.144,118.674 L370.174,139.673" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M370.155,139.575 L382.946,139.417" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <path d="M383.297,156.817 L313.098,156.749" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+          <path d="M383.469,153.165 L313.353,153.429" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 403.526, 143.553)">
+              <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 404.677, 152.553)">
+              <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <g>
+        <path d="M60.779,155.934 L60.854,167.06" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M61.383,180.543 L60.973,210.837" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M66.397,181.343 C66.288,181.343 74.064,175.262 65.647,167.613" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M61.219,170.884 C60.048,170.884 59.099,169.935 59.099,168.764 C59.099,167.594 60.048,166.645 61.219,166.645 C62.389,166.645 63.338,167.594 63.338,168.764 C63.338,169.935 62.389,170.884 61.219,170.884 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M61.457,181.441 C60.286,181.441 59.337,180.492 59.337,179.321 C59.337,178.15 60.286,177.201 61.457,177.201 C62.628,177.201 63.577,178.15 63.577,179.321 C63.577,180.492 62.628,181.441 61.457,181.441 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M47.693,177.454 L47.693,163.616" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M44.693,177.454 L47.693,185.454 L50.693,177.454 M47.693,177.454 L47.693,185.454" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M79.788,181.689 L80.004,203.341" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M86.656,153.029 L79.453,152.947" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M85.996,156.482 L60.549,156.376" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M79.811,152.839 L79.219,168.232" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M79.584,172.056 C78.413,172.056 77.464,171.107 77.464,169.937 C77.464,168.766 78.413,167.817 79.584,167.817 C80.754,167.817 81.703,168.766 81.703,169.937 C81.703,171.107 80.754,172.056 79.584,172.056 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <g>
+        <text transform="matrix(1, 0, 0, 1, 113.895, 171.772)">
+          <tspan x="-19.568" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">30A 600vdc</tspan>
+        </text>
+        <text transform="matrix(1, 0, 0, 1, 114.147, 180.772)">
+          <tspan x="-19.82" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC Breaker</tspan>
+        </text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M575.762,26.065 L612.487,25.994 L567.64,117.256 L530.873,117.552 z" fill="#FFFFFF"/>
+        <path d="M575.762,26.065 L612.487,25.994 L567.64,117.256 L530.873,117.552 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(0.431, -0.902, 0.902, 0.431, 571.386, 70.838)">
+        <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M609.676,135.794 L651.089,135.794 L651.089,159.168 L609.676,159.168 z" fill="#FFFFFF"/>
+      <path d="M609.676,135.794 L651.089,135.794 L651.089,159.168 L609.676,159.168 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <g>
+        <path d="M627.124,26.123 L663.848,26.053 L619.002,117.315 L582.235,117.611 z" fill="#FFFFFF"/>
+        <path d="M627.124,26.123 L663.848,26.053 L619.002,117.315 L582.235,117.611 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(0.431, -0.902, 0.902, 0.431, 622.752, 70.916)">
+        <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+      </text>
+    </g>
+    <path d="M542.227,118.4 L542.555,143.82" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M542.537,143.367 L609.303,143.062" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M546.707,118.389 L546.527,129.177" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M546.638,129.855 L592.727,130.12" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M592.271,129.284 L592.505,117.824" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M596.165,118.224 L596.196,139.222" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M596.176,139.124 L608.968,138.967" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M609.319,156.366 L539.12,156.299" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+    <path d="M609.491,152.714 L539.375,152.978" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 629.549, 143.102)">
+        <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 630.698, 152.102)">
+        <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+      </text>
+    </g>
+    <path d="M85.065,182.882 C84.956,182.882 92.733,176.801 84.316,169.153" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M79.862,182.586 C78.691,182.586 77.742,181.637 77.742,180.467 C77.742,179.296 78.691,178.347 79.862,178.347 C81.033,178.347 81.982,179.296 81.982,180.467 C81.982,181.637 81.033,182.586 79.862,182.586 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M897.529,425.276 L927.891,425.569" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M891.667,430.251 L927.66,430.498" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M884.274,463.025 L929.669,463.338" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M878.113,468.693 L929.191,468.514" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M871.46,507.874 L929.938,507.869" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M866.039,513.296 L929.461,513.045" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M909.762,381.078 L928.188,381.124" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M901.937,385.811 L928.697,385.722" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M858.047,194.951 L861.341,194.951 z" fill="#000000"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 131.663, 235.085)">
+        <tspan x="-19.568" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">50A 600vdc</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 131.915, 244.085)">
+        <tspan x="-19.82" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC Breaker</tspan>
+      </text>
+    </g>
+    <text transform="matrix(-0, -1, 1, 0, 858.239, 404.824)">
+      <tspan x="-40.54" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">AWG 2/0 Battery Cables</tspan>
+    </text>
+    <path d="M1035.662,374.728 L1035.309,746.899" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M1045.692,383.19 L1045.764,757.205" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M1050.612,388.323 L1050.813,761.035" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M1040.495,379.135 L1040.445,751.735" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <g>
+      <path d="M1037.277,375.186 L1019.548,375.285" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M1046.206,385.008 L1019.905,385.107" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M1051.206,389.83 L1019.905,389.929" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M1042.098,380.186 L1019.905,380.107" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M1037.046,417.319 L1019.318,417.418" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M1045.976,427.141 L1019.675,427.24" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M1050.976,431.963 L1019.675,432.062" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M1041.868,422.319 L1019.675,422.24" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M1037.884,456.515 L1020.155,456.614" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M1046.813,466.337 L1020.512,466.436" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M1051.813,471.159 L1020.512,471.258" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M1042.705,461.515 L1020.512,461.435" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M1037.074,500.846 L1019.345,500.945" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M1046.003,510.668 L1019.702,510.767" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M1051.003,515.49 L1019.702,515.589" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M1041.896,505.846 L1019.702,505.766" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 764.412, 280.299)">
+        <tspan x="-14.703" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">380 VDC</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 776.755, 289.299)">
+        <tspan x="-27.048" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Battery Charger</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 759.414, 298.299)">
+        <tspan x="-9.705" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">10kW</tspan>
+      </text>
+    </g>
+    <path d="M740.503,264.53 L829.744,264.53 L829.744,314.832 L740.503,314.832 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M762.09,212.107 L762.165,226.863" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M762.694,240.347 L762.88,264.344" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M767.708,241.146 C767.599,241.146 775.375,235.065 766.958,227.417" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M762.53,230.687 C761.359,230.687 760.41,229.739 760.41,228.568 C760.41,227.397 761.359,226.448 762.53,226.448 C763.7,226.448 764.649,227.397 764.649,228.568 C764.649,229.739 763.7,230.687 762.53,230.687 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M762.768,241.244 C761.598,241.244 760.649,240.295 760.649,239.125 C760.649,237.954 761.598,237.005 762.768,237.005 C763.939,237.005 764.888,237.954 764.888,239.125 C764.888,240.295 763.939,241.244 762.768,241.244 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <g>
+      <path d="M748.845,245.84 L748.845,232.002" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M751.845,232.002 L748.845,224.002 L745.845,232.002 M748.845,232.002 L748.845,224.002" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M780.972,240.104 L781.138,264.151" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M785.986,240.903 C785.877,240.903 793.653,234.822 785.236,227.173" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M781.046,241.001 C779.876,241.001 778.927,240.052 778.927,238.881 C778.927,237.711 779.876,236.762 781.046,236.762 C782.217,236.762 783.166,237.711 783.166,238.881 C783.166,240.052 782.217,241.001 781.046,241.001 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M781.138,202.231 L780.998,226.748" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M780.807,230.444 C779.636,230.444 778.687,229.495 778.687,228.325 C778.687,227.154 779.636,226.205 780.807,226.205 C781.977,226.205 782.926,227.154 782.926,228.325 C782.926,229.495 781.977,230.444 780.807,230.444 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 817.907, 228.988)">
+        <tspan x="-19.568" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">30A 600vdc</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 818.159, 237.988)">
+        <tspan x="-19.82" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC Breaker</tspan>
+      </text>
+    </g>
+    <path d="M775.686,314.958 L775.73,684.223" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M785.345,314.958 L785.735,694.228" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M790.174,314.958 L790.738,698.874" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M780.515,314.958 L780.733,689.583" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <g>
+      <path d="M687.097,474.241 L687.097,493.499" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M684.097,493.499 L687.097,501.499 L690.097,493.499 M687.097,493.499 L687.097,501.499" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 675.068, 615.685)">
+        <tspan x="-18.518" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">OPTIONAL </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 690.433, 624.685)">
+        <tspan x="-33.883" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC TRANSFORMER</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 689.211, 633.685)">
+        <tspan x="-32.661" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">10KW 380-380 VDC</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 699.575, 642.685)">
+        <tspan x="-43.025" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">CURRENT CONTROLLED</tspan>
+      </text>
+    </g>
+    <path d="M645.678,606.411 L753.014,606.411 L753.014,654.767 L645.678,654.767 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M40.424,211.631 L1060.635,210.446" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+    <path d="M676.803,209.899 L677.691,569.073" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M678.22,582.557 L678.405,606.554" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M683.234,583.356 C683.124,583.356 690.901,577.275 682.484,569.627" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M678.055,572.897 C676.885,572.897 675.936,571.948 675.936,570.778 C675.936,569.607 676.885,568.658 678.055,568.658 C679.226,568.658 680.175,569.607 680.175,570.778 C680.175,571.948 679.226,572.897 678.055,572.897 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M678.294,583.454 C677.123,583.454 676.174,582.505 676.174,581.335 C676.174,580.164 677.123,579.215 678.294,579.215 C679.464,579.215 680.413,580.164 680.413,581.335 C680.413,582.505 679.464,583.454 678.294,583.454 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M696.498,582.314 L696.664,606.361" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M701.512,583.113 C701.402,583.113 709.179,577.032 700.762,569.383" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M696.572,583.211 C695.401,583.211 694.452,582.262 694.452,581.091 C694.452,579.921 695.401,578.972 696.572,578.972 C697.742,578.972 698.691,579.921 698.691,581.091 C698.691,582.262 697.742,583.211 696.572,583.211 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M697.482,200.104 L696.523,568.958" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M696.332,572.654 C695.162,572.654 694.213,571.705 694.213,570.535 C694.213,569.364 695.162,568.415 696.332,568.415 C697.503,568.415 698.452,569.364 698.452,570.535 C698.452,571.705 697.503,572.654 696.332,572.654 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 735.067, 572.089)">
+        <tspan x="-19.568" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">30A 600vdc</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 735.319, 581.089)">
+        <tspan x="-19.82" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC Breaker</tspan>
+      </text>
+    </g>
+    <path d="M645.41,624.914 L505.411,625.04" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M505.812,631.362 L644.816,631.693" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <g>
+      <path d="M760.149,422.865 L760.149,409.027" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M763.149,409.027 L760.149,401.027 L757.149,409.027 M760.149,409.027 L760.149,401.027" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 346.311, 193.734)">
+      <tspan x="-145.165" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">1/8" x 3/4" copper bus bar -- ampacity rating 200-250A 1/2" spacing between polarities</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 316.96, 167.805)">
+      <tspan x="-112.602" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">UL 1741 compliant MC4 PV wiring AWG 10 30A maximum at 400vdc</tspan>
+    </text>
+    <text transform="matrix(-0, -1, 1, 0, 687.797, 345.311)">
+      <tspan x="-112.602" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">UL 1741 compliant MC4 PV wiring AWG 10 30A maximum at 400vdc</tspan>
+    </text>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 577.659, 600.654)">
+        <tspan x="-56.882" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">UL 1741 compliant MC4 PV wiring </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 576.025, 609.654)">
+        <tspan x="-55.247" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">AWG 10 30A maximum at 400vdc</tspan>
+      </text>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 432.359, 616.92)">
+        <tspan x="-18.518" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">OPTIONAL</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 433.073, 625.92)">
+        <tspan x="-19.232" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Power-One</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 450.647, 634.92)">
+        <tspan x="-36.806" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Aurora 2.0kW Inverter</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 448.76, 643.92)">
+        <tspan x="-34.919" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">UNO-2.0-I-OUTD-US</tspan>
+      </text>
+    </g>
+    <path d="M397.307,606.933 L504.642,606.933 L504.642,655.289 L397.307,655.289 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 173.662, 627.336)">
+        <tspan x="-30.691" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">120/240 VAC 200A</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 173.417, 636.336)">
+        <tspan x="-30.446" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">MAINS CONNECT</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M187.091,656.925 C173.318,646.875 160.786,656.276 160.786,656.098" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M160.895,658.811 L141.909,658.954" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M206.198,659.597 L187.211,659.74" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M397.714,625.205 L217.48,625.205" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M397.714,634.864 L217.48,634.864" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M397.714,639.693 L217.48,639.693" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M397.714,630.034 L217.48,630.034" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M398.773,747.626 L218.539,747.626" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M398.773,757.285 L218.539,757.285" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M398.773,762.114 L218.539,762.114" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M398.773,752.455 L218.539,752.455" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <path d="M775.896,683.35 L218.956,684.004" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M784.825,693.172 L218.504,693.639" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M789.825,697.994 L218.956,698.457" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M780.718,688.35 L218.354,688.822" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <g>
+      <path d="M346.054,650.19 L326.504,649.93" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M326.544,646.93 L318.505,649.824 L326.465,652.93 M326.504,649.93 L318.505,649.824" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M591.244,643.993 L571.694,643.733" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M571.733,640.733 L563.694,643.627 L571.654,646.733 M571.694,643.733 L563.694,643.627" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M1036.638,748.086 L458.718,748.819" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M1047.179,757.784 L459.118,758.419" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M1050.974,762.422 L459.318,763.419" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M1041.697,753.146 L459.518,753.619" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <g>
+      <path d="M509.706,710.179 L490.156,709.92" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M509.666,713.179 L517.705,710.285 L509.746,707.179 M509.706,710.179 L517.705,710.285" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 453.366, 591.332)">
+        <tspan x="-33.75" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">35kWH per day max</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 449.94, 600.332)">
+        <tspan x="-30.323" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">1500 watt inverter</tspan>
+      </text>
+    </g>
+    <path d="M128.091,612.845 L218.488,612.845 L217.984,773.401 L128.204,773.636 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <path d="M309.707,736.201 L290.157,735.941" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M309.667,739.2 L317.706,736.307 L309.747,733.201 M309.707,736.201 L317.706,736.307" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M743.133,736.63 L723.583,736.371" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M723.623,733.371 L715.584,736.265 L723.543,739.37 M723.583,736.371 L715.584,736.265" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 241.32, 648.946)">
+      <tspan x="-20.635" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">20A 240VAC</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 241.122, 708.84)">
+      <tspan x="-20.635" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">20A 240VAC</tspan>
+    </text>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 229.997, 772.742)">
+        <tspan x="-8.736" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">200A </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 234.635, 781.742)">
+        <tspan x="-13.373" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">240VAC</tspan>
+      </text>
+    </g>
+    <path d="M128.228,653.887 L66.806,654.158" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M128.206,663.356 L67.266,663.606" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M128.206,668.186 L67.266,668.424" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M128.206,658.527 L67.025,658.787" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <path d="M382.08,724.973 L472.477,724.973 L472.211,808.564 L382.283,808.18 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M398.263,747.603 L418.224,758.981" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M398.115,752.262 L416.174,762.745" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <path d="M398.288,757.114 L414.972,767.182" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M397.945,761.812 L412.858,771.112" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <text transform="matrix(1, 0, 0, 1, 429.361, 733.531)">
+      <tspan x="-29.487" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">200A AC BYPASS</tspan>
+    </text>
+    <g>
+      <path d="M459.603,747.359 L439.642,758.737" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M459.751,752.018 L441.692,762.5" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+      <path d="M459.578,756.869 L442.894,766.938" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M459.921,761.567 L445.008,770.868" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M434.041,823.195 L585.889,823.411" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <path d="M425.112,833.017 L585.489,833.011" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+      <path d="M420.111,837.839 L585.289,838.011" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+      <path d="M429.219,828.195 L585.089,828.211" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    </g>
+    <path d="M434.915,824.075 L435.795,796.154" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    <path d="M424.989,833.637 L425.254,794.467" fill-opacity="0" stroke="#2C9900" stroke-width="3"/>
+    <path d="M420.167,838.637 L419.772,794.045" fill-opacity="0" stroke="#AAAAAA" stroke-width="3"/>
+    <path d="M429.811,829.53 L430.313,795.31" fill-opacity="0" stroke="#FF2B2B" stroke-width="3"/>
+    <g>
+      <path d="M431.825,788.012 L428.088,777.985" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      <g>
+        <path d="M432.023,776.518 L424.176,767.491 L424.152,779.452 z" fill="#000000"/>
+        <path d="M432.023,776.518 L424.176,767.491 L424.152,779.452 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+      </g>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 694.175, 830.058)">
+      <tspan x="-101.858" y="4" font-family="HelveticaNeue-Bold" font-size="12" fill="#000000">TO HOUSE 200AMP LOAD CENTER</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 775.295, 772.945)">
+      <tspan x="-84.892" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">OFF-GRID POWER FROM SOLAR AND BATTERIES</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 307.589, 772.788)">
+      <tspan x="-23.439" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">GRID POWER</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 832.959, 543.229)">
+      <tspan x="-13.467" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">NOTES:</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 903.271, 563.217)">
+      <tspan x="-83.779" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">1. Power to grid-tied inverter is controlled by BMS </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 859.118, 573.212)">
+      <tspan x="-39.626" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> indicating full batteries</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 895.82, 593.201)">
+      <tspan x="-76.327" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">2. AC Bypass for operating house from grid is </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 848.885, 603.195)">
+      <tspan x="-29.392" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> is manual switch</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 900.012, 623.184)">
+      <tspan x="-80.521" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">3. Battery charging is controlled by BMS current </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 891.644, 633.178)">
+      <tspan x="-72.152" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> control within each 15kWH energy storage</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 833.401, 643.172)">
+      <tspan x="-13.908" y="1.448" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> module</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 884.987, 678.153)">
+      <tspan x="-66.076" y="-13.544" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">4. AC Inverters are shown in parallel </tspan>
+      <tspan x="-66.076" y="-4.544" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">but may be independent</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 889.649, 687.646)">
+      <tspan x="-70.157" y="5.952" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">5. All non-AC wiring is UL 1741 compliant.</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 901.084, 711.586)">
+      <tspan x="-81.591" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">6. ELECYR hardware has been submitted to CSA </tspan>
+      <tspan x="-81.591" y="11" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">for certification under UL 1973 and UL 1741. </tspan>
+      <tspan x="66.871" y="11" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1031.907, 658.815)">
+      <tspan x="-74.731" y="-4.071" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000"> </tspan>
+    </text>
+    <g>
+      <path d="M531.437,811.722 L511.887,811.463" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M531.397,814.722 L539.436,811.828 L531.477,808.722 M531.437,811.722 L539.436,811.828" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 138.566, 804.281)">
+        <tspan x="-119.63" y="4" font-family="HelveticaNeue-Bold" font-size="12" fill="#000000">60kWH ENERGY STORAGE, 44kW SOLAR </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 127.85, 819.281)">
+        <tspan x="-108.914" y="4" font-family="HelveticaNeue-Bold" font-size="12" fill="#000000">ARRAY, 16kW AC 120/240 INVERTERS</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 151.418, 836.281)">
+        <tspan x="-132.482" y="4" font-family="HelveticaNeue-Bold" font-size="12" fill="#000000">GRID-TIED WITH SIMULTANEOUS ISLANDING</tspan>
+      </text>
+    </g>
+    <image xlink:href="data:image/png;base64,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" opacity="1" x="883.539" y="784.223" width="159.473" height="59.992" preserveAspectRatio="xMidYMid" clip-path="url(#Clip_1)"/>
+    <g>
+      <g>
+        <g>
+          <g>
+            <path d="M898.704,25.372 L935.429,25.301 L890.582,116.564 L853.815,116.86 z" fill="#FFFFFF"/>
+            <path d="M898.704,25.372 L935.429,25.301 L890.582,116.564 L853.815,116.86 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <text transform="matrix(0.431, -0.902, 0.902, 0.431, 894.328, 70.145)">
+            <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="M932.618,135.101 L974.031,135.101 L974.031,158.476 L932.618,158.476 z" fill="#FFFFFF"/>
+          <path d="M932.618,135.101 L974.031,135.101 L974.031,158.476 L932.618,158.476 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        </g>
+        <g>
+          <g>
+            <path d="M950.066,25.431 L986.791,25.36 L941.945,116.622 L905.177,116.919 z" fill="#FFFFFF"/>
+            <path d="M950.066,25.431 L986.791,25.36 L941.945,116.622 L905.177,116.919 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <text transform="matrix(0.431, -0.902, 0.902, 0.431, 945.69, 70.204)">
+            <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+          </text>
+        </g>
+        <path d="M865.169,117.708 L865.497,143.127" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M865.479,142.674 L932.246,142.369" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M869.649,117.696 L869.47,128.485" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M869.58,129.162 L915.669,129.427" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M915.213,128.592 L915.447,117.131" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M919.108,117.531 L919.139,138.529" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M919.119,138.432 L931.91,138.274" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M932.262,155.674 L862.062,155.606" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+        <path d="M932.433,152.022 L862.318,152.285" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <g>
+          <text transform="matrix(1, 0, 0, 1, 952.492, 142.41)">
+            <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+          </text>
+          <text transform="matrix(1, 0, 0, 1, 953.641, 151.41)">
+            <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+          </text>
+        </g>
+      </g>
+      <g>
+        <g>
+          <g>
+            <path d="M785.954,25.519 L822.679,25.448 L777.833,116.711 L741.065,117.007 z" fill="#FFFFFF"/>
+            <path d="M785.954,25.519 L822.679,25.448 L777.833,116.711 L741.065,117.007 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <text transform="matrix(0.431, -0.902, 0.902, 0.431, 781.579, 70.292)">
+            <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="M819.869,135.248 L861.282,135.248 L861.282,158.623 L819.869,158.623 z" fill="#FFFFFF"/>
+          <path d="M819.869,135.248 L861.282,135.248 L861.282,158.623 L819.869,158.623 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        </g>
+        <g>
+          <g>
+            <path d="M837.316,25.578 L874.041,25.507 L829.195,116.769 L792.427,117.065 z" fill="#FFFFFF"/>
+            <path d="M837.316,25.578 L874.041,25.507 L829.195,116.769 L792.427,117.065 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <text transform="matrix(0.431, -0.902, 0.902, 0.431, 832.941, 70.351)">
+            <tspan x="-43.005" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">255 watt PV panel</tspan>
+          </text>
+        </g>
+        <path d="M752.419,117.855 L752.748,143.274" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M752.73,142.821 L819.496,142.516" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M756.9,117.843 L756.72,128.632" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M756.831,129.309 L802.92,129.574" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M802.464,128.739 L802.697,117.278" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M806.358,117.678 L806.389,138.676" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M806.369,138.579 L819.161,138.421" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <path d="M819.512,155.821 L749.313,155.753" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+        <path d="M819.684,152.169 L749.568,152.432" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+        <g>
+          <text transform="matrix(1, 0, 0, 1, 839.742, 142.556)">
+            <tspan x="-17.836" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">EIQenergy</tspan>
+          </text>
+          <text transform="matrix(1, 0, 0, 1, 840.891, 151.556)">
+            <tspan x="-18.983" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">vBoost 600</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g>
+      <path d="M724.07,155.28 L724.145,166.406" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      <path d="M724.673,179.89 L724.263,210.183" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      <path d="M729.688,180.689 C729.578,180.689 737.355,174.608 728.938,166.959" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      <path d="M724.509,170.23 C723.338,170.23 722.389,169.281 722.389,168.111 C722.389,166.94 723.338,165.991 724.509,165.991 C725.68,165.991 726.629,166.94 726.629,168.111 C726.629,169.281 725.68,170.23 724.509,170.23 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      <path d="M724.747,180.787 C723.577,180.787 722.628,179.838 722.628,178.667 C722.628,177.497 723.577,176.548 724.747,176.548 C725.918,176.548 726.867,177.497 726.867,178.667 C726.867,179.838 725.918,180.787 724.747,180.787 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M710.983,176.801 L710.983,162.962" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M707.983,176.801 L710.983,184.801 L713.983,176.801 M710.983,176.801 L710.983,184.801" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M743.078,181.036 L743.294,202.687" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M749.946,152.375 L742.743,152.294" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M749.286,155.829 L723.839,155.722" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M743.101,152.186 L742.509,167.579" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M742.874,171.403 C741.703,171.403 740.754,170.454 740.754,169.283 C740.754,168.113 741.703,167.164 742.874,167.164 C744.044,167.164 744.993,168.113 744.993,169.283 C744.993,170.454 744.044,171.403 742.874,171.403 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 777.186, 171.119)">
+        <tspan x="-19.568" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">30A 600vdc</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 777.438, 180.119)">
+        <tspan x="-19.82" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">DC Breaker</tspan>
+      </text>
+    </g>
+    <path d="M1006.475,156.654 L974.583,156.557" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+    <path d="M1011.696,153.352 L974.495,153.39" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <path d="M689.155,156.73 L650.88,156.723" fill-opacity="0" stroke="#130044" stroke-width="1"/>
+    <path d="M696.142,152.738 L651.381,152.815" fill-opacity="0" stroke="#FF2B2B" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 683.579, 90.504)">
+        <tspan x="-39.375" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">26 255-WATT PV </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 691.744, 102.504)">
+        <tspan x="-47.54" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">PANELS (max 10kW </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 688.014, 114.504)">
+        <tspan x="-43.81" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">per parallel string)</tspan>
+      </text>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 997.643, 79.951)">
+        <tspan x="-31.5" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">18 300-WATT </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 994.063, 91.951)">
+        <tspan x="-27.92" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">PV PANELS </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 1002.008, 103.951)">
+        <tspan x="-35.865" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">(max 10kW per </tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 1000.693, 115.951)">
+        <tspan x="-34.55" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">parallel string)</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 64.85, 771.937)">
+      <tspan x="-45.99" y="3.5" font-family="HelveticaNeue-Bold" font-size="10" fill="#000000">May 21, 2014 Rev 3</tspan>
+    </text>
+    <g>
+      <path d="M187.469,678.429 C173.697,668.379 161.164,677.78 161.164,677.602" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M160.895,680.315 L141.909,680.458" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M206.576,681.101 L187.589,681.244" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M187.469,704.763 C173.697,694.713 161.164,704.114 161.164,703.936" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M160.895,706.649 L141.909,706.792" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M206.576,707.435 L187.589,707.578" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M187.469,691.596 C173.697,681.546 161.164,690.947 161.164,690.769" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M160.895,693.482 L141.909,693.625" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M206.576,694.268 L187.589,694.411" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M748.787,181.94 C748.677,181.94 756.454,175.859 748.037,168.211" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M743.847,182.038 C742.676,182.038 741.727,181.089 741.727,179.919 C741.727,178.748 742.676,177.799 743.847,177.799 C745.017,177.799 745.966,178.748 745.966,179.919 C745.966,181.089 745.017,182.038 743.847,182.038 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 143.423, 304.129)">
+        <tspan x="-41.804" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">40 AHr LFP Battery Bank</tspan>
+      </text>
+      <g>
+        <g>
+          <g>
+            <path d="M95.687,312.051 L192.513,312.051 L192.513,336.86 L95.687,336.86 z" fill="#FFFFFF"/>
+            <path d="M95.687,312.051 L192.513,312.051 L192.513,336.86 L95.687,336.86 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 320.08)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 329.08)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,341.162 L192.513,341.162 L192.513,365.971 L95.687,365.971 z" fill="#FFFFFF"/>
+            <path d="M95.687,341.162 L192.513,341.162 L192.513,365.971 L95.687,365.971 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 349.191)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 358.191)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,370.273 L192.513,370.273 L192.513,395.082 L95.687,395.082 z" fill="#FFFFFF"/>
+            <path d="M95.687,370.273 L192.513,370.273 L192.513,395.082 L95.687,395.082 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 378.302)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 387.302)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,399.384 L192.513,399.384 L192.513,424.193 L95.687,424.193 z" fill="#FFFFFF"/>
+            <path d="M95.687,399.384 L192.513,399.384 L192.513,424.193 L95.687,424.193 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 407.413)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 416.413)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,428.496 L192.513,428.496 L192.513,453.305 L95.687,453.305 z" fill="#FFFFFF"/>
+            <path d="M95.687,428.496 L192.513,428.496 L192.513,453.305 L95.687,453.305 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 436.524)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 445.524)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,457.606 L192.513,457.606 L192.513,482.415 L95.687,482.415 z" fill="#FFFFFF"/>
+            <path d="M95.687,457.606 L192.513,457.606 L192.513,482.415 L95.687,482.415 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 465.635)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 474.635)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,486.717 L192.513,486.717 L192.513,511.526 L95.687,511.526 z" fill="#FFFFFF"/>
+            <path d="M95.687,486.717 L192.513,486.717 L192.513,511.526 L95.687,511.526 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 494.746)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 503.746)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M95.687,515.829 L192.513,515.829 L192.513,540.638 L95.687,540.638 z" fill="#FFFFFF"/>
+            <path d="M95.687,515.829 L192.513,515.829 L192.513,540.638 L95.687,540.638 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 134.169, 523.857)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 145.11, 532.857)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <path d="M84.662,328.195 L95.784,328.208" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.007,327.904 L84.855,349.763" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.159,349.307 L96.24,349.307" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M95.577,345.842 L88.954,345.968" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.14,345.987 L89.257,332.306" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.105,332.154 L95.481,332.306" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M84.185,357.511 L95.308,357.525" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M84.53,357.221 L84.378,379.08" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M84.682,378.624 L95.763,378.624" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M95.1,375.158 L88.477,375.285" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M88.663,375.304 L88.78,361.623" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M88.629,361.471 L95.004,361.623" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M84.107,386.364 L95.229,386.377" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M84.452,386.073 L84.3,407.932" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M84.604,407.476 L95.685,407.476" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M95.022,404.011 L88.399,404.137" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M88.585,404.156 L88.702,390.475" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M88.55,390.323 L94.926,390.475" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M85.242,416.172 L96.365,416.185" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.587,415.881 L85.435,437.74" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.739,437.284 L96.82,437.284" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M96.157,433.819 L89.534,433.945" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.72,433.964 L89.837,420.283" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.686,420.131 L96.061,420.283" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M85.164,445.024 L96.286,445.037" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.509,444.733 L85.357,466.592" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.661,466.137 L96.742,466.137" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M96.079,462.671 L89.456,462.797" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.642,462.816 L89.759,449.135" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.607,448.983 L95.983,449.135" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M84.687,474.34 L95.81,474.353" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.032,474.049 L84.88,495.908" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.184,495.453 L96.265,495.453" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M95.602,491.987 L88.979,492.113" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.165,492.132 L89.282,478.451" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.131,478.3 L95.506,478.451" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M84.609,503.192 L95.732,503.205" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M84.954,502.901 L84.802,524.76" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M85.106,524.305 L96.187,524.305" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M95.524,520.839 L88.901,520.965" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.087,520.984 L89.204,507.303" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M89.052,507.152 L95.428,507.303" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <path d="M84.389,533.447 L95.512,533.46" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M85.623,537.805 L95.208,537.558" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        <path d="M84.884,534.013 L85.016,538.109" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      </g>
+      <path d="M83.923,252.43 L83.937,320.115" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M84.241,319.659 L95.322,319.659" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M94.659,316.193 L88.036,316.32" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M88.222,316.339 L88.018,253.32" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M77.153,297.07 L200.95,297.07 L200.95,549.064 L77.153,549.064 z" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="6,5"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 293.892, 303.77)">
+        <tspan x="-41.804" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">40 AHr LFP Battery Bank</tspan>
+      </text>
+      <g>
+        <g>
+          <g>
+            <path d="M246.157,311.692 L342.983,311.692 L342.983,336.501 L246.157,336.501 z" fill="#FFFFFF"/>
+            <path d="M246.157,311.692 L342.983,311.692 L342.983,336.501 L246.157,336.501 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 319.721)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 328.721)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,340.803 L342.983,340.803 L342.983,365.612 L246.157,365.612 z" fill="#FFFFFF"/>
+            <path d="M246.157,340.803 L342.983,340.803 L342.983,365.612 L246.157,365.612 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 348.832)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 357.832)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,369.914 L342.983,369.914 L342.983,394.723 L246.157,394.723 z" fill="#FFFFFF"/>
+            <path d="M246.157,369.914 L342.983,369.914 L342.983,394.723 L246.157,394.723 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 377.943)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 386.943)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,399.026 L342.983,399.026 L342.983,423.835 L246.157,423.835 z" fill="#FFFFFF"/>
+            <path d="M246.157,399.026 L342.983,399.026 L342.983,423.835 L246.157,423.835 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 407.054)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 416.054)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,428.137 L342.983,428.137 L342.983,452.946 L246.157,452.946 z" fill="#FFFFFF"/>
+            <path d="M246.157,428.137 L342.983,428.137 L342.983,452.946 L246.157,452.946 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 436.165)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 445.165)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,457.247 L342.983,457.247 L342.983,482.056 L246.157,482.056 z" fill="#FFFFFF"/>
+            <path d="M246.157,457.247 L342.983,457.247 L342.983,482.056 L246.157,482.056 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 465.276)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 474.276)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,486.359 L342.983,486.359 L342.983,511.168 L246.157,511.168 z" fill="#FFFFFF"/>
+            <path d="M246.157,486.359 L342.983,486.359 L342.983,511.168 L246.157,511.168 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 494.387)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 503.387)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M246.157,515.47 L342.983,515.47 L342.983,540.279 L246.157,540.279 z" fill="#FFFFFF"/>
+            <path d="M246.157,515.47 L342.983,515.47 L342.983,540.279 L246.157,540.279 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 284.639, 523.498)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 295.58, 532.498)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <path d="M235.132,327.836 L246.255,327.849" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.477,327.545 L235.325,349.404" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.629,348.949 L246.71,348.949" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M246.047,345.483 L239.424,345.609" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.61,345.628 L239.727,331.947" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.575,331.796 L245.951,331.947" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M234.655,357.153 L245.778,357.166" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235,356.862 L234.848,378.721" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.152,378.265 L246.233,378.265" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M245.57,374.8 L238.947,374.926" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.133,374.945 L239.251,361.264" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.099,361.112 L245.474,361.264" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M234.577,386.005 L245.7,386.018" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M234.922,385.714 L234.77,407.573" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.074,407.118 L246.155,407.118" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M245.492,403.652 L238.869,403.778" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.055,403.797 L239.172,390.116" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.021,389.965 L245.396,390.116" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M235.712,415.813 L246.835,415.826" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M236.057,415.522 L235.905,437.381" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M236.209,436.926 L247.29,436.926" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M246.627,433.46 L240.004,433.586" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M240.19,433.605 L240.308,419.924" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M240.156,419.773 L246.531,419.924" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M235.634,444.665 L246.757,444.678" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.979,444.374 L235.827,466.233" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M236.131,465.778 L247.212,465.778" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M246.549,462.312 L239.926,462.438" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M240.112,462.457 L240.229,448.776" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M240.078,448.625 L246.453,448.776" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M235.157,473.981 L246.28,473.994" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.502,473.691 L235.351,495.549" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.654,495.094 L246.735,495.094" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M246.072,491.628 L239.449,491.754" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.635,491.773 L239.753,478.093" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.601,477.941 L245.976,478.093" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M235.079,502.833 L246.202,502.846" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.424,502.542 L235.272,524.401" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M235.576,523.946 L246.657,523.946" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M245.994,520.48 L239.371,520.606" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.557,520.625 L239.674,506.945" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M239.523,506.793 L245.898,506.945" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <path d="M234.86,533.088 L245.982,533.101" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M236.093,537.446 L245.679,537.199" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        <path d="M235.354,533.654 L235.486,537.75" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      </g>
+      <path d="M234.393,252.071 L234.407,319.756" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M234.711,319.3 L245.792,319.3" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M245.129,315.834 L238.506,315.961" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M238.692,315.98 L238.488,252.961" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M227.624,296.711 L351.42,296.711 L351.42,548.705 L227.624,548.705 z" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="6,5"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 444.65, 304.321)">
+        <tspan x="-41.804" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">40 AHr LFP Battery Bank</tspan>
+      </text>
+      <g>
+        <g>
+          <g>
+            <path d="M396.914,312.242 L493.739,312.242 L493.739,337.051 L396.914,337.051 z" fill="#FFFFFF"/>
+            <path d="M396.914,312.242 L493.739,312.242 L493.739,337.051 L396.914,337.051 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 320.271)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 329.271)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,341.353 L493.739,341.353 L493.739,366.162 L396.914,366.162 z" fill="#FFFFFF"/>
+            <path d="M396.914,341.353 L493.739,341.353 L493.739,366.162 L396.914,366.162 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 349.382)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 358.382)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,370.464 L493.739,370.464 L493.739,395.273 L396.914,395.273 z" fill="#FFFFFF"/>
+            <path d="M396.914,370.464 L493.739,370.464 L493.739,395.273 L396.914,395.273 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 378.493)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 387.493)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,399.576 L493.739,399.576 L493.739,424.385 L396.914,424.385 z" fill="#FFFFFF"/>
+            <path d="M396.914,399.576 L493.739,399.576 L493.739,424.385 L396.914,424.385 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 407.604)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 416.604)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,428.687 L493.739,428.687 L493.739,453.496 L396.914,453.496 z" fill="#FFFFFF"/>
+            <path d="M396.914,428.687 L493.739,428.687 L493.739,453.496 L396.914,453.496 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 436.715)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 445.715)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,457.797 L493.739,457.797 L493.739,482.606 L396.914,482.606 z" fill="#FFFFFF"/>
+            <path d="M396.914,457.797 L493.739,457.797 L493.739,482.606 L396.914,482.606 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 465.826)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 474.826)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,486.909 L493.739,486.909 L493.739,511.718 L396.914,511.718 z" fill="#FFFFFF"/>
+            <path d="M396.914,486.909 L493.739,486.909 L493.739,511.718 L396.914,511.718 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 494.937)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 503.937)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M396.914,516.02 L493.739,516.02 L493.739,540.829 L396.914,540.829 z" fill="#FFFFFF"/>
+            <path d="M396.914,516.02 L493.739,516.02 L493.739,540.829 L396.914,540.829 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 435.396, 524.048)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 446.337, 533.048)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <path d="M385.888,328.386 L397.011,328.399" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.233,328.095 L386.082,349.954" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.385,349.499 L397.466,349.499" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M396.803,346.033 L390.18,346.159" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.366,346.178 L390.484,332.497" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.332,332.346 L396.707,332.497" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M385.411,357.703 L396.534,357.716" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M385.757,357.412 L385.605,379.271" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M385.908,378.815 L396.99,378.815" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M396.327,375.35 L389.703,375.476" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M389.889,375.495 L390.007,361.814" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M389.855,361.662 L396.231,361.814" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M385.333,386.555 L396.456,386.568" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M385.678,386.264 L385.527,408.123" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M385.83,407.668 L396.911,407.668" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M396.248,404.202 L389.625,404.328" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M389.811,404.347 L389.929,390.666" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M389.777,390.515 L396.152,390.666" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M386.469,416.363 L397.591,416.376" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.814,416.072 L386.662,437.931" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.965,437.476 L398.047,437.476" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M397.384,434.01 L390.76,434.136" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.947,434.155 L391.064,420.474" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.912,420.323 L397.288,420.474" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M386.39,445.215 L397.513,445.228" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.735,444.924 L386.584,466.783" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.887,466.328 L397.968,466.328" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M397.305,462.862 L390.682,462.988" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.868,463.007 L390.986,449.327" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.834,449.175 L397.209,449.327" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M385.914,474.531 L397.036,474.544" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.259,474.241 L386.107,496.099" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.41,495.644 L397.492,495.644" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M396.829,492.178 L390.205,492.304" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.392,492.323 L390.509,478.643" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.357,478.491 L396.733,478.643" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M385.835,503.383 L396.958,503.396" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.181,503.092 L386.029,524.951" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M386.332,524.496 L397.413,524.496" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M396.751,521.03 L390.127,521.156" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.313,521.175 L390.431,507.495" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M390.279,507.343 L396.654,507.495" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <path d="M385.616,533.638 L396.739,533.651" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M386.85,537.996 L396.435,537.75" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        <path d="M386.11,534.204 L386.243,538.3" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      </g>
+      <path d="M385.15,252.621 L385.164,320.306" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M385.467,319.85 L396.549,319.85" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M395.886,316.385 L389.262,316.511" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M389.449,316.53 L389.245,253.511" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M378.38,297.261 L502.176,297.261 L502.176,549.255 L378.38,549.255 z" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="6,5"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 594.856, 305.421)">
+        <tspan x="-41.804" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">40 AHr LFP Battery Bank</tspan>
+      </text>
+      <g>
+        <g>
+          <g>
+            <path d="M547.12,313.343 L643.946,313.343 L643.946,338.152 L547.12,338.152 z" fill="#FFFFFF"/>
+            <path d="M547.12,313.343 L643.946,313.343 L643.946,338.152 L547.12,338.152 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 321.371)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 330.371)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,342.454 L643.946,342.454 L643.946,367.263 L547.12,367.263 z" fill="#FFFFFF"/>
+            <path d="M547.12,342.454 L643.946,342.454 L643.946,367.263 L547.12,367.263 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 350.482)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 359.482)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,371.565 L643.946,371.565 L643.946,396.374 L547.12,396.374 z" fill="#FFFFFF"/>
+            <path d="M547.12,371.565 L643.946,371.565 L643.946,396.374 L547.12,396.374 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 379.593)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 388.593)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,400.676 L643.946,400.676 L643.946,425.485 L547.12,425.485 z" fill="#FFFFFF"/>
+            <path d="M547.12,400.676 L643.946,400.676 L643.946,425.485 L547.12,425.485 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 408.704)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 417.704)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,429.787 L643.946,429.787 L643.946,454.596 L547.12,454.596 z" fill="#FFFFFF"/>
+            <path d="M547.12,429.787 L643.946,429.787 L643.946,454.596 L547.12,454.596 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 437.816)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 446.816)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,458.898 L643.946,458.898 L643.946,483.707 L547.12,483.707 z" fill="#FFFFFF"/>
+            <path d="M547.12,458.898 L643.946,458.898 L643.946,483.707 L547.12,483.707 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 466.926)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 475.926)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,488.009 L643.946,488.009 L643.946,512.818 L547.12,512.818 z" fill="#FFFFFF"/>
+            <path d="M547.12,488.009 L643.946,488.009 L643.946,512.818 L547.12,512.818 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 496.038)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 505.038)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M547.12,517.12 L643.946,517.12 L643.946,541.929 L547.12,541.929 z" fill="#FFFFFF"/>
+            <path d="M547.12,517.12 L643.946,517.12 L643.946,541.929 L547.12,541.929 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          </g>
+          <g>
+            <text transform="matrix(1, 0, 0, 1, 585.602, 525.149)">
+              <tspan x="-32.14" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">48-volt LFP battery </tspan>
+            </text>
+            <text transform="matrix(1, 0, 0, 1, 596.543, 534.149)">
+              <tspan x="-43.081" y="2" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">with BMS and disconnect</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <path d="M536.095,329.486 L547.217,329.499" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.44,329.196 L536.288,351.054" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.592,350.599 L547.673,350.599" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M547.01,347.133 L540.387,347.259" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.573,347.278 L540.69,333.598" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.538,333.446 L546.914,333.598" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M535.618,358.803 L546.741,358.816" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M535.963,358.512 L535.811,380.371" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.115,379.916 L547.196,379.916" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M546.533,376.45 L539.91,376.576" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.096,376.595 L540.213,362.915" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.062,362.763 L546.437,362.915" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M535.54,387.655 L546.662,387.668" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M535.885,387.365 L535.733,409.223" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.037,408.768 L547.118,408.768" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M546.455,405.302 L539.832,405.428" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.018,405.447 L540.135,391.767" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M539.983,391.615 L546.359,391.767" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M536.675,417.463 L547.798,417.476" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M537.02,417.173 L536.868,439.031" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M537.172,438.576 L548.253,438.576" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M547.59,435.11 L540.967,435.236" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M541.153,435.255 L541.27,421.575" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M541.119,421.423 L547.494,421.575" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M536.597,446.315 L547.719,446.328" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.942,446.025 L536.79,467.883" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M537.094,467.428 L548.175,467.428" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M547.512,463.962 L540.889,464.089" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M541.075,464.108 L541.192,450.427" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M541.04,450.275 L547.416,450.427" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M536.12,475.631 L547.243,475.644" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.465,475.341 L536.313,497.199" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.617,496.744 L547.698,496.744" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M547.035,493.278 L540.412,493.405" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.598,493.424 L540.715,479.743" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.564,479.591 L546.939,479.743" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <g>
+          <path d="M536.042,504.483 L547.164,504.496" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.387,504.193 L536.235,526.052" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M536.539,525.596 L547.62,525.596" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+          <path d="M546.957,522.13 L540.334,522.257" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.52,522.276 L540.637,508.595" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+          <path d="M540.485,508.443 L546.861,508.595" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        </g>
+        <path d="M535.823,534.738 L546.945,534.751" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M537.056,539.097 L546.642,538.85" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+        <path d="M536.317,535.305 L536.449,539.4" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      </g>
+      <path d="M535.356,253.721 L535.37,321.406" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M535.674,320.951 L546.755,320.951" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M546.092,317.485 L539.469,317.611" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M539.655,317.63 L539.451,254.611" fill-opacity="0" stroke="#C40000" stroke-width="1"/>
+      <path d="M528.586,298.361 L652.383,298.361 L652.383,550.356 L528.586,550.356 z" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="6,5"/>
+    </g>
+    <path d="M865.487,194.442 L868.781,194.442 z" fill="#000000"/>
+    <path d="M875.37,194.991 L878.665,194.991 z" fill="#000000"/>
+    <path d="M884.156,196.089 L887.451,196.089 z" fill="#000000"/>
+    <g>
+      <path d="M920.935,354.96 L920.935,341.122" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      <path d="M917.935,354.96 L920.935,362.96 L923.935,354.96 M920.935,354.96 L920.935,362.96" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M870.794,201.65 L871.214,507.874" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M865.053,211 L865.053,513.542" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M883.752,203.393 L884.274,463.271" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M877.394,210.364 L878.113,467.108" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M896.628,201.65 L897.088,426.061" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M890.834,212.107 L891.174,430.99" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <path d="M909.172,202.231 L909.409,381.212" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    <path d="M902.315,210.945 L902.509,386.387" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+    <g>
+      <g>
+        <path d="M83.26,211.523 L83.335,222.649" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M83.864,236.132 L84.05,260.129" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M88.878,236.932 C88.769,236.932 96.545,230.851 88.128,223.202" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M83.7,226.473 C82.529,226.473 81.58,225.524 81.58,224.353 C81.58,223.183 82.529,222.234 83.7,222.234 C84.87,222.234 85.819,223.183 85.819,224.353 C85.819,225.524 84.87,226.473 83.7,226.473 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M83.938,237.03 C82.768,237.03 81.819,236.081 81.819,234.91 C81.819,233.739 82.768,232.79 83.938,232.79 C85.109,232.79 86.058,233.739 86.058,234.91 C86.058,236.081 85.109,237.03 83.938,237.03 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M96.943,275.912 L96.943,271.073" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M93.943,275.912 L96.943,283.912 L99.943,275.912 M96.943,275.912 L96.943,283.912" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M99.943,271.073 L96.943,263.073 L93.943,271.073 M96.943,271.073 L96.943,263.073" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M98.142,236.689 L98.5,253.5" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M103.156,237.488 C103.047,237.488 110.823,231.408 102.406,223.759" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M98.216,237.586 C97.046,237.586 96.097,236.637 96.097,235.467 C96.097,234.296 97.046,233.347 98.216,233.347 C99.387,233.347 100.336,234.296 100.336,235.467 C100.336,236.637 99.387,237.586 98.216,237.586 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M98.308,202.886 L98.168,223.333" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M97.977,227.03 C96.806,227.03 95.857,226.081 95.857,224.91 C95.857,223.739 96.806,222.79 97.977,222.79 C99.147,222.79 100.096,223.739 100.096,224.91 C100.096,226.081 99.147,227.03 97.977,227.03 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M88.5,254.1 L99.1,253.9" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    </g>
+    <g>
+      <g>
+        <path d="M233.466,210.459 L233.541,221.584" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M234.07,235.068 L234.255,259.065" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M239.084,235.867 C238.974,235.867 246.751,229.786 238.334,222.138" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M233.906,225.408 C232.735,225.408 231.786,224.459 231.786,223.289 C231.786,222.118 232.735,221.169 233.906,221.169 C235.076,221.169 236.025,222.118 236.025,223.289 C236.025,224.459 235.076,225.408 233.906,225.408 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M234.144,235.965 C232.973,235.965 232.024,235.016 232.024,233.845 C232.024,232.675 232.973,231.726 234.144,231.726 C235.315,231.726 236.264,232.675 236.264,233.845 C236.264,235.016 235.315,235.965 234.144,235.965 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M247.149,274.847 L247.149,270.009" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M244.149,274.847 L247.149,282.847 L250.149,274.847 M247.149,274.847 L247.149,282.847" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M250.149,270.009 L247.149,262.009 L244.149,270.009 M247.149,270.009 L247.149,262.009" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M248.348,235.625 L248.706,252.435" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M253.362,236.424 C253.253,236.424 261.029,230.343 252.612,222.694" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M248.422,236.522 C247.251,236.522 246.302,235.573 246.302,234.402 C246.302,233.232 247.251,232.283 248.422,232.283 C249.593,232.283 250.542,233.232 250.542,234.402 C250.542,235.573 249.593,236.522 248.422,236.522 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M248.514,201.821 L248.374,222.269" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M248.182,225.965 C247.012,225.965 246.063,225.016 246.063,223.846 C246.063,222.675 247.012,221.726 248.182,221.726 C249.353,221.726 250.302,222.675 250.302,223.846 C250.302,225.016 249.353,225.965 248.182,225.965 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M238.706,253.035 L249.306,252.835" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    </g>
+    <g>
+      <g>
+        <path d="M384.777,211.627 L384.852,222.753" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M385.381,236.236 L385.566,260.233" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M390.395,237.035 C390.285,237.035 398.062,230.955 389.645,223.306" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M385.216,226.577 C384.046,226.577 383.097,225.628 383.097,224.457 C383.097,223.287 384.046,222.338 385.216,222.338 C386.387,222.338 387.336,223.287 387.336,224.457 C387.336,225.628 386.387,226.577 385.216,226.577 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M385.455,237.133 C384.284,237.133 383.335,236.184 383.335,235.014 C383.335,233.843 384.284,232.894 385.455,232.894 C386.625,232.894 387.574,233.843 387.574,235.014 C387.574,236.184 386.625,237.133 385.455,237.133 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M398.46,276.016 L398.46,271.177" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M395.46,276.016 L398.46,284.016 L401.46,276.016 M398.46,276.016 L398.46,284.016" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M401.46,271.177 L398.46,263.177 L395.46,271.177 M398.46,271.177 L398.46,263.177" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M399.659,236.793 L400.017,253.604" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M404.673,237.592 C404.563,237.592 412.34,231.511 403.923,223.863" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M399.733,237.69 C398.562,237.69 397.613,236.741 397.613,235.571 C397.613,234.4 398.562,233.451 399.733,233.451 C400.903,233.451 401.852,234.4 401.852,235.571 C401.852,236.741 400.903,237.69 399.733,237.69 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M399.825,202.989 L399.684,223.437" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M399.493,227.134 C398.323,227.134 397.374,226.185 397.374,225.014 C397.374,223.843 398.323,222.894 399.493,222.894 C400.664,222.894 401.613,223.843 401.613,225.014 C401.613,226.185 400.664,227.134 399.493,227.134 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M390.017,254.204 L400.617,254.004" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    </g>
+    <g>
+      <g>
+        <path d="M534.335,212.795 L534.41,223.921" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M534.939,237.405 L535.124,261.401" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M539.953,238.204 C539.843,238.204 547.62,232.123 539.203,224.474" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M534.774,227.745 C533.604,227.745 532.655,226.796 532.655,225.626 C532.655,224.455 533.604,223.506 534.774,223.506 C535.945,223.506 536.894,224.455 536.894,225.626 C536.894,226.796 535.945,227.745 534.774,227.745 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+        <path d="M535.013,238.302 C533.842,238.302 532.893,237.353 532.893,236.182 C532.893,235.012 533.842,234.063 535.013,234.063 C536.184,234.063 537.133,235.012 537.133,236.182 C537.133,237.353 536.184,238.302 535.013,238.302 z" fill-opacity="0" stroke="#2B2B2B" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M548.018,277.184 L548.018,272.346" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M545.018,277.184 L548.018,285.184 L551.018,277.184 M548.018,277.184 L548.018,285.184" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+        <path d="M551.018,272.346 L548.018,264.346 L545.018,272.346 M548.018,272.346 L548.018,264.346" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <path d="M549.217,237.961 L549.575,254.772" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M554.231,238.761 C554.122,238.761 561.898,232.68 553.481,225.031" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M549.291,238.859 C548.12,238.859 547.171,237.91 547.171,236.739 C547.171,235.568 548.12,234.619 549.291,234.619 C550.462,234.619 551.411,235.568 551.411,236.739 C551.411,237.91 550.462,238.859 549.291,238.859 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M549.383,204.158 L549.243,224.605" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M549.052,228.302 C547.881,228.302 546.932,227.353 546.932,226.182 C546.932,225.012 547.881,224.063 549.052,224.063 C550.222,224.063 551.171,225.012 551.171,226.182 C551.171,227.353 550.222,228.302 549.052,228.302 z" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+      <path d="M539.575,255.372 L550.175,255.172" fill-opacity="0" stroke="#EE0000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M928.315,368.38 L1018.36,368.38 L1018.36,398.589 L928.315,398.589 z" fill-opacity="0" stroke="#383838" stroke-width="1"/>
+      <text transform="matrix(1, 0, 0, 1, 972.881, 382.551)">
+        <tspan x="-40.918" y="-2.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">7kW 380 VDC </tspan>
+        <tspan x="-40.918" y="6.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Inverter to 120/240 60HZ</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M928.315,410.947 L1018.36,410.947 L1018.36,441.156 L928.315,441.156 z" fill-opacity="0" stroke="#383838" stroke-width="1"/>
+      <text transform="matrix(1, 0, 0, 1, 972.881, 425.118)">
+        <tspan x="-40.918" y="-2.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">7kW 380 VDC </tspan>
+        <tspan x="-40.918" y="6.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Inverter to 120/240 60HZ</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M928.315,453.515 L1018.36,453.515 L1018.36,483.724 L928.315,483.724 z" fill-opacity="0" stroke="#383838" stroke-width="1"/>
+      <text transform="matrix(1, 0, 0, 1, 972.881, 467.686)">
+        <tspan x="-40.918" y="-2.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">7kW 380 VDC </tspan>
+        <tspan x="-40.918" y="6.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Inverter to 120/240 60HZ</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M928.315,496.082 L1018.36,496.082 L1018.36,526.291 L928.315,526.291 z" fill-opacity="0" stroke="#383838" stroke-width="1"/>
+      <text transform="matrix(1, 0, 0, 1, 972.881, 510.253)">
+        <tspan x="-40.918" y="-2.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">7kW 380 VDC </tspan>
+        <tspan x="-40.918" y="6.5" font-family="HelveticaNeue-Bold" font-size="7" fill="#000000">Inverter to 120/240 60HZ</tspan>
+      </text>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M1043.012,784.223 L1043.012,844.215 L883.539,844.215 L883.539,784.223 L1043.012,784.223 z"/>
+    </clipPath>
+  </defs>
+</svg>

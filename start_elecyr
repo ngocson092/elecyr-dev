@@ -1,0 +1,8 @@
+#!/bin/bash
+   
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 8080 
+# Invoke the Forever module (to START our Node.js server).
+# export MONGOHQ_URL='mongodb://elecyr:awsZ%598@dharma.mongohq.com:10096/ElecyrOrders'
+export NODE_ENV=development
+./node_modules/forever/bin/forever start -al forever.log -ao out.log -ae err.log ./app.js
+

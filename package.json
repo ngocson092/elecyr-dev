@@ -1,0 +1,38 @@
+{
+    "name": "elecyr-site",
+    "version": "0.0.2",
+    "author": "Bill Southworth <bill.southworth@elecyr.com>",
+    "description": "©2012 Elecyr Corporation",
+    "scripts": {
+        "start": "node app"
+    },
+    "keywords": [
+        "renewable energy",
+        "off-grid",
+        "energy storage",
+        "passive house",
+        "passivhaus",
+        "battery management",
+        "LiFePO4"
+    ],
+    "dependencies": {
+        "express": ">=1.2.0",
+        "express-validator": "0.4.1",
+        "jade": "0.27.7",
+        "markdown": ">=0.4.0",
+        "commander": ">=0.6.1",
+        "websocket": ">=1.0.8",
+        "stripe": ">=1.3.0",
+        "connect-flash":">=0.1.1",
+        "emailjs":">=0.3.4",
+        "moment":">=2.0.0",
+        "mongodb":">=1.3.10",
+        "mongoose":">=3.6.11",
+        "node-inspector":">=0.2.0beta4",
+        "underscore":">=1.4.4",
+        "forever":">=0.11.1"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}

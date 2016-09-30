@@ -1,0 +1,68 @@
+extends layouts/layout
+
+block content
+
+  #content-wrapper
+    #battery_page.parallax
+      .battery_page
+        h1 Energy storage to stay powered when the sun doesn’t shine.
+
+  section#battery_pack
+    .container
+      .row
+        // Banner Description
+        .col-md-6.titlebar.broken_grid_content
+          h2 Megawatt-Hours of Hot-Swap Energy Storage
+          p Elecyr 1.92 kilowatt-hour LFP battery modules are 3U EIA rack-mountable, 48-volt (optional 24 volt) batteries weighing 27kg. Each battery includes Elecyr battery management and is connected to other batteries in series for 380-volt packs. Each 380-volt rack of eight batteries provides a nominal 15kWH of power. 24-volt racks may be series-connected together for a 16-unit 30kWH battery at 380 volts.
+
+          p Modules are interconnected using a 14-pin Elecyr smart cable which carries power and all control signals. There's no way to accidentally plug in the wrong way and cause a short. Arcing is prevented when you insert a connector and before you fully disconnect.
+
+          p A battery module can be hot-swapped from the bank at any time without powering down the system. 380-volt systems larger than 15kWH are fault tolerant. Removing a cell, battery module or a battery bank has no effect on any of the other batteries in the microgrid.
+
+          p Each 380 volt 15kWH pack has a Digital Microgrid connection to an Elecyr Power Turtle for expansion to assemble a battery bank of up to 240kWH within a single island. Islands are connected together via Digital Microgrid bridges to share power.
+          // Banner Image
+        #battery_pack_image.col-md-6.text-center
+              img.img-responsive(src='/images/batteries/rack_render.jpg', alt='row_of_packs')
+
+  section#batterymanagementchart
+        #batterymanagementchart_image.col-md-12.text-center
+          img.img-responsive(src='/images/batteries/bms_chart.jpg')
+
+  section#batterymanagement
+    .container
+      .row
+        .col-md-12.titlebar
+      .row
+        .col-md-6.titlebar.batterymanagement_content
+          h2 The Best Battery Management. Period.
+          p Elecyr Battery Management has been rated best of category for lithium battery management. The BMS electronics maintain a historical profile of each cell for heuristic balancing. This solves many of the problems of other BMS systems of mismatched cells, cell replacement and early detection of battery problems.
+          p Unlike other BMS systems, Elecyr doesn't require that you pre-balance your cells or even that cells come from the same manufacturer. Each cell is treated individually and a history is maintained of its pattern of charging and discharging. Balancing is tailored to match the cell. Elecyr BMS systems are designed to handle large cells, up to 2000AHr, and to be able to handle a much greater range of imbalance among cells.  They offer three balancing approaches (1) balance down to the lowest cell (particularly important when you are using a "dumb" charger that does not control current, (2) balance up to the highest cell while controlling the charger for constant current output, and (3) continuous depth-of-discharge management where the cell processor uses variable PWM dissipation to alter the dissipation and charging profile of the cell.
+          p Cells are grouped in 48 VDC modules to comply with ISO/ANSI TC-188 N_1055, ABYC, and USCG Title 46 CFR electrical safety codes. All high voltage cables are shielded and monitored for ground faults. Eight modules form a 380 volt pack.  Each module has tamper-sensing circuitry to sense potential safety issues, and is able to disconnect the pack instantly for servicing and in case there's a ground fault.
+          p Battery cells are low voltage devices.  Whether lithium or lead-acid, they typically operate at around two to three volts. Lithium is usually sold by the 3-volt cell. Lead-acid is mostly sold as 12-volt batteries with six cells inside each battery.  To achieve high capacity, cells are connected in series which increases the battery voltage to hundreds of volts. A 100kW motor application needs hundreds of cells connected in a single 380 volt battery.
+
+        .col-md-6.titlebar.batterymanagement_content
+        .col-md-6.titlebar.batterymanagement_content
+
+          p When all of the batteries in the series are not at the same exact voltage, the highest and lowest cells are stressed to a point that can damage them.</b> This can lead to a chain reaction where more and more cells fail. Because modern batteries are capable of producing very large amounts of current instantly, this imbalance of the cells is potentially a very dangerous and costly situation. And it can happen with any high voltage bank whether it's lead-acid golf cart batteries or high tech lithium. This is what has lead to fires in electric car factories and the grounding of the Boeing 787.
+          p Cell balancing eliminate mismatches of cells in series, improving battery efficiency and increasing the overall pack capacity.</b> As the number of cells and load currents increase, the potential for mismatch also increases. There are two kinds of mismatch in the pack: state of charge (SOC) and capacity/energy (C/E) mismatch. Both kinds of mismatch limit the battery capacity and can be dangerous in large packs.
+          p The battery is balanced when all the cells in the battery packs meet two conditions: with new matched cells the open circuit voltage is a good indicator of balance.  Once the cells are charged to the same voltage individually, they will tend to stay in balance when charged and discharged together in a pack.  However, as soon as a single old or damaged cell is replaced, or if the initial cells are from different manufacturing batches, then you can have C/E mismatch.  In this case state of charge can be different for each cell. To keep the cells with different capacities at the same state of charge, cell balancing must modify the apparent characteristics of the cell.  Unless you are willing to replace all your cells when any individual cell fails, your BMS needs to <i>learn the SOC characteristics of each cell and individually tailor the charging and discharging</i>.
+
+
+  section#batterychemistry
+   .container
+      .row
+        .col-md-6.titlebar.batterymanagement_content
+          h2 Battery Chemistry Choices
+          p A few years ago there were only lead-acid batteries.  They’re ok for backup but don’t work well for daily deep discharge.  In the past decade all sorts of new batteries have come to the forefront.  The safest, most economical batteries for renewable energy storage are LFP batteries which are doubling in power density every decade.   However, like all batteries in a large energy storage application, LFPs need continuous balancing, and that’s an Elecyr specialty.
+
+          p Elecyr battery management supports any rechargeable battery chemistry. However, different types of batteries have very different tradeoffs.  LiFePO4 (Lithium Iron Phosphate) is the most expensive initially but provides several advantages that quickly make it the most cost effective technology in a real world application.  Lead acid batteries vary widely depending on the battery composition.  The best lead-acid batteries for mobile power are Thin Plate Pure Lead (TPPL) Applied Gas Mat (AGM) batteries such as those produced by EnerSys (Odyssey).  For an equal number of rated amp-hours they are less expensive than lithium and far more cost effective than all other (less expensive) lead acid batteries.
+
+          p LiFePO4 batteries can be deep discharged to 20% SOC for 3000 or more times while the AGM batteries will only survive about 700 cycles at 50% discharge and less than 300 cycles when discharged 80%.
+
+        #battery_pack_image.col-md-6.text-center
+          img.img-responsive(src='/images/thumbs/batterychart2.png')
+
+        .col-md-6.titlebar.batterymanagement_content
+
+        .col-md-6.titlebar.batterymanagement_content
+          p In high discharge application such as off-grid power, the so called Peukert effect becomes a significant degradation for lead-acid batteries.  Basically, the capacity of a lead-acid cell and particularly a flooded cell is drastically diminished if you discharge rapidly; and (4) Per rated amp-hour, LiFePO4 batteries are one-third the weight.  However, because the advantages above, the effective weight saving is significantly better.  Taken all together, this price equation is reversed and LiFePO4 is far more cost effective in a real world mobile power station.
