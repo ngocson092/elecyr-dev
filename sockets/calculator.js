@@ -252,7 +252,7 @@ Calculator.calc_kw = function( knots, lwl, disp ) {
   return Math.round( 10 * shp * 0.74567 ) / 10;
 };
 
-Calculator.rowFunctions = [
+Calculato = [
   Calculator.calc_hp
 , Calculator.calc_kw
 ];
