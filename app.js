@@ -16,8 +16,8 @@ var express = require('express'),
     expressValidator = require('express-validator'),
     options = require( 'commander' ),    jade = require('jade'),
     WebSocketServer = require('websocket').server,
-    WebSocketRouter = require('websocket').router;
-
+    WebSocketRouter = require('websocket').router,
+    favicon = require('serve-favicon');
 // Handle options with Commander
 
 options.version( '0.0.1' )
@@ -41,7 +41,7 @@ app.set( 'view options', { layout: false });
 if( options.verbose ) app.use( express.logger( 'dev' ) );
 app.use( expressValidator );
 app.use(express.static(__dirname + '/public'));
-
+app.use(favicon(__dirname + '/public/images/icons/favicon.ico'));
 // Routes
 
 app.get('/', routes.index);
@@ -57,8 +57,10 @@ app.get('/robots', function(req,res){
 
 // JSON API
 
+app.get('/oauth', api.oauth);
+app.get('/oauth_callback', api.oauth_callback);
 app.get('/api/posts', api.posts);
-app.get('/api/post/:id', api.post);
+app.get('/api/post/:id', api.getPost);
 app.post('/api/post', api.addPost);
 app.put('/api/post/:id', api.editPost);
 app.delete('/api/post/:id', api.deletePost);
