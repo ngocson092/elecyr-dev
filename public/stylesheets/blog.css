@@ -1,0 +1,587 @@
+/****************
+
+	Index
+
+	A) All Screen Size
+		A.1) Main Content
+		A.2) Sidebar
+		A.3) Horizontal Navigation Menu
+
+	B) Fullscreen Only
+		B.1) Main Content
+		B.2) Sidebar
+		B.3) Horizontal Navigation Menu
+	C) Mobile and Tablet Only
+		C.1) Main Content
+		C.2) Sidebar
+		C.3) Horizontal Navigation Menu
+	D) Mobile Only
+*****************/
+
+
+/******************
+
+A) All screen sizes
+
+******************/
+/*******************
+
+A.2) Main Content
+
+*****************/
+
+.removePad{
+    padding-left:0;
+    padding-right:0;
+}
+.blogPost > div{
+    padding:.5em;
+}
+.postWrap{
+    position:relative;
+    background-color:white;
+    -webkit-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    -moz-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    padding:1em;
+    min-height:37em;
+    max-height:37em;
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+}
+.fullPostWrap{
+    position:relative;
+    background-color:white;
+    -webkit-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    -moz-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    padding:1em;
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+}
+
+.headBody{
+    position:relative;
+    height:90%;
+    overflow-y:hidden;
+}
+.postHeader h4{
+    margin-bottom:1.5em;
+}
+.post-metadata{
+    border-bottom:1px solid gray;
+    position:relative;
+    min-height:1.5em;
+}
+
+.post-metadata p {
+    margin: .1em 0 0 0;
+}
+.headlineSnippet img{
+    display:none;
+}
+.headlineSnippet h2, h3{
+    font-size:100%;
+}
+
+#blogFooter{
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    z-index:9999; background-color:white;
+}
+
+#blogFooter .sourceURL{
+    padding-top:.5em;
+    margin-left:1em;
+    margin-right:1em;
+    border-top:1px solid gray;
+}
+.sourceURL > p{
+    font-size: 9px;
+    word-wrap: break-word
+}
+.onTop{
+    z-index:201;
+}
+/*******************
+
+A.2) Sidebar
+
+*****************/
+#rssImg{
+
+    height:auto;
+    width: 130%;
+}
+.sidebar{
+    border:1px solid #d3d3d3;
+    position:relative;
+    background-color:white;
+    -webkit-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    -moz-box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    box-shadow: -52px -23px 33px -64px rgba(36,20,36,1);
+    overflow:hidden;
+    padding:1em;
+}
+/* Sidebar Widgets */
+.widget {
+    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+    background: #ffffff;
+    padding: 0;
+    border-bottom: solid #d7d7d7;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+}
+.widget ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.widget ul > li {
+    padding: 7px 0;
+    margin: 0;
+    border-bottom: solid #d7d7d7;
+    border-bottom-width: 1px;
+    border-bottom-width: 0.0625rem;
+}
+.widget ul > li:last-child {
+    border: 0;
+}
+.widget-content {
+    margin: 0;
+    padding: 0 15px 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+    color: #636363;
+    font1-family: 'EB Garamond', Georgia, Times, serif;
+    line-height: 1.4;
+    font1-weight: normal;
+}
+/****************
+
+A.3) Horizontal Navigation Menu
+
+****************/
+#myDropBtn p{
+    color:white;
+    display:inline;
+}
+#carousel_inner {
+    float:left; /* important for inline positioning */
+    width:96vw; /* important (this width = width of list item(including margin) * items shown */
+    overflow: hidden;  /* important (hide the items outside the div) */
+    /* non-important styling bellow */
+    left:2vw;
+    position:fixed;
+    top:0;
+    z-index:1028;
+}
+.carousel_div {
+    position:relative;
+    left:-15.6em; /* important (this should be negative number of list items width(including margin) */
+    list-style-type: none; /* removing the default styling for unordered list items */
+    margin: 0px;
+    padding: 0px;
+    width:9999px; /* important */
+    /* non-important styling bellow */
+    padding-bottom:10px;
+}
+.carousel_static {
+    left:0;
+    position:relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    list-style-type: none; /* removing the default styling for unordered list items */
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    text-align:center;
+    /* non-important styling bellow */
+    padding-bottom:10px;
+}
+#carousel_div .catWrap{
+    float: left; /* important for inline positioning of the list items */
+    width:12em;  /* fixed width, important */
+    /* just styling bellow*/
+    padding:0px;
+    height:2em;
+    background: rgba(128, 189, 1, .6);
+    margin:.2em .1em 0 .1em;
+}
+
+#carousel_div .catWrap .catTitle{
+    width:70%;
+    height:100%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align:center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+#carousel_div .catWrap .catTitle div{
+    display:table-cell;
+    vertical-align:middle;
+    text-shadow:0px 2px 3px #555;
+}
+#carousel_div .catWrap div {
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+    /* styling */
+    cursor:pointer;
+    cursor: hand;
+    border:0px;
+}
+#carousel_div a{
+    color:white;
+}
+.catTitle .bigText > div{
+    line-height:.5em;
+}
+
+#left_scroll, #right_scroll{
+    width:2vw;
+    z-index:1029;
+    background-color:#E4E4E4;
+    position:fixed;
+    top:0;
+    text-align:center;
+}
+.arrowContainer{
+    height:2em;
+    margin:.3em;
+}
+#left_scroll{
+    left:0;
+}
+#right_scroll{
+    right:0;
+}
+#left_scroll i, #right_scroll i{
+    /*styling*/
+    margin-top:50%;
+    cursor: pointer;
+    cursor: hand;
+}
+/******************************************/
+
+/************************
+
+B) Fullscreen
+
+****************************/
+
+@media (min-width:767px) {
+    /**********************************************
+
+    B.1) Fullscreen Main Content
+
+    /***********************************************/
+    #mainBlogPage{
+        margin-top:11vh;
+    }
+
+
+    br{
+        display:none;
+    }
+    .blogHeader h2{
+        margin-bottom:1em;
+        color:#7A7C7A;
+    }
+
+    .blogPost > div{
+        min-height:41em;
+        max-height:41em;
+    }
+
+
+    .post-metadata {
+        color:#7a7c7a;
+        border-bottom:1px solid gray;
+        width:100%;
+
+    }
+    .post-metadata:after {
+        visibility: hidden;
+        display: block;
+        font1-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    .post-metadata:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .post-metadata p {
+        margin: .1em 0 0 0;
+    }
+    .post-metadata .left,
+    .post-metadata .right {
+        display: inline-block;
+        width: 48%;
+
+    }
+    .right{
+        position: absolute;
+        bottom:0;
+    }
+    .post-metadata .left {
+        float: left;
+        text-align: left;
+    }
+    .post-metadata .right {
+        float: right;
+        text-align: right;
+    }
+
+    .blogImage{
+        object-fit:contain;
+        float:left;
+        padding:0 1em .5em 0;
+    }
+    .blogImage img{
+        height:10.5em;
+        width:10.5em;
+    }
+
+
+
+    /******************
+
+    B.2) Fullscreen sidebar
+
+    ****************/
+
+    widget-content a {
+        text-decoration:underline;
+    }
+
+    .sidebar li{
+        font-family:sans-serif;
+        font-size:12px;
+    }
+    .sidebar h4{
+        text-align:center;
+        padding-top:1em;
+    }
+    .svgContainer{
+        position: relative;
+        width: 50%;
+        height: 0;
+        padding-top:3%;
+        padding-bottom: 3%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /**svg Element **/
+    #sideNav{
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        position: absolute;
+        top:0;
+        left:0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+    /*******************
+
+    B.3) Fullscreen only Horizontal Navigation Menu
+
+    ********************/
+    #carousel_inner {
+        margin-top:11vh;
+    }
+    #left_scroll, #right_scroll{
+        background:transparent;
+        margin-top:9.75vh;
+        font-size:x-large;
+        color:#6b7071;
+    }
+
+    /******* end of fullscreen style **************/
+}
+/*************
+
+C) Mobile
+
+*************/
+
+@media only screen and (max-width: 766px) and (min-width: 481px){
+
+    /****************
+
+    C.1) Mobile Main Content
+
+    ******************/
+    #mainBlogPage{
+        margin-top:7em;
+    }
+    .blogPost > div{
+        margin:0;
+    }
+    .postWrap{
+        width:100%;
+        margin:0;
+        padding:1em;
+    }
+    .postHeader{
+        position:relative;
+    }
+    .postHeader h2{
+        font-size:1.5em;
+    }
+    .blogImage{
+        object-fit:contain;
+        float:left;
+        padding:0 1em .5em 0;
+    }
+    .blogImage img{
+        height:10.5em;
+        width:10.5em;
+    }
+
+    .left p, .right p{
+        margin-left:0;
+        margin-right:0;
+    }
+    .sourceURL > p{
+        font-size: 9px;
+        word-wrap: break-word
+    }
+    #blogFooter li{
+        width:25%;
+        height:auto;
+    }
+
+    /*******************
+
+    C.2) Mobile sidenav
+
+    *****************/
+    .sidebar{
+        display:none;
+    }
+    /****************
+
+    C.3) Mobile Horizontal Navigation Menu
+
+    ****************/
+    #carousel_container{
+        display:show;
+    }
+    #blogDropMenu{
+        display:none;
+    }
+
+
+    #carousel_inner {
+        margin-top:5em;
+    }
+    #left_scroll, #right_scroll{
+        margin-top:5em;
+    }
+
+    /********* end mobile style ***************/
+}
+
+/****************
+
+    Mobile Only
+
+******************/
+
+@media only screen and (max-width: 480px){
+
+    /**************
+
+        Main Menu
+
+
+    ******************/
+    #mainBlogPage{
+        margin-top:7em;
+    }
+
+    .sidebar{
+        display:none;
+    }
+    .postWrap{
+        padding:1em;
+        min-height: 0;
+    }
+
+    .blogImage{
+        width:100%;
+        height:auto;
+        margin:0;
+        padding: 0 1em 1em 1em;
+    }
+    .blogImage img{
+        width:100%;
+        height:auto;
+        border:.2em solid #c7a7c7;
+    }
+    .sourceURL > p{
+        font-size: 9px;
+        word-wrap: break-word
+    }
+
+    /**************
+
+        Horizontal Navigation bar
+
+
+    ******************/
+    #carousel_container{
+        display:none;
+    }
+    #blogDropMenu{
+        display:show;
+        margin-top:5em;
+        position:fixed;
+        top:0;
+        width:100vw;
+        z-index:1028;
+    }
+    #blogDropMenuInner{
+        margin:.3em;
+        text-align:center;
+    }
+    #blogDropMenuInner  ul{
+        width:60%;
+        background-color: rgba(128, 189, 1, .6);
+        color:#ADD160;
+    }
+    #blogDropMenuInner  ul li a{
+        color:white;
+    }
+    #myDropBtn{
+        width:100%;
+        margin:0;
+        color:#5A843B;
+        background-color:#ADD160;
+        text-align:left;
+    }
+
+
+}

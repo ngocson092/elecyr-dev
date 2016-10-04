@@ -1,0 +1,75 @@
+extends ../layouts/layout
+
+block scripts
+    script(src='/libs/jquery/jquery-2.1.0.min.js')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+    script(src = '/javascripts/action.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-route.js')
+    script(src='/javascripts/controller.js')
+    script(src='/javascripts/angular-seo.js')
+
+block stylesheet
+    link(rel='stylesheet', href='/stylesheets/blog.css')
+
+block header_bottom
+    #carousel_container
+        #left_scroll
+            .arrowContainer
+                i.glyphicon.glyphicon-chevron-left
+        #carousel_inner
+            #carousel_div.carousel_div
+                a.anchorTitle(ng-click='callCategory()', ng-href='/solar-blog/')
+                    .catWrap
+                        .catTitle
+                            div
+                                | Latest
+
+                - for (var i = 0; i < tags.length; ++i) {
+                a.anchorTitle= tags[i]
+                - }
+
+        #right_scroll
+            .arrowContainer
+                i.glyphicon.glyphicon-chevron-right
+    // Mobile Menu
+block scripts
+
+block content
+    .container-fluid(style='background-color:#e4e4e4;')
+        #mainBlogPage
+            .row
+                .col-sm-12.onTop
+                    //
+                      {% if is_tag %}
+                      <h4 class="tag-header">Showing all posts tagged {{ tag }}:</h4>
+                      {% endif %}
+                    .col-sm-9.col-md-10.removePad(side-height='')
+                        // Load Facebook SDK for JavaScript
+                        .site-content
+                            div(ng-view='', autoscroll='true')
+                    .col-sm-3.col-md-2(ng-style='style', style='padding:.5em 0 0 0; border-bottom:3.5em solid transparent;')
+                        .sidebar
+                            .widget.widget-latestposts
+                                div(style='width:75%; float:left;')
+                                    h4 Latest Posts
+                                div(style='width:25%; float:right;')
+                                    a(href='/rssfeed/loadFeed', target='_self')
+                                        img#rssImg(src='/images/graphics/rss.png', style='margin-bottom:10px;')
+                                .widget-content.popular-posts
+                                    ul
+                                        li(ng-repeat='b in articles', style='line-height:1.3;')
+                                            a(href='{{ b.partialType }}') {{ b.title }}
+                                            .svgContainer(style='text-align:center;')
+                                                svg#sideNav(width='200', height='30', viewbox='0 0 1000 30')
+                                                    circle(cx='100', cy='0', r='6', stroke='green', stroke-opacity='.5', stroke-width='4', fill-opacity='0', ;='')
+                                                    circle(cx='100', cy='0', r='10', stroke='green', ;='', stroke - width = '2', fill - opacity = '0')
+                                                    circle(cx='333', cy='0', r='6', stroke='green', stroke-opacity='.5', stroke-width='4', fill-opacity='0', ;='')
+                                                    circle(cx='333', cy='0', r='10', stroke='green', ;='', stroke - width = '2', fill - opacity = '0')
+                                                    circle(cx='500', cy='0', r='6', stroke='green', stroke-opacity='.5', stroke-width='4', fill-opacity='0', ;='')
+                                                    circle(cx='500', cy='0', r='10', stroke='green', ;='', stroke - width = '2', fill - opacity = '0')
+                                                    circle(cx='677', cy='0', r='6', stroke='green', stroke-opacity='.5', stroke-width='4', fill-opacity='0', ;='')
+                                                    circle(cx='677', cy='0', r='10', stroke='green', ;='', stroke - width = '2', fill - opacity = '0')
+                                                    circle(cx='900', cy='0', r='6', stroke='green', stroke-opacity='.5', stroke-width='4', fill-opacity='0', ;='')
+                                                    circle(cx='900', cy='0', r='10', stroke='green', ;='', stroke - width = '2', fill - opacity = '0')
+

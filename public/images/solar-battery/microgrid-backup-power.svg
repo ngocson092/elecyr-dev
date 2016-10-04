@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1584" height="1224" viewBox="0, 0, 1584, 1224">
+  <g id="Layer_1">
+    <path d="M1299.805,387.319 L1298.483,571.212" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <g>
+      <path d="M1323.511,390.687 L1322.189,571.212" fill="#000000"/>
+      <path d="M1323.511,390.687 L1322.189,571.212" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    </g>
+    <path d="M1144.751,385.763 L1143.429,569.656" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <g>
+      <path d="M1168.457,389.132 L1167.135,569.656" fill="#000000"/>
+      <path d="M1168.457,389.132 L1167.135,569.656" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    </g>
+    <path d="M962.257,388.5 L960.935,563.654" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <g>
+      <path d="M985.963,388.5 L984.641,563.654" fill="#000000"/>
+      <path d="M985.963,388.5 L984.641,563.654" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    </g>
+    <g>
+      <g>
+        <path d="M66.838,183.463 L218.417,183.463 L218.417,279.463 L66.838,279.463 L66.838,183.463 z" fill="#F2D300"/>
+        <path d="M66.838,183.463 L218.417,183.463 L218.417,279.463 L66.838,279.463 L66.838,183.463 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 143.965, 229.068)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">PV System #1</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">(Garage Roof)</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M253.779,183.463 L405.357,183.463 L405.357,279.463 L253.779,279.463 L253.779,183.463 z" fill="#F2D300"/>
+        <path d="M253.779,183.463 L405.357,183.463 L405.357,279.463 L253.779,279.463 L253.779,183.463 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 330.905, 229.068)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">PV System #2</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">(House Roof)</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M440.719,183.463 L592.298,183.463 L592.298,279.463 L440.719,279.463 L440.719,183.463 z" fill="#F2D300"/>
+        <path d="M440.719,183.463 L592.298,183.463 L592.298,279.463 L440.719,279.463 L440.719,183.463 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 517.846, 229.068)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">PV System #3</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">(House Roof)</tspan>
+      </text>
+    </g>
+    <path d="M140.471,139.673 L648.25,139.673" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <path d="M645.905,140.049 L645.905,380.891" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <path d="M142.627,139.673 L142.627,181.778" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <path d="M338.602,137.643 L338.602,182.486" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <path d="M515.252,138.804 L513.93,184.735" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+    <path d="M116.584,117.778 L675.156,118.762" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <path d="M672.476,117.778 L673.748,381.388" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <path d="M118.673,117.342 L118.673,181.342" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <g>
+      <g>
+        <path d="M737.625,184.318 L889.204,184.318 L889.204,280.318 L737.625,280.318 L737.625,184.318 z" fill="#E1FC92"/>
+        <path d="M737.625,184.318 L889.204,184.318 L889.204,280.318 L737.625,280.318 L737.625,184.318 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 814.752, 229.923)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Elecyr 15kWH</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Battery Stack</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M926.073,184.318 L1077.652,184.318 L1077.652,280.318 L926.073,280.318 L926.073,184.318 z" fill="#E1FC92"/>
+        <path d="M926.073,184.318 L1077.652,184.318 L1077.652,280.318 L926.073,280.318 L926.073,184.318 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1003.2, 229.923)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Elecyr 15kWH</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Battery Stack</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M1114.521,184.318 L1266.1,184.318 L1266.1,280.318 L1114.521,280.318 L1114.521,184.318 z" fill="#E1FC92"/>
+        <path d="M1114.521,184.318 L1266.1,184.318 L1266.1,280.318 L1114.521,280.318 L1114.521,184.318 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1191.648, 229.923)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Elecyr 15kWH</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Battery Stack</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M1302.969,184.318 L1454.548,184.318 L1454.548,280.318 L1302.969,280.318 L1302.969,184.318 z" fill="#E1FC92"/>
+        <path d="M1302.969,184.318 L1454.548,184.318 L1454.548,280.318 L1302.969,280.318 L1302.969,184.318 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1380.096, 229.923)">
+        <tspan x="-46.627" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Elecyr 15kWH</tspan>
+        <tspan x="-46.627" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Battery Stack</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 1084.386, 114.82)">
+      <tspan x="-313.873" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Each battery stack connected by a separate diode protected charge and discharge bus.</tspan>
+      <tspan x="-313.873" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">The internal battery management system disconnects disharging it the batteries are too </tspan>
+      <tspan x="-313.873" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">low and disconnects charging when any battery has been charged to capacity</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 355.514, 321.588)">
+      <tspan x="-202.671" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">PV panels are connected in parallel through EIQ VBoost</tspan>
+      <tspan x="-202.671" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">DC-DC converters which connect in parallel which operate as </tspan>
+      <tspan x="-202.671" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">charge controllers to the DC Bus</tspan>
+    </text>
+    <g>
+      <path d="M1099.674,511.297 L1215.446,511.297 L1215.446,660.944 L1099.674,660.944 L1099.674,511.297 z" fill="#FFEE91"/>
+      <path d="M1099.674,511.297 L1215.446,511.297 L1215.446,660.944 L1099.674,660.944 L1099.674,511.297 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 1155.825, 588.237)">
+      <tspan x="-50.127" y="-49.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">18kW Inverter</tspan>
+      <tspan x="-50.127" y="-31.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">120/240 volt</tspan>
+      <tspan x="-50.127" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">output at 60Hz</tspan>
+      <tspan x="-50.127" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">or Single </tspan>
+      <tspan x="-50.127" y="40.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Inverter to </tspan>
+      <tspan x="-50.127" y="58.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">60kW</tspan>
+    </text>
+    <g>
+      <g>
+        <path d="M121.241,761.835 L267.756,762.13 L266.439,940.114 L118.816,935.868 L121.241,761.835 z" fill="#009CF2"/>
+        <path d="M121.241,761.835 L267.756,762.13 L266.439,940.114 L118.816,935.868 L121.241,761.835 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M193.283,876.708 C170.371,876.708 151.797,858.134 151.797,835.223 C151.797,812.311 170.371,793.737 193.283,793.737 C216.194,793.737 234.768,812.311 234.768,835.223 C234.768,858.134 216.194,876.708 193.283,876.708 z" fill="#009CF2"/>
+        <path d="M193.283,876.708 C170.371,876.708 151.797,858.134 151.797,835.223 C151.797,812.311 170.371,793.737 193.283,793.737 C216.194,793.737 234.768,812.311 234.768,835.223 C234.768,858.134 216.194,876.708 193.283,876.708 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 151.687, 981.581)">
+      <tspan x="-70.322" y="-22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">200A Meter Main</tspan>
+      <tspan x="-70.322" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Underground </tspan>
+      <tspan x="-70.322" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Service (located at </tspan>
+      <tspan x="-70.322" y="31.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Garage)</tspan>
+    </text>
+    <path d="M314.569,442.008 L310.483,1049.97" fill-opacity="0" stroke="#000000" stroke-width="10"/>
+    <g>
+      <g>
+        <path d="M914.983,509.38 L1038.78,509.38 L1038.78,639.762 L914.983,639.762 L914.983,509.38 z" fill="#B8C5FF"/>
+        <path d="M914.983,509.38 L1038.78,509.38 L1038.78,639.762 L914.983,639.762 L914.983,509.38 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 983.762, 575.315)">
+        <tspan x="-49.85" y="-32.966" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">Sorensen </tspan>
+        <tspan x="-49.85" y="-14.966" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">XFR-2000 or </tspan>
+        <tspan x="-49.85" y="3.034" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">BK Precision </tspan>
+        <tspan x="-49.85" y="21.034" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">XLN600</tspan>
+        <tspan x="-49.85" y="39.034" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">charger</tspan>
+      </text>
+    </g>
+    <path d="M263.636,667.251 L568.829,667.251" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M459.148,531.048 L911.212,530.993" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <path d="M606.908,701.844 L741.241,701.844 L740.2,849.348 L606.908,846.616 L606.908,701.844 z" fill="#009CF2"/>
+      <path d="M606.908,701.844 L741.241,701.844 L740.2,849.348 L606.908,846.616 L606.908,701.844 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M567.546,666.355 L567.546,791.016" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M567.793,789.513 L603.597,789.513" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 678.007, 662.528)">
+      <tspan x="-63.511" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">200A 3 Pole</tspan>
+      <tspan x="-63.511" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Automatic Transfer </tspan>
+      <tspan x="-63.511" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Switch </tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 856.072, 806.951)">
+      <tspan x="-92.05" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Battery system is primary</tspan>
+      <tspan x="-92.05" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">power. Switch to grid when </tspan>
+      <tspan x="-92.05" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Inverter is shut off</tspan>
+    </text>
+    <path d="M550.164,904.592 L552.367,904.592 L552.367,904.592 L550.164,904.592 L550.164,904.592 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M683.38,847.312 L686.671,937.673" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M417.352,914.836 L1119.242,914.836" fill-opacity="0" stroke="#D11D00" stroke-width="8"/>
+    <path d="M1115.208,918.87 L1115.208,1043.919" fill-opacity="0" stroke="#D11D00" stroke-width="8"/>
+    <path d="M420.385,913.294 L420.385,1038.344" fill-opacity="0" stroke="#D11D00" stroke-width="8"/>
+    <g>
+      <g>
+        <path d="M628.408,939.313 L739.603,939.313 L738.741,1086.816 L628.408,1084.085 L628.408,939.313 z" fill="#009CF2"/>
+        <path d="M628.408,939.313 L739.603,939.313 L738.741,1086.816 L628.408,1084.085 L628.408,939.313 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 684.711, 1009.033)">
+        <tspan x="-49.92" y="-31.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">200 AMP</tspan>
+        <tspan x="-49.92" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">MAIN HOUSE </tspan>
+        <tspan x="-49.92" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">SERVICE </tspan>
+        <tspan x="-49.92" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">PANEL</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 686.798, 1106.836)">
+      <tspan x="-63.203" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">200A Main Breaker </tspan>
+      <tspan x="-63.203" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">House Panel</tspan>
+    </text>
+    <path d="M739.998,770.847 L1160.5,770.847" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M1162.241,661.5 L1161.5,773.5" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <path d="M126.579,568.767 L260.912,568.767 L259.871,716.27 L126.579,713.538 L126.579,568.767 z" fill="#009CF2"/>
+      <path d="M126.579,568.767 L260.912,568.767 L259.871,716.27 L126.579,713.538 L126.579,568.767 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <path d="M229.347,942.605 L229.347,1011.658" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 181.941, 1049.987)">
+      <tspan x="-44.425" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">OUTSIDE</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 372.808, 1049.987)">
+      <tspan x="-33.6" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">INSIDE</tspan>
+    </text>
+    <g>
+      <path d="M770.771,279.057 L770.771,383.472" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M798.304,279.057 L798.304,381.523" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <path d="M839.968,279.057 L839.968,383.472" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M867.5,279.057 L867.5,381.523" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <g>
+        <g>
+          <path d="M753.524,319.419 L813.925,319.528 L783.524,342.419 L753.524,319.419 z" fill="#000000"/>
+          <path d="M753.524,319.419 L813.925,319.528 L783.524,342.419 L753.524,319.419 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M752.439,344.588 L815,344.625" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+      <g>
+        <g>
+          <path d="M824.024,345.5 L884.425,345.391 L854.024,322.5 L824.024,345.5 z" fill="#000000"/>
+          <path d="M824.024,345.5 L884.425,345.391 L854.024,322.5 L824.024,345.5 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M822.938,320.331 L885.5,320.294" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+    </g>
+    <g>
+      <path d="M954.606,279.886 L954.606,384.301" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M982.139,279.886 L982.139,382.352" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <path d="M1023.803,279.886 L1023.803,384.301" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M1051.335,279.886 L1051.335,382.352" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <g>
+        <g>
+          <path d="M937.359,320.249 L997.76,320.357 L967.359,343.249 L937.359,320.249 z" fill="#000000"/>
+          <path d="M937.359,320.249 L997.76,320.357 L967.359,343.249 L937.359,320.249 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M936.274,345.418 L998.835,345.454" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+      <g>
+        <g>
+          <path d="M1007.858,346.329 L1068.259,346.22 L1037.859,323.329 L1007.858,346.329 z" fill="#000000"/>
+          <path d="M1007.858,346.329 L1068.259,346.22 L1037.859,323.329 L1007.858,346.329 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M1006.773,321.16 L1069.334,321.124" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+    </g>
+    <g>
+      <path d="M1141.806,280.34 L1141.806,384.755" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M1169.339,280.34 L1169.339,382.806" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <path d="M1211.003,280.34 L1211.003,384.755" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M1238.535,280.34 L1238.535,382.806" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <g>
+        <g>
+          <path d="M1124.559,320.703 L1184.96,320.812 L1154.559,343.703 L1124.559,320.703 z" fill="#000000"/>
+          <path d="M1124.559,320.703 L1184.96,320.812 L1154.559,343.703 L1124.559,320.703 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M1123.474,345.872 L1186.035,345.908" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+      <g>
+        <g>
+          <path d="M1195.059,346.783 L1255.46,346.674 L1225.059,323.783 L1195.059,346.783 z" fill="#000000"/>
+          <path d="M1195.059,346.783 L1255.46,346.674 L1225.059,323.783 L1195.059,346.783 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M1193.974,321.614 L1256.535,321.578" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+    </g>
+    <g>
+      <path d="M1328.552,282.704 L1328.552,387.119" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M1356.085,282.704 L1356.085,385.17" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <path d="M1397.749,282.704 L1397.749,387.119" fill-opacity="0" stroke="#D11D00" stroke-width="6"/>
+      <path d="M1425.281,282.704 L1425.281,385.17" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+      <g>
+        <g>
+          <path d="M1311.305,323.067 L1371.706,323.176 L1341.305,346.067 L1311.305,323.067 z" fill="#000000"/>
+          <path d="M1311.305,323.067 L1371.706,323.176 L1341.305,346.067 L1311.305,323.067 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M1310.22,348.236 L1372.781,348.272" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+      <g>
+        <g>
+          <path d="M1381.805,349.147 L1442.206,349.038 L1411.805,326.147 L1381.805,349.147 z" fill="#000000"/>
+          <path d="M1381.805,349.147 L1442.206,349.038 L1411.805,326.147 L1381.805,349.147 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+        </g>
+        <path d="M1380.719,323.978 L1443.281,323.942" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M614.069,380.079 L1456.68,380.079 L1456.68,432.289 L614.069,432.289 L614.069,380.079 z" fill="#FF4437"/>
+        <path d="M614.069,380.079 L1456.68,380.079 L1456.68,432.289 L614.069,432.289 L614.069,380.079 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1012.37, 406.314)">
+        <tspan x="-273.236" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">DC BUSWAY (Universal Electric)     260 to 420 VDC depending on charge source</tspan>
+      </text>
+    </g>
+    <path d="M362.445,119.126 L362.445,183.126" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <path d="M540.332,119.126 L540.332,183.126" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <text transform="matrix(1, 0, 0, 1, 405.502, 100.187)">
+      <tspan x="-217.844" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">260-420 VDC UNGROUNDED PARALLEL BUS</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 772.205, 468.5)">
+      <tspan x="-150.087" y="-18" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">TWO-POLE DC BREAKER ON</tspan>
+      <tspan x="-150.087" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">EACH BUSWAY CONNECTION</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 514.518, 952.842)">
+      <tspan x="-70.465" y="-5.5" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">BASEMENT OF</tspan>
+      <tspan x="-70.465" y="19.5" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">MAIN HOUSE</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 488.97, 837.605)">
+      <tspan x="-41.549" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#000000">GARAGE</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 194.234, 635.162)">
+      <tspan x="-43.183" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">200 AMP</tspan>
+      <tspan x="-43.183" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">MAIN </tspan>
+      <tspan x="-43.183" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">BREAKER</tspan>
+    </text>
+    <g>
+      <g>
+        <path d="M137.06,412.374 L248.255,412.374 L247.393,519.993 L137.06,518 L137.06,412.374 z" fill="#009CF2"/>
+        <path d="M137.06,412.374 L248.255,412.374 L247.393,519.993 L137.06,518 L137.06,412.374 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 195.048, 466.959)">
+        <tspan x="-43.183" y="-13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">60A Tap at </tspan>
+        <tspan x="-43.183" y="4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">load side of </tspan>
+        <tspan x="-43.183" y="22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#FFFFFF">main</tspan>
+      </text>
+    </g>
+    <path d="M248.096,476.906 L460.81,476.906" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M460.81,478.568 L459.148,531.747" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 676.925, 775.105)">
+      <tspan x="-44.867" y="-18" font-family="StoneSansITCTT-Semi" font-size="21" fill="#FFFFFF">200 AMP </tspan>
+      <tspan x="-18.701" y="7" font-family="StoneSansITCTT-Semi" font-size="21" fill="#FFFFFF">ATS</tspan>
+    </text>
+    <path d="M203.026,519.868 L203.026,565.342" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M208.079,715.237 L208.079,760.711" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M49.763,75.237 L1508.289,75.237" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M1509.974,75.237 L1508.289,730.395" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M53.132,76.921 L53.132,376.711" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M56.5,378.395 L578.605,375.026" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M580.289,375.026 L578.605,580.5" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M578.605,577.132 L875.026,577.132" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M869.974,578.816 L869.974,730.395" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M871.658,730.395 L1509.974,730.395" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M1360.079,732.079 L1360.079,812.921" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="3,2"/>
+    <text transform="matrix(1, 0, 0, 1, 1338.415, 949.557)">
+      <tspan x="-169.263" y="-140.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">There are three sources of DC power to the </tspan>
+      <tspan x="-169.263" y="-122.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">BUSWAY.  The grid-connected charger, the battery </tspan>
+      <tspan x="-169.263" y="-104.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">stacks (4) and the three EIQ DC-DC converter PV </tspan>
+      <tspan x="-169.263" y="-86.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">arrays.  The charger and all battery stacks have </tspan>
+      <tspan x="-169.263" y="-68.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Normally Open two-pole contactors connecting </tspan>
+      <tspan x="-169.263" y="-50.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">them to the bus.  The EIQ only provides power to </tspan>
+      <tspan x="-169.263" y="-32.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">the bus when there is a voltage present on the </tspan>
+      <tspan x="-169.263" y="-14.105" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">bus.  A separate DC loop is connected to power </tspan>
+      <tspan x="-169.263" y="3.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">the contactors.  When disconneted , all power to </tspan>
+      <tspan x="-169.263" y="21.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">the BUSWAY drops to zero within 10 ms. </tspan>
+      <tspan x="-169.263" y="57.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">PER NEC 2017 RECOMMENDED PRACTICE, THE </tspan>
+      <tspan x="-169.263" y="75.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">BUSWAY IS LOOSELY GROUNDED THRU TWO </tspan>
+      <tspan x="-169.263" y="93.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">SMALL RESISTORS TO A CENTER EARTH GROUND. </tspan>
+      <tspan x="-169.263" y="111.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">THE VOLTAGE ON THESE TWO RESISTORS IS </tspan>
+      <tspan x="-169.263" y="129.895" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">MEASURED TO DETERMINE A GROUND FAULT </tspan>
+    </text>
+    <path d="M1161.5,771.5 L1304.5,770.5" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="10,7"/>
+    <path d="M1305.5,770.5 L1305.5,661.5" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-dasharray="10,7"/>
+    <g>
+      <path d="M1254.729,512.853 L1370.5,512.853 L1370.5,662.5 L1254.729,662.5 L1254.729,512.853 z" fill="#FFEE91"/>
+      <path d="M1254.729,512.853 L1370.5,512.853 L1370.5,662.5 L1254.729,662.5 L1254.729,512.853 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 1321.223, 596.883)">
+      <tspan x="-50.127" y="-40.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Additional</tspan>
+      <tspan x="-50.127" y="-22.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">Inverters to </tspan>
+      <tspan x="-50.127" y="-4.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">separate</tspan>
+      <tspan x="-50.127" y="13.5" font-family="StoneSansITCTT-Semi" font-size="14" fill="#000000">panels</tspan>
+    </text>
+  </g>
+</svg>

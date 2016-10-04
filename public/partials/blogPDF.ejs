@@ -1,0 +1,28 @@
+
+<div class="container-fluid">
+	<div class="col-sm-12 removePad">	
+
+		
+		<article ng-repeat="b in articles | filter:param" class="blogPost feed-item">
+			<div class="col-sm-12" style="padding:.5em;">
+				<iframe src="http://sandbox.elecyr.com/pdfs/{{b._id}}.pdf" type="application/pdf" width="100%" height="100%">
+						
+					<p>It appears you don't have a PDF plugin for this browser.
+					No biggie... you can <a href="/pdfs/{{ b._id }}">click here to
+					download the PDF file.</a></p>
+				  
+				</iframe>
+
+			
+				<!--	<div>
+						<p class="pageContent" ng-bind-html=content(b)></p>
+					</div>  -->
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Elecyr">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<div class="post-content fullArticle" style="display:none;">												
+						<p>Paragraph placeholder</p>
+					</div>
+				</div>
+		</article>
+	</div>
+</div>

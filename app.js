@@ -11,6 +11,7 @@ var express = require('express'),
     user = require('./routes/user'),
     api = require('./routes/api'),
     contact = require('./routes/contact'),
+    blog = require('./routes/blog'),
     path = require( 'path' ),
     fs = require( 'fs' ),
     expressValidator = require('express-validator'),
@@ -68,6 +69,15 @@ app.delete('/api/post/:id', api.deletePost);
 // Contact Handler
 
 app.post('/contact', contact.post)
+
+
+
+/* Render view routes */
+
+app.get('/blog/:id',blog.getBlogSingle);
+
+
+
 
 // redirect all others to the index (HTML5 history)
 app.get('*', routes.index);

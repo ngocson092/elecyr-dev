@@ -10,7 +10,7 @@ exports.post = function (req, res) {
   _.each(info, function(val, key) {
     msg += (key + ": " + val + '\n');
   });
-  
+
   fs.writeFile(fname, msg, "utf8", function() {
     res.json({
       OK: info.first_name

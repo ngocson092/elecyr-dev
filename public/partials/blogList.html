@@ -1,0 +1,48 @@
+<div ng-app="everBlog" ng-controller="BlogCtrl as blog" class="container-fluid">
+<section>
+
+	<article ng-repeat="b in articles | filter:myFilter" class="blog-post feed-item">
+
+		<header class="post-header">
+			<h2 class="post-title">
+			
+				<a href="#" class="noteLink" ng-click="$parent.myFilter=b"> {{ b.title }} </a>
+			</h2>
+			<div class="post-metadata">
+				<div class="left">
+					<p style="text-transform:none;" class="post-byline">Published by {{ b.author }} </p>													  
+				</div>
+				<div class="right">
+					<p><time class="post-date"> {{ b.date }} </time></p>
+				</div>
+			</div>
+		</header>
+		<div class="post-body">
+			
+			<div class="post-image tagImage headline">
+				<a href="#" class="noteLink">
+																						
+					<div class="imgSzr">
+					<p ng-bind-html=img(b)></p>
+						
+			
+					</div> 
+				
+				</a>
+			</div>
+								
+			<div class="post-content headline">
+				<div style="overflow:wrap;" data-type-cleanup="true">
+				<p ng-bind-html=content(b)></p>
+				
+				</div>
+
+			</div>
+			
+		</div>
+
+		<div class="post-content fullArticle" style="display:none;">												
+			<p>Paragraph placeholder</p>
+		</div>
+	</article>
+</section></div>

@@ -1,0 +1,62 @@
+	
+<div class="container-fluid">
+	<div class="col-sm-12 removePad">
+		
+		<article ng-repeat="b in articles | filter:param" class="feed-item">
+			
+			<div class="col-sm-12" style="padding:.5em;">
+				<div class="fullPostWrap">
+					<header class="post-header">
+						<h2 class="blogTitle">
+						
+							<a href="#" class="noteLink"> {{ b.title }} </a>
+						</h2>
+						<div class="post-metadata">
+							<div class="left">
+								<p ng-bind=author(b)></p>													  
+							</div>
+							<div class="right">
+								<p><time class="post-date"> {{ b.date }} </time></p>
+							</div>
+						</div>
+					</header>
+				
+					<div class="post-body">
+						
+						<div class="post-content headline">
+						<!--	<p ng-bind-html=blogBody(b)></p> -->
+							<p ng-bind-html=snippet(b)></p> 
+					<!--			{{ b.content }}  -->
+							
+							
+						</div>
+					
+						
+					</div>
+				
+					<footer id="blogFooter">
+							<a href="{{ b.postSource }}" target="_blank">
+								<p> {{ b.postSource }} </p>
+							</a>
+							<!-- Footer Social Icons-->
+							<div class="row">
+								<div id="footer_icons" class="col-md-12 col-sm-12 text-center">
+									<ul class="footer-socials clearfix">
+										<li><a href="http://www.facebook.com/sharer/sharer.php?u=[URL]&title=[TITLE]" data-href="https://elecyr.com/solar-blog/b._id" class="foo_social ico-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li><a href="https://twitter.com/home?status=b._id" data-href="https://elecyr.com/blogPage/{{b._id}}" class="foo_social ico-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li><a href="https://google.com/+ElecyrEnergyStorage/"" class="foo_social ico-google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+										</li>
+										<li><a href="https://www.linkedin.com/pub/bill-southworth/8/496/911" class="foo_social ico-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>				
+					</footer>	
+				</div>
+			</div>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</article>
+	</div>
+</div>

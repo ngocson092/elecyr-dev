@@ -8,14 +8,14 @@ var moment = require('moment');
 moment().format();
 
 var MongoClient = require('mongodb').MongoClient,
-    Server = require('mongodb').Server;
+    Server = require('mongodb').Server,
+    config = require('../config.json');
 var callbackUrl = "http://localhost/oauth_callback";
 //mongodb://<dbuser>:<dbpassword>@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/<dbname>?replicaSet=rs-ds033933
 var urldbevernote = 'mongodb://elecyrAdmin:zqpM1029@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/dbevernote?replicaSet=rs-ds033933'
 
 var dbArticleColl = 'articles';
 var dbTagColl = 'tags';
-
 
 
 // For a real app, you'd make database requests here.
@@ -468,8 +468,10 @@ exports.oauth = function (req, res) {
   });
 }
 exports.posts = function (req, res) {
+  
+  var limit = (req.query.limit === "undefined")?9:parseInt(req.query.limit);
   var fetchEntries = function(db, callback){
-    db.collection(dbArticleColl).find().toArray(function(err, docs){
+    db.collection(dbArticleColl).find().limit(limit).toArray(function(err, docs){
       callback(docs);
     })
   };
@@ -480,26 +482,7 @@ exports.posts = function (req, res) {
       res.send(docs);
     });
   });
-  
-  
-  
-  /*
-  
-  var posts = [];
-  data.posts.forEach(function (post, i) {
-    posts.push({
-      id: i,
-      title: post.title,
-      text: post.text.substr(0, 50) + '...'
-    });
-  });
-  res.json({
-    posts: posts
-  });
-  
-  
-  */
-  
+
 };
 
 exports.getPost = function (req, res) {
