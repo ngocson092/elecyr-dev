@@ -2,7 +2,7 @@
   #status
 
 header#header
-    .navbar.navbar-fixed-top
+    .navbar.navbar-fixed-top.gray-navbar
         .container
           .navbar-header
             //
@@ -20,7 +20,7 @@ header#header
           //
              Navigation Menu 
           nav#navigation-menu.collapse.navbar-collapse(role='navigation')
-            ul.nav.navbar-nav.navbar-right
+            ul#navList.nav.navbar-nav.navbar-right
               li
                 a#GoToHome(href='#{menu_ctx}#intro') Home
               li
@@ -36,4 +36,38 @@ header#header
               li
                 a(href='/blog') Blog
 
-    block header_bottom
+    #blogDropMenu
+      #blogDropMenuInner.dropdown
+        button#myDropBtn.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+          p.ng-binding Filter:
+          span.caret
+        ul.dropdown-menu(aria-labelledby='myDropBtn')
+          li
+            a.anchorTitle(ng-href='/solar-blog/', href='/solar-blog/')
+              div
+                | Latest
+          a.anchorTitle(ng-click="callCategory('All')", ng-href='/solar-blog/All', href='/solar-blog/All')
+            div
+              | All
+          a.anchorTitle(ng-click="callCategory('Microgrid')", ng-href='/solar-blog/Microgrid', href='/solar-blog/Microgrid')
+            div
+              | Microgrid
+          a.anchorTitle(ng-click="callCategory('Military')", ng-href='/solar-blog/Military', href='/solar-blog/Military')
+            div
+              | Military
+          a.anchorTitle(ng-click="callCategory('Technology')", ng-href='/solar-blog/Technology', href='/solar-blog/Technology')
+            div
+              | Technology
+          a.anchorTitle(ng-click="callCategory('Batteries')", ng-href='/solar-blog/Batteries', href='/solar-blog/Batteries')
+            div
+              | Batteries
+          a.anchorTitle(ng-click="callCategory('Solar Energy')", ng-href='/solar-blog/Solar Energy', href='/solar-blog/Solar Energy')
+            div
+              | Solar Energy
+          a.anchorTitle(ng-click="callCategory('Solar Power')", ng-href='/solar-blog/Solar Power', href='/solar-blog/Solar Power')
+            div
+              | Solar Power
+          a.anchorTitle(ng-click="callCategory('Battery Storage')", ng-href='/solar-blog/Battery Storage', href='/solar-blog/Battery Storage')
+            div
+              | Battery Storage
+  block header_bottom

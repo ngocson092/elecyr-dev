@@ -49,6 +49,8 @@ app.get('/', routes.index);
 
 app.get('/partials/:name', routes.partials);
 app.get('/articles/:name', routes.articles);
+
+app.get('/blog',blog.getBlogSingle);
 app.get('/:name', routes.main);
 
 app.get('/robots', function(req,res){
@@ -74,7 +76,6 @@ app.post('/contact', contact.post)
 
 /* Render view routes */
 
-app.get('/blog/:id',blog.getBlogSingle);
 
 
 

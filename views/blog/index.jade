@@ -1,8 +1,7 @@
 extends ../layouts/layout
 
 block scripts
-    script(src='/libs/jquery/jquery-2.1.0.min.js')
-    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+
     script(src = '/javascripts/action.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-route.js')
@@ -24,17 +23,17 @@ block header_bottom
                         .catTitle
                             div
                                 | Latest
+                each val, index in tags
+                    a.anchorTitle(ng-click="callCategory('"+val+"')", ng-href='/solar-blog/'+val)
+                        .catWrap
+                            .catTitle
+                                div= val
 
-                - for (var i = 0; i < tags.length; ++i) {
-                a.anchorTitle= tags[i]
-                - }
 
         #right_scroll
             .arrowContainer
                 i.glyphicon.glyphicon-chevron-right
     // Mobile Menu
-block scripts
-
 block content
     .container-fluid(style='background-color:#e4e4e4;')
         #mainBlogPage
