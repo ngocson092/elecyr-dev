@@ -1,9 +1,3 @@
-/*
- * Serve JSON to our AngularJS client
- */
-
-
-
 var moment = require('moment');
 moment().format();
 
@@ -11,29 +5,10 @@ var MongoClient = require('mongodb').MongoClient,
     Server = require('mongodb').Server,
     config = require('../config.json');
 var callbackUrl = "http://localhost/oauth_callback";
-//mongodb://<dbuser>:<dbpassword>@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/<dbname>?replicaSet=rs-ds033933
 var urldbevernote = 'mongodb://elecyrAdmin:zqpM1029@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/dbevernote?replicaSet=rs-ds033933'
 
 var dbArticleColl = 'articles';
 var dbTagColl = 'tags';
-
-
-// For a real app, you'd make database requests here.
-// For this example, "data" acts like an in-memory "database"
-var data = {
-  "posts": [
-    {
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      "title": "Sed egestas",
-      "text": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus."
-    }
-  ]
-};
-
-
 
 
 

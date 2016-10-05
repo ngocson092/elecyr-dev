@@ -1,9 +1,5 @@
 app = angular.module("everBlog",['ngRoute', 'seo'])
 
-
-
-
-
 //for dynamically loading the title
 app.run(['$rootScope', '$routeParams', 'loadingService', function($rootScope, $routeParams, loadingService){
 	$rootScope.$on('$routeChangeSuccess', function(event, current, previous){
@@ -329,15 +325,13 @@ app.directive('loading',   ['$http' ,function ($http)
 routing
 */
 app.config(function($routeProvider, $locationProvider){ /* the page routing */
-
-
 	$locationProvider.html5Mode({
 		enabled:true,
 		requireBase: false,
 		reloadOnSearch: false})
-		
+
 		$locationProvider.hashPrefix('!');
-			
+
 	$routeProvider.when("/solar-blog",
 		{
 			title:'param',
@@ -351,7 +345,7 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 			title:'param',
 			templateUrl: '/partials/blogList.ejs',
 			controller: "BlogCtrl",
-			controllerAs: "app"			
+			controllerAs: "app"
 		}
 	)
 	.when("/solar-blog/link/:param",
@@ -368,10 +362,7 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 			controllerAs: "app"
 		}
 	)
-	.otherwise({
-		redirectTo: '/partials/blogList.ejs',
-
-	})
-})	
+	
+})
 
 

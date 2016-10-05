@@ -9,11 +9,10 @@ var url = 'mongodb://elecyrAdmin:zqpM1029@ds033933-a0.mongolab.com:33933,ds03393
 
 var dbArticleColl = 'articles';
 var dbTagColl = 'tags';
-
 var callbackUrl = "http://localhost/myevernote/oauth_callback";
 
 
-exports.getBlogSingle = function (req, res) {
+exports.getBlogs = function (req, res) {
 
   var getBlogTags = function(db, callback){
 
@@ -36,7 +35,7 @@ exports.getBlogSingle = function (req, res) {
 
       res.render('blog/index', {
         title: "Solar Blog",
-        menu_ctx: '',
+        menu_ctx: '/',
         tags: tags
       });
     });
