@@ -37,6 +37,10 @@ block header_bottom
 block content
     .container-fluid(style='background-color:#e4e4e4;')
         #mainBlogPage(ng-controller='BlogCtrl')
+            .row.text-center
+                .loading-spiner-holder(data-loading='')
+                    .loading-spiner
+                        img(src='http://www.sadecebizde.com/images/preload.gif')
             .row
                 .col-sm-12.onTop
                     //
@@ -48,7 +52,7 @@ block content
                         .site-content
                             div(ng-view='', autoscroll='true')
                     .col-sm-3.col-md-2(ng-style='style', style='padding:.5em 0 0 0; border-bottom:3.5em solid transparent;')
-                        .sidebar
+                        .sidebar(ng-show='loading==false')
                             .widget.widget-latestposts
                                 div(style='width:75%; float:left;')
                                     h4 Latest Posts
