@@ -303,7 +303,7 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 		
 		$locationProvider.hashPrefix('!');
 			
-	$routeProvider.when("/blog",
+	$routeProvider.when("/solar-blog",
 		{
 			title:'param',
 			templateUrl: '/partials/blogList.ejs',
@@ -311,7 +311,7 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 			controllerAs: "app"
 		}
 	)
-	.when("/blog/:param",
+	.when("/solar-blog/:param",
 		{
 			title:'param',
 			templateUrl: '/partials/blogList.ejs',
@@ -319,14 +319,14 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 			controllerAs: "app"			
 		}
 	)
-	.when("/blog/link/:param",
+	.when("/solar-blog/link/:param",
 		{
 			templateUrl: '/partials/blogPage.ejs',
 			controller: "BlogCtrl",
 			controllerAs: "app"
 		}
 	)
-	.when("/blog/pdfLink/:param",
+	.when("/solar-blog/pdfLink/:param",
 		{
 			templateUrl: '/partials/blogPDF.ejs',
 			controller: "BlogCtrl",
