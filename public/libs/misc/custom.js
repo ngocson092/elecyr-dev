@@ -156,19 +156,7 @@
 			scrollPosition	= parseInt($(this).scrollTop());
 			
 			//Move through each menu and check its position with scroll position then add selected-nav class
-			$('.navbar-nav > li > a').each(function() {
 
-				thisHref			= $(this).attr('href');
-				thisTruePosition	= parseInt($(thisHref).offset().top);
-				thisPosition 		= thisTruePosition - headerWrapper - offsetTolerance;
-				
-				if(scrollPosition >= thisPosition) {
-					
-					$('.selected-nav').removeClass('selected-nav');
-					$('.navbar-nav > li > a[href='+ thisHref +']').addClass('selected-nav');
-					
-				}
-			});
 			
 			
 			//If we're at the bottom of the page, move pointer to the last section

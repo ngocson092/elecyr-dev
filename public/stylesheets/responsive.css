@@ -1,4 +1,4 @@
-/* 
+/*
    ------------------------------------------------------
 					Responsive Styles
    ------------------------------------------------------
@@ -122,12 +122,19 @@
 }
 
 
+@media only screen and (min-width: 767px){
+	#navList {
+		float: right;
+		max-width: 77%;
+		padding-right: 2%;
+	}
+}
 @media only screen and (max-width: 767px){
 
 	/*------------------------------------------*/
 	/*	 Responsive Menu
 	/*------------------------------------------*/
-	
+
 	.navbar {padding: 0px; background-color: #5a843b;}
 	.navbar-brand { line-height: 64px; padding: 0 25px;}
 	.navbar-nav > li > a, .navbar-brand .black-color { color: #fff; }

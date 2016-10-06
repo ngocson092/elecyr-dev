@@ -179,10 +179,10 @@ A.3) Horizontal Navigation Menu
 }
 #carousel_inner {
     float:left; /* important for inline positioning */
-    width:96vw; /* important (this width = width of list item(including margin) * items shown */
+    width: 90vw; /* important (this width = width of list item(including margin) * items shown */
     overflow: hidden;  /* important (hide the items outside the div) */
     /* non-important styling bellow */
-    left:2vw;
+    left: 5vw;
     position:fixed;
     top:0;
     z-index:1028;
@@ -264,10 +264,10 @@ A.3) Horizontal Navigation Menu
     margin:.3em;
 }
 #left_scroll{
-    left:0;
+    left: 29px;
 }
 #right_scroll{
-    right:0;
+    right: 24px;
 }
 #left_scroll i, #right_scroll i{
     /*styling*/
@@ -290,7 +290,7 @@ B) Fullscreen
 
     /***********************************************/
     #mainBlogPage{
-        margin-top: 16vh;
+        margin-top: 12vh;
     }
 
 
@@ -556,7 +556,7 @@ C) Mobile
         display:none;
     }
     #blogDropMenu{
-        display:show;
+        display:block;
         margin-top:5em;
         position:fixed;
         top:0;

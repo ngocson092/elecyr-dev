@@ -1,48 +1,140 @@
-<div ng-app="everBlog" ng-controller="BlogCtrl as blog" class="container-fluid">
-<section>
+<div class="container-fluid">
+	<div id="newspaper" class="col-sm-12 removePad" when-scroll-ends="updateData(param)">
 
-	<article ng-repeat="b in articles | filter:myFilter" class="blog-post feed-item">
+		<article ng-repeat="b in articles | filter: {categories:param} | orderBy:'filterDate':true" class="blogPost feed-item">
+			
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="postWrap">
+						<a ng-href="/#!{{ b.partialType }}" target="{{ b.target }}">
+							<header class="postHeader">	
+							
+								<h4> {{ b.title }} </h4>							
+							</header>
+						</a>
 
-		<header class="post-header">
-			<h2 class="post-title">
-			
-				<a href="#" class="noteLink" ng-click="$parent.myFilter=b"> {{ b.title }} </a>
-			</h2>
-			<div class="post-metadata">
-				<div class="left">
-					<p style="text-transform:none;" class="post-byline">Published by {{ b.author }} </p>													  
-				</div>
-				<div class="right">
-					<p><time class="post-date"> {{ b.date }} </time></p>
-				</div>
-			</div>
-		</header>
-		<div class="post-body">
-			
-			<div class="post-image tagImage headline">
-				<a href="#" class="noteLink">
-																						
-					<div class="imgSzr">
-					<p ng-bind-html=img(b)></p>
-						
-			
-					</div> 
-				
-				</a>
-			</div>
+						<content style="height:auto;">
+
+							<div class="post-metadata">
+								<div class="left">
+									<p ng-bind=author(b)></p>
+								</div>
+								<div class="right">
+									<p><time class="post-date"> {{ b.date }} </time></p> 
+								</div>
+							</div>
+							
+							<div class="postBody">
+								<a href="{{ b.partialType }}">																								
+									<div class="blogImage">
+										<p ng-bind-html=headlineImage(b)></p> 
+									</div> 							
+								</a>	
 								
-			<div class="post-content headline">
-				<div style="overflow:wrap;" data-type-cleanup="true">
-				<p ng-bind-html=content(b)></p>
-				
+								<div>
+									<div style="line-height:1.3">
+							<!--			<p> {{ b.content }} </p>  -->
+									<p ng-bind-html=snippet(b) class="headlineSnippet"></p> 
+									</div>
+								</div>
+							</div>
+							
+						</content>
+					
+					<footer id="blogFooter">
+							<div class="sourceURL">
+							<!--	<a ng-href="{{ b.postSource }}" target="_blank"> -->
+								<a ng-href="/#!{{ b.partialType }}" target="{{ b.target }}">
+									<p> {{ b.postSource }} </p>
+								</a>
+							</div>
+							<!-- Footer Social Icons-->
+							<div class="row">
+								<div id="footer_icons" class="col-md-12 col-sm-12 text-center">
+									<ul class="footer-socials clearfix">
+										<li><a href="http://www.facebook.com/sharer/sharer.php?u=[URL]&title=[TITLE]" data-href="https://elecyr.com/solar-blog/b._id" class="foo_social ico-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li><a href="https://twitter.com/share" data-href="https://elecyr.com/solar-blog/{{b._id}}" class="foo_social ico-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li><a href="https://google.com/+ElecyrEnergyStorage/"" class="foo_social ico-google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+										</li>
+										<li><a href="https://www.linkedin.com/pub/bill-southworth/8/496/911" class="foo_social ico-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>				
+					</footer>		  
+
 				</div>
-
 			</div>
+		</article>
+		<article id="son" ng-repeat="b in someArticles | filter: {categories:param} | orderBy:'filterDate':true" class="blogPost feed-item">
 			
-		</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="postWrap">
+					<div class="headBody">
+						<a ng-href="/#!{{ b.partialType }}" target="{{ b.target }}">
+							<header class="postHeader">	
+						
+								<h4> {{ b.title }} </h4>							
+							</header>
+						</a>
 
-		<div class="post-content fullArticle" style="display:none;">												
-			<p>Paragraph placeholder</p>
-		</div>
-	</article>
-</section></div>
+						<content style="height:auto;">
+
+							<div class="post-metadata">
+								<div class="left">
+				<!--					<p style="text-transform:none;" class="post-byline">Posted by {{ b.author }} </p>	 -->
+									<p ng-bind=author(b)></p>
+								</div>
+								<div class="right">
+							 
+									<p><time class="post-date"> {{ b.date }} </time></p> 
+								</div>
+							</div>
+							
+							<div class="postBody">
+								<a href="{{ b.partialType }}">																								
+									<div class="blogImage">
+										<p ng-bind-html=headlineImage(b)></p> 
+									</div> 							
+								</a>	
+								
+								<div>
+									<div style="line-height:1.3">
+							<!--			<p> {{ b.content }} </p>  -->
+									<p ng-bind-html=snippet(b) class="headlineSnippet"></p> 
+									</div>
+								</div>
+							</div>
+							
+						</content>
+					</div>
+					<footer id="blogFooter">
+							<div class="sourceURL">
+								<a ng-href="{{ b.postSource }}" target="_blank">
+									<p> {{ b.postSource }} </p>
+								</a>
+							</div>
+							<!-- Footer Social Icons-->
+							<div class="row">
+								<div id="footer_icons" class="col-md-12 col-sm-12 text-center">
+									<ul class="footer-socials clearfix">
+										<li><a href="http://www.facebook.com/sharer/sharer.php?u=[URL]&title=[TITLE]" data-href="https://elecyr.com/solar-blog/b._id" class="foo_social ico-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li><a href="https://twitter.com/share" data-href="https://elecyr.com/solar-blog/{{b._id}}" class="foo_social ico-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li><a href="https://google.com/+ElecyrEnergyStorage/" class="foo_social ico-google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+										</li>
+										<li><a href="https://www.linkedin.com/pub/bill-southworth/8/496/911" class="foo_social ico-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>				
+					</footer>		  
+
+				</div>
+			</div>
+		</article>
+
+	</div>
+</div>

@@ -50,7 +50,6 @@ app.get('/', routes.index);
 app.get('/partials/:name', routes.partials);
 app.get('/articles/:name', routes.articles);
 
-app.get('/solar-blog',blog.getBlogs);
 app.get('/:name', routes.main);
 
 app.get('/robots', function(req,res){
@@ -68,11 +67,11 @@ app.post('/api/post', api.addPost);
 app.put('/api/post/:id', api.editPost);
 app.delete('/api/post/:id', api.deletePost);
 
+app.get('/api/tags', api.getTags);
+
 // Contact Handler
 
 app.post('/contact', contact.post)
-
-
 
 /* Render view routes */
 

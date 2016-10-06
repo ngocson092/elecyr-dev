@@ -23,6 +23,7 @@ app.factory('loadingService', function($http){
 	var tempCategoryArr = [];	
 	var tempDateRange;
 	var setFilter;
+	var tags = [];
 
 
 	return {
@@ -39,6 +40,22 @@ app.factory('loadingService', function($http){
 			return tempDateRange;
 		},
 		
+		fetchTags:function(){
+			$http.get("/api/tags/")
+
+				.then(function(response) {
+					var data = response.data;
+					for(i=0;i<data.length;i++){
+						tags.push(data[i]);
+					}
+				},
+				function(response){
+					return err;
+				});
+		},
+		getTags:function(){
+			return tags;
+		},
 		updateArticles: function(callback){
 
 			var queryString = "?limit=9"
@@ -68,7 +85,7 @@ app.factory('loadingService', function($http){
 			
 			setFilter = givenFilter;
 			
-			var queryString = "?myLimit=9&dateRange=" + tempDateRange + "&category=" + setFilter +"";
+			var queryString = "?limit=9&dateRange=" + tempDateRange + "&category=" + setFilter +"";
 
 			if(scrollOn == true){
 				scrollOn = false;
@@ -88,7 +105,6 @@ app.factory('loadingService', function($http){
 			}
 			
 		},
-		
 		getArticles: function(){
 
 			return articles;
@@ -132,6 +148,8 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 		//console.log("9 - updateDate function - filter: " + filter);
 		if(filter === undefined){
 			//console.log("10 - filter undefined");
+			loadingService.fetchTags();
+
 			loadingService.updateArticles(function(){
 				scrollOn = true;
 				console.log("New Articles!");
@@ -169,6 +187,8 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 		var articles = loadingService.getArticles();
 				
 		$scope.articles = articles;
+		
+	
 				
 		$scope.snippet = function snippet(articles){
 			var screenWidth = $window.innerWidth;
@@ -229,7 +249,12 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 	}
 	if($scope.articles === undefined){
 		$scope.updateData();
-	}	
+	}
+
+	if($scope.tags === undefined){
+		$scope.tags = loadingService.getTags();
+	}
+
 	loadData();
 	//loadCategory();	
 	
@@ -332,32 +357,32 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 
 		$locationProvider.hashPrefix('!');
 
-	$routeProvider.when("/solar-blog",
+	$routeProvider.when("/blog/",
 		{
 			title:'param',
-			templateUrl: '/partials/blogList.ejs',
+			templateUrl: '/partials/blogList.html',
 			controller: "BlogCtrl",
 			controllerAs: "app"
 		}
 	)
-	.when("/solar-blog/:param",
+	.when("/blog/:param",
 		{
 			title:'param',
-			templateUrl: '/partials/blogList.ejs',
+			templateUrl: '/partials/blogList.html',
 			controller: "BlogCtrl",
 			controllerAs: "app"
 		}
 	)
-	.when("/solar-blog/link/:param",
+	.when("/blog/link/:param",
 		{
-			templateUrl: '/partials/blogPage.ejs',
+			templateUrl: '/partials/blogPage.html',
 			controller: "BlogCtrl",
 			controllerAs: "app"
 		}
 	)
-	.when("/solar-blog/pdfLink/:param",
+	.when("/blog/pdfLink/:param",
 		{
-			templateUrl: '/partials/blogPDF.ejs',
+			templateUrl: '/partials/blogPDF.html',
 			controller: "BlogCtrl",
 			controllerAs: "app"
 		}
