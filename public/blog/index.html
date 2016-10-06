@@ -98,17 +98,17 @@
             </div>
             <div id='carousel_inner'>
                 <div id='carousel_div' class="carousel_div">
-                    <a class="anchorTitle" ng-click="callCategory()" ng-href="/blog/"/>
-                    <div class="catWrap">
-                        <div class="catTitle">
-                            <div>
-                                Latest
+                    <a class="anchorTitle" ng-click="callCategory()" />
+                        <div class="catWrap">
+                            <div class="catTitle">
+                                <div>
+                                    Latest
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </a>
 
-                    <a class="anchorTitle" ng-repeat="tag in tags" ng-click="callCategory(tag)" ng-href="/blog/{{tag}}">
+                    <a class="anchorTitle" ng-repeat="tag in tags track by $index" ng-click="callCategory(tag)" ng-href="/blog/{{tag}}">
 
                         <div class="catWrap">
                             <div class="catTitle">
@@ -148,7 +148,7 @@
 
                         </a>
 
-                        <a class="anchorTitle" ng-repeat="tag in tags" ng-click="callCategory('<%= tags[i] %>')" ng-href="/solar-blog/<%= tags[i] %>">
+                        <a class="anchorTitle" ng-repeat="tag in tags track by $index"  ng-click="callCategory(tag)" ng-href="/blog/{{tag}}">
                             <div>
                                 {{tag}}
                             </div>
@@ -188,7 +188,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-3 col-md-2" style="padding:.5em 0 0 0; border-bottom:3.5em solid transparent;">
+                    <div ng-style="style" class="col-sm-3 col-md-2" style="padding:.5em 0 0 0; border-bottom:3.5em solid transparent;">
                         <div class="sidebar">
 
                             <div class="widget widget-latestposts">

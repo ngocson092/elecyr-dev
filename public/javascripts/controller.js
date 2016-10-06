@@ -31,6 +31,10 @@ app.factory('loadingService', function($http){
 			tempCategoryArr = [];
 			return tempCategoryArr;
 		},
+		clearTags:function () {
+			tags = [];
+			return tags;
+		},
 		someDamnTest: function(){
 
 			var testing = "YAY";
@@ -40,21 +44,20 @@ app.factory('loadingService', function($http){
 			return tempDateRange;
 		},
 		
-		fetchTags:function(){
+		fetchTags:function(callback){
 			$http.get("/api/tags/")
-
 				.then(function(response) {
 					var data = response.data;
+					tags = [];
 					for(i=0;i<data.length;i++){
 						tags.push(data[i]);
 					}
+
+					callback(tags);
 				},
 				function(response){
 					return err;
 				});
-		},
-		getTags:function(){
-			return tags;
 		},
 		updateArticles: function(callback){
 
@@ -110,8 +113,7 @@ app.factory('loadingService', function($http){
 			return articles;
 		},
 		getByCategory: function(){
-
-			return tempCategoryArr
+			return tempCategoryArr;
 		}
 	}
 });
@@ -134,21 +136,23 @@ Main Controller
 app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, $rootScope, metaService, loadingService) {
 
 	$rootScope.metaservice = metaService.metaDescription();
-	
+
+	$scope.loading = true;
 	$scope.param = $routeParams.param;
 	$scope.myFilter = function (param) {
 		return {categories:param}
 	};
 
 
-	$scope.loading = true;
-
 
 	$scope.updateData = function(filter, myTempDateFilter, callback){ /*calls the function to load more blog articles */
 		//console.log("9 - updateDate function - filter: " + filter);
 		if(filter === undefined){
 			//console.log("10 - filter undefined");
-			loadingService.fetchTags();
+
+			loadingService.fetchTags(function (tags) {
+				$scope.tags = tags;
+			});
 
 			loadingService.updateArticles(function(){
 				scrollOn = true;
@@ -168,28 +172,22 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 
 	$scope.callCategory = function clickTest(param){ /* could do the test for clearing the last category in here */
 
-
 		var myCategoryArr = loadingService.clearCatArr();
+
 		if(param !== undefined){
 				var myTempDateFilter = loadingService.someDamnTest();
-
 				$scope.updateData(param, myTempDateFilter, function(){
-
-				
 			});
 		}
 	}
-	
+
 
 	
 	function loadData(){ //first primary call for the main data
-		
 		var articles = loadingService.getArticles();
-				
+
 		$scope.articles = articles;
-		
-	
-				
+
 		$scope.snippet = function snippet(articles){
 			var screenWidth = $window.innerWidth;
 			var snippet = $sce.trustAsHtml(articles.snippet);
@@ -251,9 +249,6 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 		$scope.updateData();
 	}
 
-	if($scope.tags === undefined){
-		$scope.tags = loadingService.getTags();
-	}
 
 	loadData();
 	//loadCategory();	
@@ -285,18 +280,16 @@ app.directive('whenScrollEnds', function() {
 				var absUrl = window.location.pathname;
 				var paramVal = scope.param;
 				var myParam = (typeof paramVal === 'undefined') ? '' : "/" + paramVal;
-				var myPathname = "/solar-blog" + myParam;
-	
+				var myPathname = "/blog" + myParam;
 				if(absUrl == myPathname){
 					
 					
-//put an on and off switch to debounce the listener						
+					//put an on and off switch to debounce the listener
 					var containerHeight = $('#newspaper').height();
 					
 					var scrolledHeight = $(window).scrollTop();
 					var totalHeight = scrolledHeight + comboHeight;
-					
-					
+
 
 					if (containerHeight - totalHeight <= 0) {
 
@@ -357,7 +350,7 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 
 		$locationProvider.hashPrefix('!');
 
-	$routeProvider.when("/blog/",
+	$routeProvider.when("/blog",
 		{
 			title:'param',
 			templateUrl: '/partials/blogList.html',

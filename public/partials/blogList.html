@@ -1,6 +1,5 @@
 <div class="container-fluid">
 	<div id="newspaper" class="col-sm-12 removePad" when-scroll-ends="updateData(param)">
-
 		<article ng-repeat="b in articles | filter: {categories:param} | orderBy:'filterDate':true" class="blogPost feed-item">
 			
 			<div class="col-sm-12 col-md-6 col-lg-4">
@@ -67,15 +66,15 @@
 				</div>
 			</div>
 		</article>
-		<article id="son" ng-repeat="b in someArticles | filter: {categories:param} | orderBy:'filterDate':true" class="blogPost feed-item">
-			
+		<article ng-repeat="b in someArticles | filter: {categories:param} | orderBy:'filterDate':true" class="blogPost feed-item">
+
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="postWrap">
 					<div class="headBody">
 						<a ng-href="/#!{{ b.partialType }}" target="{{ b.target }}">
-							<header class="postHeader">	
-						
-								<h4> {{ b.title }} </h4>							
+							<header class="postHeader">
+
+								<h4> {{ b.title }} </h4>
 							</header>
 						</a>
 
@@ -87,26 +86,26 @@
 									<p ng-bind=author(b)></p>
 								</div>
 								<div class="right">
-							 
-									<p><time class="post-date"> {{ b.date }} </time></p> 
+
+									<p><time class="post-date"> {{ b.date }} </time></p>
 								</div>
 							</div>
-							
+
 							<div class="postBody">
-								<a href="{{ b.partialType }}">																								
+								<a href="{{ b.partialType }}">
 									<div class="blogImage">
-										<p ng-bind-html=headlineImage(b)></p> 
-									</div> 							
-								</a>	
-								
+										<p ng-bind-html=headlineImage(b)></p>
+									</div>
+								</a>
+
 								<div>
 									<div style="line-height:1.3">
 							<!--			<p> {{ b.content }} </p>  -->
-									<p ng-bind-html=snippet(b) class="headlineSnippet"></p> 
+									<p ng-bind-html=snippet(b) class="headlineSnippet"></p>
 									</div>
 								</div>
 							</div>
-							
+
 						</content>
 					</div>
 					<footer id="blogFooter">
@@ -129,12 +128,11 @@
 										</li>
 									</ul>
 								</div>
-							</div>				
-					</footer>		  
+							</div>
+					</footer>
 
 				</div>
 			</div>
 		</article>
-
 	</div>
 </div>
