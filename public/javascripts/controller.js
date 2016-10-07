@@ -146,24 +146,18 @@ app.controller('BlogCtrl', function($scope, $http, $sce, $routeParams, $window, 
 
 
 	$scope.updateData = function(filter, myTempDateFilter, callback){ /*calls the function to load more blog articles */
-		//console.log("9 - updateDate function - filter: " + filter);
 		if(filter === undefined){
-			//console.log("10 - filter undefined");
-
 			loadingService.fetchTags(function (tags) {
 				$scope.tags = tags;
 			});
 
 			loadingService.updateArticles(function(){
 				scrollOn = true;
-				console.log("New Articles!");
 				loadCategory();
 			})
 		}else{
-			console.log("11 - filterDefined:" + filter);
 			loadingService.updateCategory(filter, myTempDateFilter, function(){
 				scrollOn = true;
-				console.log("New Categories!");
 				loadCategory();
 			})
 		}

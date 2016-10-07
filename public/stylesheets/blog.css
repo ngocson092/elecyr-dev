@@ -90,7 +90,9 @@ A.2) Main Content
     right:0;
     bottom:0;
     position:absolute;
-    z-index:9999; background-color:white;
+    z-index:9999;
+    background-color:white;
+    padding: 10px;
 }
 
 #blogFooter .sourceURL{
@@ -276,6 +278,13 @@ A.3) Horizontal Navigation Menu
     cursor: hand;
 }
 /******************************************/
+
+
+/*content*/
+.post-content.headline div {
+    overflow: hidden;
+}
+/*content*/
 
 /************************
 
