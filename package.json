@@ -30,7 +30,10 @@
         "mongoose":">=3.6.11",
         "node-inspector":">=0.2.0beta4",
         "underscore":">=1.4.4",
-        "forever":">=0.11.1"
+        "forever":">=0.11.1",
+        "node-nimble-api":"*",
+        "https":"*",
+        "fs":"*"
     },
     "engines": {
         "node": ">=0.10"

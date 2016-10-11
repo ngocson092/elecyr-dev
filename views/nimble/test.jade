@@ -1,0 +1,63 @@
+!!! 5
+html(lang='en',ng-app='nimble')
+  head
+    meta(charset='utf-8')
+    title test api nimble
+    
+    meta(name='google-site-verification', content='Y0nN9Eav9fshMZPj4hHT7ZG9VmsgpOTIsPts8c_7H_I')
+    meta(name='description', content='High Voltage Battery Systems and Energy Management for Transportation and Industrial Applications')
+    - var k = 'microgrid'
+    - k += ', 380 VDC'
+    - k += ', energy storage'
+    - k += ', zero net energy'
+    - k += ', battery management'
+    - k += ', soalar'
+    - k += ', off-grid'
+    - k += ', transactive energy'
+    - k += ', energy management'
+    - k += ', grid'
+    - k += ', grid tied'
+    - k += ', IEEE 1547'
+    - k += ', UL 1741'
+    - k += ', load balancing'
+    meta(name='keywords', content=k)
+    meta(name='robots', content='index,follow')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='description', content='Elecyr Corporation - power distribution that saves energy and provides independence')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+    // CSS libs, templates and favicons
+    link(rel='stylesheet', href='/stylesheets/bootstrap/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(ng-app='nimbleCtrl')
+    header#header
+        .navbar.navbar-fixed-top.gray-navbar
+            .container
+              .navbar-header
+                //
+                   Responsive Menu
+                button#nav-toggle.navbar-toggle(type='button', data-toggle='collapse', data-target='#navigation-menu')
+                  span.sr-only Toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                //
+                   Logo Image
+                a.navbar-brand(href='/',target='_self')
+                  img(src='/images/logo.png', alt='Elecyr', role='banner')
+
+              //
+                 Navigation Menu
+              nav#navigation-menu.collapse.navbar-collapse(role='navigation')
+                ul#navList.nav.navbar-nav.navbar-right
+                  li
+                    a(href='/blog') Blog
+
+    section#main
+        div(ng-view,autoscroll='true')
+
+    script(src='/libs/jquery/jquery-2.1.0.min.js', type='text/javascript')
+    script(src='/libs/bootstrap/bootstrap.min.js', type='text/javascript')
+    script(src='/libs/misc/nimble-test.js', type='text/javascript')
+    block scripts
+
