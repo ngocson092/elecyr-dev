@@ -1,0 +1,33 @@
+<div ng-controller="ContactCtrl">
+
+    <form action="">
+
+
+
+        <form action=""  class="form-horizontal">
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">First Name</label>
+                <div class="col-md-6">
+                    <input type="text" value='{{contact.fields["first name"]["0"].value}}' placeholder="First name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">Last Name</label>
+                <div class="col-md-6">
+                    <input type="text"  value='{{contact.fields["last name"]["0"].value}}' placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4">
+                    <a ng-click="updateContact()" class="btn btn-info">Update</a>
+                </div>
+            </div>
+
+        </form>
+
+    </form>
+</div>
+
+

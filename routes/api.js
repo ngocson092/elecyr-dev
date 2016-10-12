@@ -189,3 +189,136 @@ exports.getTags = function (req, res) {
 
 
 
+
+/*nimble api*/
+
+var Nimble =  require('node-nimble-api');
+
+
+Nimble.prototype.getContactById = function(id, callback) {
+
+  var url = this.baseApi + '/contact/' + id;
+  return this._get(url, function(err, result, response) {
+    if(err) return callback(err);
+
+    var res;
+    try {
+      res = JSON.parse(result);
+    } catch(e) {
+      err = e;
+    }
+
+    return callback(err, res, response);
+  });
+}
+
+var nimble = new Nimble({
+  appId: 'zly8ani0ch9ehijujudxwoc3ieukklja6iv31',
+  appSecret: 'kd3ysr4ho8wrqnckyg'
+});
+var nimble_url_callback  =  'https://elecyr.dev/nimble/callback';
+
+exports.nimbleAuthorization = function (req, res) {
+  res.redirect(nimble.getAuthorizationUrl({redirect_uri: nimble_url_callback}));
+};
+
+exports.nimbleCallback = function (req, res) {
+  if(!req.query.error) {
+    res.render('nimble/test',{code:req.query.code});
+  } else {
+    res.send('Error authenticating!!! -> ' + err);
+  }
+};
+
+exports.nimbleGetContacts = function (req, res) {
+
+  nimble.requestToken(req.query.code, function(err, access_token, refresh_token, result) {
+    nimble.findContacts({}, function(err, result, response) {
+      if(err) return res.send('ERROR' + JSON.stringify(err));
+      var contacts = [];
+      result.resources.forEach(function(r) {
+        contacts.push(r)
+      })
+      res.send(contacts);
+    });
+  });
+
+};
+
+
+
+
+exports.nimbleGetContactsId = function (req, res) {
+
+
+  nimble.requestToken(req.query.code, function(err, access_token, refresh_token, result) {
+
+
+    nimble.findContactIds({}, function(err, result, response) {
+      if(err) return res.send('ERROR' + JSON.stringify(err));
+      var contact = [];
+      result.resources.forEach(function(r) {
+        contact.push(r)
+      })
+      res.send(contact);
+    });
+  });
+
+
+
+
+
+};
+
+exports.nimbleGetContactById = function (req, res) {
+
+  nimble.requestToken(req.query.code, function(err, access_token, refresh_token, result) {
+    nimble.getContactById('57f7507ab475317994b52574', function(err, result, response) {
+      if(err) return res.send('ERROR' + err);
+      var contact;
+      result.resources.forEach(function(r) {
+        contact = r;
+      })
+      res.send(contact);
+    });
+  });
+
+};
+
+
+exports.nimbleContactCreate = function (req, res) {
+
+
+  var firstname = req.body.firstname,
+      lastname = req.body.lastname,
+      code = req.body.code
+      ;
+
+  nimble.requestToken(code, function(err, access_token, refresh_token, result) {
+      nimble.createContact(
+          {
+            "fields": {
+              "first name": [{
+                "value": firstname,
+                "modifier": ""
+              }],
+              "last name": [{
+                "value": lastname,
+                "modifier": ""
+              }]
+            },
+            "type" : "person"
+          }, function(err, result, response) {
+            if(err) return res.send("ERROR" + JSON.stringify(err));
+            return res.send(result);
+          });
+
+
+  });
+
+};
+
+
+
+/*nimble api*/
+

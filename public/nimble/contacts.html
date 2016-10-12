@@ -1,0 +1,84 @@
+<div ng-controller="ContactsCtrl">
+
+
+
+
+    <div class="contact">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a  href="#my" data-toggle="tab" id="get-contacts">Get Contacts</a></li>
+            <li ><a  href="#create_contact" role="tab" data-toggle="tab">Create Contact</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="my">
+                <a ng-click="getContacts()" class="btn btn-info btn-get-contacts">My Contacts</a> <br>
+                <div ng-show="contacts">
+                    <table class="table">
+                        <thead>
+                            <th>Avatar</th>
+                            <th>Name</th>
+                            <th>Updated</th>
+                            <th>Creator</th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="contact in contacts" >
+                                <td>
+                                    <div ng-show="contact.avatar_url">
+                                        <a href="/nimble/contact/{{contact.id}}"><img class="avatar" src="{{contact.avatar_url}}" alt=""></a>
+                                    </div>
+                                    <div ng-show="contact.avatar_url == null">
+                                        <a href="/nimble/contact/{{contact.id}}"><img class="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" alt="" ></a>
+                                    </div>
+                                </td>
+                                <td>{{contact.fields["first name"]["0"].value}} {{contact.fields["last name"]["0"].value}}
+
+
+                                </td>
+                                <td>{{contact.updated}}</td>
+                                <td>{{contact.creator}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+
+            </div>
+            <div  role="tabpanel" class="tab-pane"   id="create_contact">
+                <form action=""  class="form-horizontal">
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">First Name</label>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="firstname" placeholder="First name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Last Name</label>
+                        <div class="col-md-6">
+                            <input type="text" ng-model="lastname" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-4">
+                            <a ng-click="createContact()" class="btn btn-info">Submit</a>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+

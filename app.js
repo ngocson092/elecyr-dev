@@ -17,7 +17,8 @@ var express = require('express'),
     options = require( 'commander' ),    jade = require('jade'),
     WebSocketServer = require('websocket').server,
     WebSocketRouter = require('websocket').router,
-    favicon = require('serve-favicon');
+    favicon = require('serve-favicon'),
+     bodyParser = require('body-parser');
 // Handle options with Commander
 
 options.version( '0.0.1' )
@@ -31,6 +32,8 @@ options.version( '0.0.1' )
 . parse( process.argv );
 
 var app = module.exports = express();
+
+app.use(bodyParser.json());
 
 
 // Configuration
@@ -76,58 +79,16 @@ app.post('/contact', contact.post)
 
 /* Render view routes */
 
+
+
 /*nimble*/
 
-
-// Init wrapper
-var Nimble =  require('node-nimble-api');
-
-var nimble = new Nimble({
-    appId: 'zly8ani0ch9ehijujudxwoc3ieukklja6iv31',
-    appSecret: 'kd3ysr4ho8wrqnckyg'
-});
-
-
-app.get('/nimble/authorization', function(req, res) {
-    res.redirect(nimble.getAuthorizationUrl({redirect_uri: 'https://elecyr.dev/nimble/callback'}));
-});
-
-
-// You must make sure that the wrapper is using for requesting the access token the SAME
-// redirect_uri provided for getAuthorizationUrl, either by using the same wrapper or by
-// providing the redirect_uri in the wrapper constructor if you are using a new object for requestToken.
-
-app.get('/nimble/callback', function(req, res) {
-    if(!req.query.error) {
-        /*
-            nimble.requestToken(req.query.code, function(err, access_token, refresh_token, result) {
-                res.send('You are now authenticated! -> ' + access_token);
-            });
-        */
-        res.render('nimble/test',{code:req.query.code});
-
-    } else {
-        res.send('Error authenticating!!! -> ' + err);
-    }
-});
-
-
-
-app.get('/nimble/contacts', function(req, res) {
-
-    nimble.requestToken(req.query.code, function(err, access_token, refresh_token, result) {
-        nimble.findContacts({}, function(err, result, response) {
-            if(err) return res.send('ERROR' + JSON.stringify(err));
-            res.write('These are your contacts \n');
-            result.resources.forEach(function(r) {
-                res.write(JSON.stringify(r));
-            })
-            return res.end();
-        });
-    });
-
-
-});
+app.get('/nimble/authorization',api.nimbleAuthorization);
+app.get('/nimble/callback',api.nimbleCallback );
+app.get('/api/nimble/contacts',api.nimbleGetContacts);
+app.get('/api/nimble/contacts/ids',api.nimbleGetContactsId);
+app.post('/api/nimble/contacts/create',api.nimbleContactCreate);
+app.get('/api/nimble/contact/:id',api.nimbleGetContactById);
 
 /*nimble*/
 
@@ -138,18 +99,8 @@ app.get('*', routes.index);
 
 // Start server
 
-var https = require('https');
-var fs = require('fs');
 
-var options = {
 
-    /*
-    * openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
-    * */
-
-    key: fs.readFileSync('key.pem'),
-    cert: fs.readFileSync('cert.pem')
-};
 
 var httpServer = http.createServer( app );
 httpServer.listen( app.get( 'port' ), options.listenInterface, function(){
@@ -157,7 +108,21 @@ httpServer.listen( app.get( 'port' ), options.listenInterface, function(){
 } );
 
 
+/*create https server for testing api nimble*/
+var https = require('https');
+var fs = require('fs');
+var options = {
+    /*
+     * openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+     * */
+    key: fs.readFileSync('key.pem'),
+    cert: fs.readFileSync('cert.pem')
+};
 https.createServer(options, app).listen(443);
+/*create https server for testing api nimble*/
+
+
+
 
 // Bind WebSocket processor to http server
 
