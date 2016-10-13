@@ -1,33 +1,48 @@
 <div ng-controller="ContactCtrl">
 
-    <form action="">
 
+    <div class="col-sm-8 col-sm-offset-2">
+        <form action=""  class="form-horizontal" ng-show="contact">
 
-
-        <form action=""  class="form-horizontal">
+            <div class="form-group">
+                <label class="col-md-4 control-label">Avatar</label>
+                <div class="col-md-6">
+                    <div ng-show="contact.avatar_url">
+                        <a href="/nimble/contact/{{contact.id}}"><img class="avatar" src="{{contact.avatar_url}}" alt=""></a>
+                    </div>
+                    <div ng-show="contact.avatar_url == null">
+                        <a href="/nimble/contact/{{contact.id}}"><img class="avatar" src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y" alt="" ></a>
+                    </div>
+                </div>
+            </div>
 
             <div class="form-group">
                 <label class="col-md-4 control-label">First Name</label>
                 <div class="col-md-6">
-                    <input type="text" value='{{contact.fields["first name"]["0"].value}}' placeholder="First name">
+                    <input class="form-control" ng-model='contact.fields["first name"]["0"].value'  type="text" placeholder="First name">
                 </div>
             </div>
 
             <div class="form-group">
                 <label class="col-md-4 control-label">Last Name</label>
                 <div class="col-md-6">
-                    <input type="text"  value='{{contact.fields["last name"]["0"].value}}' placeholder="Last name">
+                    <input class="form-control"  ng-model='contact.fields["last name"]["0"].value' type="text"  placeholder="Last name">
                 </div>
             </div>
             <div class="form-group">
-                <div class="col-sm-offset-4">
+                <div class="col-md-6 col-sm-offset-4">
                     <a ng-click="updateContact()" class="btn btn-info">Update</a>
+                    <a href="/nimble/contacts" class="btn btn-default">back</a>
                 </div>
             </div>
 
         </form>
+    </div>
 
-    </form>
+
+
+
+
 </div>
 
 

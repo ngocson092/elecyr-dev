@@ -1,10 +1,10 @@
 var app = angular.module("nimble",[])
 app.controller('ContactCtrl',['$scope','$routeParams','$http','$rootScope', function($scope, $routeParams,$http) {
-    $scope.getContacts = function(){
+    $scope.getContactInfo = function(){
         var id = $routeParams.id;
         $http({
             method: 'GET',
-            url: '/api/nimble/contact/'+id+'?code='+code
+            url: '/api/nimble/contact/'+id
         }).then(function successCallback(response) {
             $scope.contact = response.data;
         }, function errorCallback(response) {
@@ -12,51 +12,15 @@ app.controller('ContactCtrl',['$scope','$routeParams','$http','$rootScope', func
         });
     };
 
-    $scope.getContacts();
+    $scope.updateContact = function () {
 
-
-}]);
-
-app.controller('ContactsCtrl',['$scope','$routeParams','$http','$rootScope', function($scope, $routeParams,$http) {
-
-    $scope.contacts = null;
-
-
-
-
-
-
-    $scope.getContacts = function(url){
+        var id = $routeParams.id;
         $http({
-            method: 'GET',
-            url: '/api/nimble/contacts?code='+code
-        }).then(function successCallback(response) {
-            $scope.contacts = response.data;
-        }, function errorCallback(response) {
-            $scope.contacts = response.data;
-        });
-    };
-    $scope.getContactsId = function(){
-        $http({
-            method: 'GET',
-            url: '/api/nimble/contacts/ids?code=' + code
-        }).then(function successCallback(response) {
-            $scope.contacts = JSON.stringify(response.data, null, 4);
-        }, function errorCallback(response) {
-            $scope.contacts = JSON.stringify(response.data, null, 4);
-        });
-    };
-
-    $scope.createContact = function () {
-
-
-        $http({
-            method: 'POST',
-            url: '/api/nimble/contacts/create',
+            method: 'PUT',
+            url: '/api/nimble/'+id,
             data:{
-                firstname : $scope.firstname,
-                lastname : $scope.lastname,
-                code:code
+                firstname : $scope.contact.fields["first name"]["0"].value,
+                lastname : $scope.contact.fields["last name"]["0"].value
             }
         }).then(function successCallback(response) {
             $scope.user = response.data;
@@ -66,6 +30,72 @@ app.controller('ContactsCtrl',['$scope','$routeParams','$http','$rootScope', fun
         });
 
     }
+
+    $scope.getContactInfo();
+
+
+}]);
+
+app.controller('ContactsCtrl',['$scope','$routeParams','$http','$rootScope', function($scope, $routeParams,$http) {
+
+    $scope.contacts = null;
+
+    $scope.getContacts = function(url){
+        $http({
+            method: 'GET',
+            url: '/api/nimble/contacts'
+        }).then(function successCallback(response) {
+            $scope.contacts = response.data;
+        }, function errorCallback(response) {
+            $scope.contacts = response.data;
+        });
+    };
+    $scope.getContactsId = function(){
+        $http({
+            method: 'GET',
+            url: '/api/nimble/contacts/ids'
+        }).then(function successCallback(response) {
+            $scope.contacts = JSON.stringify(response.data, null, 4);
+        }, function errorCallback(response) {
+            $scope.contacts = JSON.stringify(response.data, null, 4);
+        });
+    };
+
+    $scope.deleteContact = function (id) {
+        $http({
+            method: 'DELETE',
+            url: '/api/nimble/contact/'+id
+        }).then(function successCallback(response) {
+
+            $scope.getContacts();
+
+        }, function errorCallback(response) {
+
+        });
+
+
+    }
+
+    $scope.createContact = function () {
+
+
+        $http({
+            method: 'POST',
+            url: '/api/nimble/contacts/create',
+            data:{
+                firstname : $scope.firstname,
+                lastname : $scope.lastname
+
+            }
+        }).then(function successCallback(response) {
+            $scope.user = response.data;
+
+        }, function errorCallback(response) {
+
+        });
+
+    }
+
 
 
 
@@ -147,7 +177,8 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
         }).
         otherwise({
             title:'contacts',
-            templateUrl: '/nimble/list-api.html'
+            templateUrl: '/nimble/contacts.html',
+            controller: "ContactsCtrl"
         })
 
 

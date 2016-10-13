@@ -18,8 +18,13 @@ var express = require('express'),
     WebSocketServer = require('websocket').server,
     WebSocketRouter = require('websocket').router,
     favicon = require('serve-favicon'),
+
      bodyParser = require('body-parser');
 // Handle options with Commander
+
+
+var session = require('express-session') ;
+
 
 options.version( '0.0.1' )
 . usage( '[options]' )
@@ -35,6 +40,12 @@ var app = module.exports = express();
 
 app.use(bodyParser.json());
 
+// handle express session
+app.use(session({
+    secret:'secret',
+    saveUninitialized:true,
+    resave:true
+}))
 
 // Configuration
 
@@ -49,6 +60,46 @@ app.use(express.static(__dirname + '/public'));
 app.use(favicon(__dirname + '/public/images/icons/favicon.ico'));
 // Routes
 
+
+
+
+/*nimble*/
+
+function checkAuthNimble(req,res,next){
+
+    var sess = req.session;
+    if(sess.nimble) {
+        next();
+        return;
+    }
+    res.redirect("/nimble");
+
+}
+
+
+
+
+app.get('/nimble',api.nimbleHome);
+app.get('/nimble/authorization',api.nimbleAuthorization);
+app.get('/nimble/callback',api.nimbleCallback );
+app.get('/nimble/dashboard',api.nimbleDashboard );
+
+app.get('/api/nimble/contacts',checkAuthNimble,api.nimbleGetContacts);
+app.get('/api/nimble/contacts/ids',checkAuthNimble,api.nimbleGetContactsId);
+app.post('/api/nimble/contacts/create',checkAuthNimble,api.nimbleContactCreate);
+app.get('/api/nimble/contact/:id',checkAuthNimble,api.nimbleGetContactById);
+app.put('/api/nimble/:id',checkAuthNimble,api.nimbleContactUpdate);
+app.delete('/api/nimble/contact/:id',checkAuthNimble,api.nimbleContactDelete);
+
+/*nimble*/
+
+
+
+
+
+
+
+
 app.get('/', routes.index);
 
 app.get('/partials/:name', routes.partials);
@@ -61,7 +112,13 @@ app.get('/robots', function(req,res){
   res.send('User-agent: *\nAllow: /');
 });
 
+
+
 // JSON API
+
+
+
+
 
 app.get('/oauth', api.oauth);
 app.get('/oauth_callback', api.oauth_callback);
@@ -80,17 +137,6 @@ app.post('/contact', contact.post)
 /* Render view routes */
 
 
-
-/*nimble*/
-
-app.get('/nimble/authorization',api.nimbleAuthorization);
-app.get('/nimble/callback',api.nimbleCallback );
-app.get('/api/nimble/contacts',api.nimbleGetContacts);
-app.get('/api/nimble/contacts/ids',api.nimbleGetContactsId);
-app.post('/api/nimble/contacts/create',api.nimbleContactCreate);
-app.get('/api/nimble/contact/:id',api.nimbleGetContactById);
-
-/*nimble*/
 
 
 

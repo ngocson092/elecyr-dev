@@ -1,0 +1,10 @@
+extends layout
+block content
+    div.container(ng-view,autoscroll='true')
+    div.container
+        .row.text-center
+            .loading-spiner-holder(data-loading='')
+                .loading-spiner
+                    img(src='../images/preload.gif', alt='')
+
+

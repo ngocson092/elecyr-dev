@@ -31,3 +31,10 @@
 .avatar{
     max-width: 50px;
 }
+.btn-authorization{
+    width: 200px;
+    background: #0079c2;
+    border: 0;
+    color: white !important;
+    float: left;
+}
