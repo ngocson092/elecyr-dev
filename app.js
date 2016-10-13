@@ -26,10 +26,14 @@ var express = require('express'),
 var session = require('express-session') ;
 
 
+
+
+require('dotenv').load();
+
 options.version( '0.0.1' )
 . usage( '[options]' )
 . option( '-v, --verbose', 'verbose logging' )
-. option( '-p, --listen-port <port>', 'port to listen on [default: 8080]', Number, 80 )
+. option( '-p, --listen-port <port>', 'port to listen on [default: 8080]', Number, process.env.PORT )
 . option( '-i, --listen-interface <interface>',
          help='interface to listen on. [default: 0.0.0.0]',
          String,
