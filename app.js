@@ -158,17 +158,18 @@ httpServer.listen( app.get( 'port' ), options.listenInterface, function(){
 } );
 
 
-/*create https server for testing api nimble*/
+/*create https server for testing api nimble
 var https = require('https');
 var fs = require('fs');
 var options = {
-    /*
-     * openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
-     * */
+    
+     //openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+  
     key: fs.readFileSync('key.pem'),
     cert: fs.readFileSync('cert.pem')
 };
 https.createServer(options, app).listen(443);
+
 /*create https server for testing api nimble*/
 
 
