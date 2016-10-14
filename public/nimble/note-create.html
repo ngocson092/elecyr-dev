@@ -1,0 +1,36 @@
+<div ng-controller="NotesCtrl">
+
+
+    <div class="col-sm-8 col-sm-offset-2">
+        <form action=""  class="form-horizontal">
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">Note</label>
+                <div class="col-md-6">
+                    <input class="form-control" ng-model='note'  type="text" placeholder="note">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">Note Preview</label>
+                <div class="col-md-6">
+                    <input class="form-control"  ng-model='note_preview' type="text"  placeholder="note preview">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-6 col-sm-offset-4">
+                    <a ng-click="createNote()" class="btn btn-info">Create</a>
+                    <a href="/nimble/contacts" class="btn btn-default">back</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+

@@ -18,17 +18,16 @@ var express = require('express'),
     WebSocketServer = require('websocket').server,
     WebSocketRouter = require('websocket').router,
     favicon = require('serve-favicon'),
-
-     bodyParser = require('body-parser');
-// Handle options with Commander
-
-
-var session = require('express-session') ;
+    session = require('express-session'),
+    bodyParser = require('body-parser'),
+    flash = require('connect-flash');
+    require('dotenv').load();
 
 
 
 
-require('dotenv').load();
+
+
 
 options.version( '0.0.1' )
 . usage( '[options]' )
@@ -42,7 +41,9 @@ options.version( '0.0.1' )
 
 var app = module.exports = express();
 
+
 app.use(bodyParser.json());
+app.use(flash());
 
 // handle express session
 app.use(session({
@@ -72,7 +73,7 @@ app.use(favicon(__dirname + '/public/images/icons/favicon.ico'));
 function checkAuthNimble(req,res,next){
 
     var sess = req.session;
-    if(sess.nimble) {
+    if(sess.nimble_logined) {
         next();
         return;
     }
@@ -94,6 +95,12 @@ app.post('/api/nimble/contacts/create',checkAuthNimble,api.nimbleContactCreate);
 app.get('/api/nimble/contact/:id',checkAuthNimble,api.nimbleGetContactById);
 app.put('/api/nimble/:id',checkAuthNimble,api.nimbleContactUpdate);
 app.delete('/api/nimble/contact/:id',checkAuthNimble,api.nimbleContactDelete);
+
+
+app.post('/api/nimble/notes',checkAuthNimble,api.nimbleNoteList);
+app.get('/api/nimble/contact/:id/notes',checkAuthNimble,api.nimbleNoteCreate);
+
+app.post('/api/nimble/task/',checkAuthNimble,api.nimbleTaskCreate);
 
 /*nimble*/
 

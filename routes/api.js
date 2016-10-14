@@ -211,6 +211,8 @@ Nimble.prototype.getContactById = function(id, callback) {
   });
 }
 
+
+
 require('dotenv').load();
 var nimble = new Nimble({
   appId: process.env.NIMBLE_APPID,
@@ -224,7 +226,7 @@ exports.nimbleAuthorization = function (req, res) {
 
 exports.nimbleCallback = function (req, res) {
   if(!req.query.error) {
-    req.session.nimble  =  req.query.code;
+    req.session.nimble_logined  =  req.query.code;
     res.redirect('/nimble/dashboard');
   } else {
     res.send('Error authenticating!!! -> ' + err);
@@ -237,7 +239,7 @@ exports.nimbleDashboard = function (req, res) {
 exports.nimbleHome = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
     res.redirect("/nimble/dashboard");
     return;
   }
@@ -249,8 +251,8 @@ exports.nimbleHome = function (req, res) {
 exports.nimbleGetContacts = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+  if(sess.nimble_logined) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.findContacts({}, function(err, result, response) {
         if(err) return res.send('ERROR' + JSON.stringify(err));
         var contacts = [];
@@ -273,9 +275,9 @@ exports.nimbleGetContacts = function (req, res) {
 exports.nimbleGetContactsId = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
 
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.findContactIds({}, function(err, result, response) {
         if(err) return res.send('ERROR' + JSON.stringify(err));
         var contact = [];
@@ -296,9 +298,9 @@ exports.nimbleGetContactsId = function (req, res) {
 
 exports.nimbleGetContactById = function (req, res) {
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
 
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.getContactById(req.params.id, function(err, result, response) {
         if(err) return res.send('ERROR' + err);
         var contact;
@@ -318,12 +320,12 @@ exports.nimbleGetContactById = function (req, res) {
 exports.nimbleContactCreate = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
 
     var firstname = req.body.firstname,
         lastname = req.body.lastname;
 
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.createContact(
           {
             "fields": {
@@ -356,12 +358,12 @@ exports.nimbleContactCreate = function (req, res) {
 exports.nimbleContactUpdate = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
 
     var firstname = req.body.firstname,
         lastname = req.body.lastname;
 
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.updateContact( req.params.id,
           {
             "fields": {
@@ -390,9 +392,9 @@ exports.nimbleContactUpdate = function (req, res) {
 exports.nimbleContactDelete = function (req, res) {
 
   var sess = req.session;
-  if(sess.nimble) {
+  if(sess.nimble_logined) {
 
-    nimble.requestToken(sess.nimble, function(err, access_token, refresh_token, result) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
       nimble.deleteContact( req.params.id, function(err, result, response) {
             if(err) return res.send(err);
             return res.send(result);
@@ -402,6 +404,73 @@ exports.nimbleContactDelete = function (req, res) {
   }//end if
 
 
+};
+
+
+
+
+exports.nimbleNoteCreate = function (req, res) {
+
+  var sess = req.session;
+  if(sess.nimble_logined) {
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
+      var contact_id = req.params.id;
+      nimble.listContactNotes(contact_id, function(err, results, response) {
+       console.log(results);
+      });
+
+    });
+
+  }//end if
+
+
+};
+exports.nimbleNoteList = function (req, res) {
+
+  var sess = req.session;
+  if(sess.nimble_logined) {
+
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
+
+
+      nimble.createNote({
+        "contact_ids": contact_id,
+        "note": req.body.note,
+        "note_preview": req.body.note_preview
+      }, function(err, results, response) {
+        return res.send('OK');
+      });
+
+
+
+
+    });
+
+  }//end if
+};
+
+
+
+exports.nimbleTaskCreate = function (req, res) {
+
+  var sess = req.session;
+  if(sess.nimble_logined) {
+
+    nimble.requestToken(sess.nimble_logined, function(err, access_token, refresh_token, result) {
+
+      nimble.createTask({
+        "related_to": req.body.id,
+        "notes": req.body.notes,
+        "subject": req.body.subject,
+        "due_date": req.body.due_date
+      }, function(err, results, response) {
+        return res.send('OK');
+      });
+
+
+    });
+
+  }//end if
 };
 
 

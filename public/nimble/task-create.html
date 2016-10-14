@@ -1,0 +1,59 @@
+<div ng-controller="TasksCtrl">
+
+
+    <div class="col-sm-8 col-sm-offset-2">
+
+        <form action=""  class="form-horizontal">
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">Note</label>
+                <div class="col-md-6">
+                    <input class="form-control" ng-model='notes'  type="text" placeholder="note">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label">subject</label>
+                <div class="col-md-6">
+                    <input class="form-control"  ng-model='subject' type="text"  placeholder="subject">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+
+                <label class="col-md-4 control-label">Due Date</label>
+                <div class="col-md-6">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" ng-model="due_date" />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="form-group">
+                <div class="col-md-6 col-sm-offset-4">
+                    <a ng-click="createTask()" class="btn btn-info">Create</a>
+                    <a href="/nimble/contacts" class="btn btn-default">back</a>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(function () {
+
+                    $('#datetimepicker1').datetimepicker({sideBySide:true});
+                });
+            </script>
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+</div>
+
+

@@ -1,5 +1,31 @@
 var app = angular.module("nimble",[])
-app.controller('ContactCtrl',['$scope','$routeParams','$http','$rootScope', function($scope, $routeParams,$http) {
+
+app.controller('TasksCtrl',['$scope','$routeParams','$http','$rootScope','$location', function($scope, $routeParams,$http,$rootScope,$location) {
+    $scope.createTask = function () {
+
+
+        var due_date = moment($scope.due_date).format("MM-DD-YYYY hh:mm");
+
+        $http({
+            method: 'POST',
+            url: '/api/nimble/task',
+            data:{
+                id: $rootScope.contact_id,
+                notes: $scope.notes,
+                subject: $scope.subject,
+                due_date: due_date
+            }
+        }).then(function successCallback(response) {
+            $location.path('/nimble/contact/'+$rootScope.contact_id);
+        }, function errorCallback(response) {
+
+        });
+
+    }
+}]);
+app.controller('ContactCtrl',['$scope','$rootScope','$routeParams','$http', function($scope,$rootScope, $routeParams,$http) {
+
+    $rootScope.contact_id = $routeParams.id;
     $scope.getContactInfo = function(){
         var id = $routeParams.id;
         $http({
@@ -36,7 +62,43 @@ app.controller('ContactCtrl',['$scope','$routeParams','$http','$rootScope', func
 
 }]);
 
-app.controller('ContactsCtrl',['$scope','$routeParams','$http','$rootScope', function($scope, $routeParams,$http) {
+app.controller('NotesCtrl',['$scope','$rootScope','$routeParams','$http','$location', function($scope,$rootScope, $routeParams,$http,$location) {
+    $scope.createNote = function () {
+
+        $http({
+            method: 'POST',
+            url: '/api/nimble/notes/create',
+            data:{
+                contact_id : $rootScope.contact_id,
+                note : $scope.note,
+                note_preview : $scope.note_preview
+
+            }
+        }).then(function successCallback(response) {
+               $location.path('/nimble/contact/'+$rootScope.contact_id);
+        }, function errorCallback(response) {
+
+        });
+
+    }
+    $scope.getNotes = function () {
+
+        $http({
+            method: 'GET',
+            url: '/api/nimble/contact/'+$rootScope.contact_id+'/notes',
+        }).then(function successCallback(response) {
+               $scope.notes = response.data;
+        }, function errorCallback(response) {
+
+        });
+
+    }
+    //$scope.getNotes();
+
+
+}]);
+
+app.controller('ContactsCtrl',['$scope','$routeParams','$http', function($scope, $routeParams,$http,$state) {
 
     $scope.contacts = null;
 
@@ -139,6 +201,7 @@ app.directive('loading',   ['$http' ,function ($http)
 }])
 
 
+
 /*
  routing
  */
@@ -170,12 +233,25 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
             controller: "ContactsCtrl"
         })
         .when("/nimble/notes",
-        {
-            title:'notes',
-            templateUrl: '/nimble/notes.html',
-            controller: "NotesCtrl",
-        }).
-        otherwise({
+            {
+                title:'notes',
+                templateUrl: '/nimble/note-list.html',
+                controller: "NotesCtrl"
+            })
+        .when("/nimble/notes/create",
+            {
+                title:'notes',
+                templateUrl: '/nimble/note-create.html',
+                controller: "NotesCtrl"
+            })
+        .when("/nimble/tasks/create",
+            {
+                title:'tasks',
+                templateUrl: '/nimble/task-create.html',
+                controller: "TasksCtrl"
+            })
+
+        .otherwise({
             title:'contacts',
             templateUrl: '/nimble/contacts.html',
             controller: "ContactsCtrl"
@@ -183,5 +259,3 @@ app.config(function($routeProvider, $locationProvider){ /* the page routing */
 
 
 })
-
-

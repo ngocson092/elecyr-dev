@@ -1,0 +1,37 @@
+<div ng-controller="NotesCtrl">
+
+
+    <div class="col-sm-8 col-sm-offset-2">
+
+        <a href="/nimble/notes/create" class="btn btn-info">Create Note</a>
+        <hr>
+        <table class="table">
+            <thead>
+            <th>Avatar</th>
+            <th>Name</th>
+            <th>Updated</th>
+            <th>Creator</th>
+            <th>Action</th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="note in notes" >
+                <td>{{note.updated}}</td>
+                <td>{{note.creator}}</td>
+                <td>
+                    <a class="btn" href="/nimble/note/{{contact.id}}">Update</a>
+                    <a class="btn" ng-click="deleteContact(contact.id)">Delete</a>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+</div>
+
+
