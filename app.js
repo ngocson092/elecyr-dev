@@ -21,6 +21,8 @@ var express = require('express'),
     session = require('express-session'),
     bodyParser = require('body-parser'),
     flash = require('connect-flash');
+
+
     require('dotenv').load();
 
 
@@ -68,10 +70,12 @@ app.use(favicon(__dirname + '/public/images/icons/favicon.ico'));
 
 
 
+
+
+
 /*nimble*/
 
 function checkAuthNimble(req,res,next){
-
     var sess = req.session;
     if(sess.nimble_logined) {
         next();
@@ -80,9 +84,6 @@ function checkAuthNimble(req,res,next){
     res.redirect("/nimble");
 
 }
-
-
-
 
 app.get('/nimble',api.nimbleHome);
 app.get('/nimble/authorization',api.nimbleAuthorization);
@@ -105,6 +106,14 @@ app.post('/api/nimble/task/',checkAuthNimble,api.nimbleTaskCreate);
 /*nimble*/
 
 
+/*evernote*/
+
+app.use('/evernote/', require('./routes/evernote'));
+
+// app.get('/oauth', api.oauth);
+// app.get('/oauth_callback', api.oauth_callback);
+// app.get('/evernote/notes', api.getNotes);
+/*evernote*/
 
 
 
@@ -128,11 +137,6 @@ app.get('/robots', function(req,res){
 // JSON API
 
 
-
-
-
-app.get('/oauth', api.oauth);
-app.get('/oauth_callback', api.oauth_callback);
 app.get('/api/posts', api.posts);
 app.get('/api/post/:id', api.getPost);
 app.post('/api/post', api.addPost);

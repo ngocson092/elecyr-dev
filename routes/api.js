@@ -2,7 +2,8 @@ var moment = require('moment');
 moment().format();
 
 var MongoClient = require('mongodb').MongoClient,
-    config = require('../config.json');
+    config = require('../config.json'),
+    Evernote = require('evernote').Evernote;
 var callbackUrl = "http://localhost/oauth_callback";
 var urldbevernote = 'mongodb://elecyrAdmin:zqpM1029@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/dbevernote?replicaSet=rs-ds033933'
                  
@@ -14,7 +15,6 @@ var dbTagColl = 'tags';
 // GET
 
 exports.oauth_callback = function (req, res) {
-  req.logger.log('info','1: (/oauth_callback) function entry');
   var client = new Evernote.Client({
     consumerKey: config.API_CONSUMER_KEY,
     consumerSecret: config.API_CONSUMER_SECRET,
@@ -26,19 +26,15 @@ exports.oauth_callback = function (req, res) {
       req.session.oauthTokenSecret,
       req.param('oauth_verifier'),
       function(err, oauthAccessToken, oauthAccessTokenSecret, results) {
-        req.logger.log('info','1: (/oauthAccessToken) function entry');
         if(err) {
-          req.logger.log('error','1: (/oauthAccessToken) error ' + err);
           res.redirect('/');
         }
         else {
-          req.logger.log('db','1: (/oauthAccessToken) Write file');
+   
           fs.writeFile(__dirname + "/en_token.txt", oauthAccessToken, function(err) {
             if(err) {
-              req.logger.log('error','1: (/oauth_callback) error ' + err);
-              return
+               return
             }
-            req.logger.log('db','1: (/oauthAccessToken) File saved <=> ' + __dirname + "/en_token.txt");
           });
 
           // store the access token in the session
@@ -49,13 +45,14 @@ exports.oauth_callback = function (req, res) {
           req.session.edamExpires = results.edam_expires;
           req.session.edamNoteStoreUrl = results.edam_noteStoreUrl;
           req.session.edamWebApiUrlPrefix = results.edam_webApiUrlPrefix;
-          res.redirect('/');
+          
+          res.redirect('/evernote/notes');
         }
       }
   );
 }
 exports.oauth = function (req, res) {
-  req.logger.log('info','1: (/oath) function entry');
+  
   var client = new Evernote.Client({
     consumerKey: config.API_CONSUMER_KEY,
     consumerSecret: config.API_CONSUMER_SECRET,
@@ -78,6 +75,24 @@ exports.oauth = function (req, res) {
     }
   });
 }
+
+exports.getNotes = function(req, res){
+
+  var client = new Evernote.Client({token: req.session.oauthAccessToken});
+  var noteStore = client.getNoteStore();
+  
+  
+
+  notebooks = noteStore.listNotebooks(function(err, notebooks) {
+    res.send(notebooks);
+  });
+
+
+  
+}
+
+
+
 exports.posts = function (req, res) {
   
   var limit = (req.query.limit === "undefined")?9:parseInt(req.query.limit);
