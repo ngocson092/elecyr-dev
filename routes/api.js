@@ -1,7 +1,8 @@
 var moment  = require('moment');
 var  _      = require( 'lodash');
 var low     = require('lowdb');
-const db    = low('data/db.json');
+
+const db    = low('data/db.json',{ writeOnChange: false });
 moment().format();
 
 
@@ -38,7 +39,7 @@ exports.posts = function (req, res) {
         .value();
 
   var posts = posts.map(function(obj){
-    obj.partialType =String(obj.partialType).replace(/solar-blog/g, 'blog');
+    obj.partialType =String(obj.partialType).replace(/solar-blog/g, 'blog')+'.html';
     return obj;
   });
   res.send(posts);
