@@ -122,6 +122,12 @@ app.use('/evernote/', require('./routes/evernote'));
 
 app.get('/', routes.index);
 
+app.get('/blog/:name', function(req,res){
+    res.redirect('/blog')
+});
+app.get('/blog/link/:name', function(req,res){
+    res.redirect('/blog')
+});
 app.get('/partials/:name', routes.partials);
 app.get('/articles/:name', routes.articles);
 

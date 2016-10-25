@@ -88,7 +88,7 @@ app.factory('loadingService', function($http){
 			
 			setFilter = givenFilter;
 			
-			var queryString = "?limit=9&dateRange=" + tempDateRange + "&category=" + setFilter +"";
+			var queryString = "?limit=9&dateRange=" + encodeURIComponent(tempDateRange) + "&category=" + setFilter +"";
 
 			if(scrollOn == true){
 				scrollOn = false;

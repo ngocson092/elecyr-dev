@@ -1,142 +1,67 @@
-var moment = require('moment');
+var moment  = require('moment');
+var  _      = require( 'lodash');
+var low     = require('lowdb');
+const db    = low('data/db.json');
 moment().format();
 
-var MongoClient = require('mongodb').MongoClient,
-    config = require('../config.json'),
-    Evernote = require('evernote').Evernote;
-var callbackUrl = "http://localhost/oauth_callback";
-var urldbevernote = 'mongodb://elecyrAdmin:zqpM1029@ds033933-a0.mongolab.com:33933,ds033933-a1.mongolab.com:33933/dbevernote?replicaSet=rs-ds033933'
-                 
-var dbArticleColl = 'articles';
-var dbTagColl = 'tags';
 
 
-
-// GET
-
-exports.oauth_callback = function (req, res) {
-  var client = new Evernote.Client({
-    consumerKey: config.API_CONSUMER_KEY,
-    consumerSecret: config.API_CONSUMER_SECRET,
-    sandbox: config.SANDBOX
-  });
-
-  client.getAccessToken(
-      req.session.oauthToken,
-      req.session.oauthTokenSecret,
-      req.param('oauth_verifier'),
-      function(err, oauthAccessToken, oauthAccessTokenSecret, results) {
-        if(err) {
-          res.redirect('/');
-        }
-        else {
-   
-          fs.writeFile(__dirname + "/en_token.txt", oauthAccessToken, function(err) {
-            if(err) {
-               return
-            }
-          });
-
-          // store the access token in the session
-          req.session.oauthAccessToken = oauthAccessToken;
-          req.session.oauthAccessTtokenSecret = oauthAccessTokenSecret;
-          req.session.edamShard = results.edam_shard;
-          req.session.edamUserId = results.edam_userId;
-          req.session.edamExpires = results.edam_expires;
-          req.session.edamNoteStoreUrl = results.edam_noteStoreUrl;
-          req.session.edamWebApiUrlPrefix = results.edam_webApiUrlPrefix;
-          
-          res.redirect('/evernote/notes');
-        }
-      }
-  );
+/*helper*/
+function isLater(str1, str2)
+{
+  return new Date(str1) > new Date(str2);
 }
-exports.oauth = function (req, res) {
-  
-  var client = new Evernote.Client({
-    consumerKey: config.API_CONSUMER_KEY,
-    consumerSecret: config.API_CONSUMER_SECRET,
-    sandbox: config.SANDBOX
-  });
-
-  client.getRequestToken(callbackUrl, function(error, oauthToken, oauthTokenSecret, results){
-
-    if(error) {
-      req.session.error = JSON.stringify(error);
-      res.redirect('/');
-    }
-    else {
-      // store the tokens in the session
-      req.session.oauthToken = oauthToken;
-      req.session.oauthTokenSecret = oauthTokenSecret;
-
-      // redirect the user to authorize the token
-      res.redirect(client.getAuthorizeUrl(oauthToken));
-    }
-  });
-}
-
-exports.getNotes = function(req, res){
-
-  var client = new Evernote.Client({token: req.session.oauthAccessToken});
-  var noteStore = client.getNoteStore();
-  
-  
-
-  notebooks = noteStore.listNotebooks(function(err, notebooks) {
-    res.send(notebooks);
-  });
-
-
-  
-}
-
-
+/*helper*/
 
 exports.posts = function (req, res) {
-  
-  var limit = (req.query.limit === "undefined")?9:parseInt(req.query.limit);
-  
-  var myFilter = (req.query.category) ? {categories: req.query.category} : {categories: { $exists: true}}; //set the default filter
-  //var testFilter = {categories: req.query.category}
-  //var myFilter = { $and: [ {filterDate: { $lt: req.query.dateRange}}, testFilter ]};
+ var limit = (req.query.limit)?parseInt(req.query.limit):9,
+     filterCategory = (req.query.category) ? req.query.category : 'All' ,
+     dateRange = (req.query.dateRange)? req.query.dateRange : null,
 
-  //Modify The filter
-  if(req.query.dateRange){
-    var dateRange = req.query.dateRange;
-    myFilter = { $and: [ {filterDate: { $lt: dateRange}}, myFilter ]};
-  }
+     posts = db.get('articles').value();
 
-  var fetchEntries = function(db, callback){
+      posts = _(posts).filter(function(post){
 
-    db.collection(dbArticleColl).find(myFilter).sort({filterDate:-1}).limit(limit).toArray(function(err, docs){
-      callback(docs);
-    })
-    
-  };
+    /*filter category*/
+    var filter1 = _.includes(post.categories, filterCategory);
+    /*filter date*/
 
-  MongoClient.connect(urldbevernote, function(err, db){
-    fetchEntries(db, function(docs){
-      db.close();
 
-      var docs = docs.map(function(obj){
-        obj.partialType =String(obj.partialType).replace(/solar-blog/g, 'blog');
-        return obj;
-      });
-      res.send(docs);
-    });
+    var filter2 =   (dateRange)? (isLater(dateRange,post.filterDate)) : true;
+
+    return filter1 && filter2 ;
+  })
+
+  /*limit*/
+  posts = posts
+        .take(limit)
+        .value();
+
+  var posts = posts.map(function(obj){
+    obj.partialType =String(obj.partialType).replace(/solar-blog/g, 'blog');
+    return obj;
   });
-
+  res.send(posts);
 };
 
 exports.getPost = function (req, res) {
-  var id = req.params.id;
-  if (id >= 0 && id < data.posts.length) {
+
+  var id = (req.params.id)?req.params.id:null;
+  if(!id){
     res.json({
-      post: data.posts[id]
-    });
-  } else {
-    res.json(false);
+      error:'Id not found'
+    }).end();
+  }
+  var post = db
+      .get('articles')
+      .find({"_id":id})
+      .value();
+  if(post){
+    res.json(post).end();
+  }else {
+    res.json({
+      error:'post not found'
+    }).end();
   }
 };
 
@@ -177,6 +102,12 @@ exports.deletePost = function (req, res) {
 
 exports.getTags = function (req, res) {
 
+
+  var tags = db.get('tags').value();
+  res.send(tags);
+  /*
+
+
   var getBlogTags = function(db, callback){
 
     db.collection(dbTagColl).find({'_id':1}).toArray(function(err, docs){
@@ -197,7 +128,7 @@ exports.getTags = function (req, res) {
       db.close();
       res.send(tags);
     });
-  });
+  });*/
 
 };
 
@@ -491,4 +422,6 @@ exports.nimbleTaskCreate = function (req, res) {
 
 
 /*nimble api*/
+
+
 

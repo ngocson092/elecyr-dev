@@ -2,7 +2,7 @@
 <div class="container-fluid">
 	<div class="col-sm-12 removePad">
 		
-		<article ng-repeat="b in articles | filter:param" class="feed-item">
+		<article ng-repeat="b in articles | filter:param" class="feed-item {{param}}">
 			
 			<div class="col-sm-12" style="padding:.5em;">
 				<div class="fullPostWrap">

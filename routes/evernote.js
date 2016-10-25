@@ -5,6 +5,7 @@ var router = express.Router();
 var Evernote = require('evernote').Evernote;
 var config = require('../config.json');
 
+require('dotenv').load();
 
 var fs = require('fs');
 var cheerio = require('cheerio');
@@ -27,7 +28,7 @@ var dbTagColl = 'tags';
 	
 */
 
-var callbackUrl = "http://localhost/evernote/oauth_callback";
+var callbackUrl = `${process.env.DOMAIN}:${process.env.PORT}/evernote/oauth_callback`;
 
 router.get('/info', function (req, res) {
     res.render('updateSuccess', {
@@ -95,7 +96,7 @@ router.get('/oauth_callback', function(req, res) {
 					return
 				}
 				//req.logger.log('info','1: (/oauthAccessToken) File saved <=> ./../en_token.txt');
-			});
+				});
 
 				// store the access token in the session
 				req.session.oauthAccessToken = oauthAccessToken;
@@ -105,7 +106,7 @@ router.get('/oauth_callback', function(req, res) {
 				req.session.edamExpires = results.edam_expires;
 				req.session.edamNoteStoreUrl = results.edam_noteStoreUrl;
 				req.session.edamWebApiUrlPrefix = results.edam_webApiUrlPrefix;
-				res.redirect('/');
+				res.redirect('/evernote/updateBlog');
 			}
 		}
 	);
@@ -128,6 +129,11 @@ router.get('/updateBlog', function(req, res, next) {
 	var token;
 	var allTags = {};
 
+
+
+
+
+
 	
 	/*
 	*******************		
@@ -141,7 +147,23 @@ router.get('/updateBlog', function(req, res, next) {
 		}
 		
 		token = data.toString();
-		readEvernote(token);
+		var client = new Evernote.Client({token: token});
+		var noteStore = client.getBusinessNoteStore();
+
+		client.listBusinessNotebooks(function(err, businessNotebook) {
+			if(err){
+				res.send(businessNotebook);
+			}else{
+				res.send(businessNotebook);
+
+			}
+		})
+
+
+		return ;
+
+
+		//readEvernote(token);
 	});
 
 	
@@ -163,8 +185,9 @@ router.get('/updateBlog', function(req, res, next) {
 		var noteStore = client.getBusinessNoteStore();
 		var userStore = client.getUserStore();
 		
-		
-		
+
+
+
 		/*
 		*******************		
 			GET ALL TAGS			
@@ -174,7 +197,7 @@ router.get('/updateBlog', function(req, res, next) {
 			if(err){
 				//req.logger.log('error','2: (' + currFunction + ') list tags error ' + err);
 			}else{
-				
+
 				//Make a Name/Value Tag Object of only tags found in myCategories
 								
 				for(i=0;i<tags.length;i++){
@@ -197,6 +220,9 @@ router.get('/updateBlog', function(req, res, next) {
 				//req.logger.Write('data', "2:userStore.getUser");
 				
 				client.listBusinessNotebooks(function(err, businessNotebook) {
+					res.send(businessNotebook);return;
+
+
 					if(err){
 						//req.logger.log('error','5: (cb client.listBusinessNotebooks) businessNotebook error ' + err);
 					} else{
